@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Design Token Pipeline",
   "scripts": {
-    "build": "style-dictionary build --config config.json"
+    "build": "node build.js"
   },
   "devDependencies": {
     "style-dictionary": "^3.9.0"
