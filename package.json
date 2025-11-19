@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "style-dictionary": "^3.9.1",
-    "@tokens-studio/sd-transforms": "^1.2.2",
+  "@tokens-studio/sd-transforms": "latest"
     "@tokens-studio/types": "^1.0.0"
   }
 }
