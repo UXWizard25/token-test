@@ -1,14 +1,12 @@
-// style-dictionary.config.js
-const { registerTransforms } = require('@tokens-studio/sd-transforms');
+// ESM config for Style Dictionary v4
+import StyleDictionary from 'style-dictionary';
+import { registerTransforms } from '@tokens-studio/sd-transforms';
 
-module.exports = async () => {
-  const StyleDictionary = require('style-dictionary');
-
-  // Registriert alle Tokens Studio Transforms (Referenzen, Farben, px→rem etc.)
+export default async () => {
   await registerTransforms(StyleDictionary);
 
   return {
-    // Single-file Source – passe diesen Pfad an, falls deine Datei woanders liegt
+    // single-file source; adjust if your file is at tokens/tokens.json
     source: ['tokens.json'],
 
     platforms: {
@@ -23,7 +21,6 @@ module.exports = async () => {
           }
         ]
       },
-      // Rohes JSON-Bundle, das häufig für Tools/Server genutzt wird
       json: {
         transformGroup: 'tokens-studio',
         buildPath: 'tokens/dist/json/',
