@@ -1,14 +1,11 @@
 {
-  "name": "@bild/design-tokens",
+  "name": "token-test",
   "version": "1.0.0",
-  "private": true,
-  "type": "module",
+  "description": "Design Token Pipeline",
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "style-dictionary build --config config.json"
   },
   "devDependencies": {
-    "style-dictionary": "^4.3.0",
-    "@tokens-studio/sd-transforms": "^1.3.0",
-    "@tokens-studio/types": "^1.1.0"
+    "style-dictionary": "^3.9.0"
   }
 }
