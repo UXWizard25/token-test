@@ -56,4 +56,18 @@ jobs:
             exit 1
           fi
       
-      - name: Commit built
+      - name: Commit built files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add build/
+          
+          # Prüfe ob es Änderungen gibt
+          if git diff --staged --quiet; then
+            echo "ℹ️ No changes to commit"
+          else
+            echo "✅ Changes detected, committing..."
+            git commit -m "Build tokens [skip ci]"
+            git push
+            echo "✅ Changes pushed to GitHub"
+          fi
