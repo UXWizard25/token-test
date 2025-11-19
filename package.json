@@ -2,6 +2,7 @@
   "name": "token-test",
   "version": "1.0.0",
   "description": "Design Token Pipeline with Token Studio",
+  "type": "module",
   "scripts": {
     "build": "node build.js"
   },
