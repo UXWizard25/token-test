@@ -1,55 +1,39 @@
 const StyleDictionary = require('style-dictionary');
+const { register } = require('@tokens-studio/sd-transforms');
 
-// Filter-Funktion: Nur Tokens ohne Referenz-Probleme
-function hasValidValue(token) {
-  if (!token.value) return false;
-  
-  // Prüfe ob der Wert eine Referenz ist (beginnt mit {)
-  if (typeof token.value === 'string' && token.value.startsWith('{')) {
-    return false; // Ignoriere alle Referenzen
-  }
-  
-  // Prüfe komplexe Objekte (z.B. Typography)
-  if (typeof token.value === 'object') {
-    const values = Object.values(token.value);
-    for (let val of values) {
-      if (typeof val === 'string' && val.startsWith('{')) {
-        return false; // Hat eine Referenz
-      }
-    }
-  }
-  
-  return true;
-}
+// Registriere Token Studio Transforms
+register(StyleDictionary);
 
 const sd = StyleDictionary.extend({
   source: ['tokens/tokens.json'],
+  
+  // Token Studio Preprocessor - verarbeitet Token Studio Format
+  preprocessors: ['tokens-studio'],
+  
   platforms: {
     css: {
-      transformGroup: 'css',
+      // Verwende Token Studio Transform Group
+      transformGroup: 'tokens-studio',
       buildPath: 'build/css/',
       files: [{
         destination: 'variables.css',
-        format: 'css/variables',
-        filter: hasValidValue
+        format: 'css/variables'
       }]
     },
     scss: {
-      transformGroup: 'scss',
+      transformGroup: 'tokens-studio',
       buildPath: 'build/scss/',
       files: [{
         destination: '_variables.scss',
-        format: 'scss/variables',
-        filter: hasValidValue
+        format: 'scss/variables'
       }]
     },
     js: {
-      transformGroup: 'js',
+      transformGroup: 'tokens-studio',
       buildPath: 'build/js/',
       files: [{
         destination: 'tokens.js',
-        format: 'javascript/es6',
-        filter: hasValidValue
+        format: 'javascript/es6'
       }]
     }
   }
