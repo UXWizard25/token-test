@@ -7,7 +7,10 @@
       "files": [
         {
           "destination": "variables.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "options": {
+            "outputReferences": false
+          }
         }
       ]
     },
@@ -17,7 +20,10 @@
       "files": [
         {
           "destination": "_variables.scss",
-          "format": "scss/variables"
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": false
+          }
         }
       ]
     },
@@ -27,9 +33,16 @@
       "files": [
         {
           "destination": "tokens.js",
-          "format": "javascript/es6"
+          "format": "javascript/es6",
+          "options": {
+            "outputReferences": false
+          }
         }
       ]
     }
+  },
+  "log": {
+    "warnings": "disabled",
+    "verbosity": "verbose"
   }
 }
