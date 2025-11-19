@@ -1,10 +1,10 @@
-const StyleDictionary = require('style-dictionary');
-const { register } = require('@tokens-studio/sd-transforms');
+import StyleDictionary from 'style-dictionary';
+import { register } from '@tokens-studio/sd-transforms';
 
 // Registriere Token Studio Transforms
 register(StyleDictionary);
 
-const sd = StyleDictionary.extend({
+const sd = new StyleDictionary({
   source: ['tokens/tokens.json'],
   
   // Token Studio Preprocessor - verarbeitet Token Studio Format
@@ -39,4 +39,4 @@ const sd = StyleDictionary.extend({
   }
 });
 
-sd.buildAllPlatforms();
+await sd.buildAllPlatforms();
