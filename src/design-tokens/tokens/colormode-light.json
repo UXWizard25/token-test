@@ -1,0 +1,1035 @@
+{
+  "semantic": {
+    "text": {
+      "textcoloraccentconstant": {
+        "$value": "{Semantic.Attention.accentColorPrimary}",
+        "$type": "color",
+        "$description": "Applies to text elements requiring fixed brand color usage (e.g., permanent links, brand slogans on constant backgrounds).\nBehavior: Constant — maintains identical red tone across Light and Dark mode."
+      },
+      "textcolorprimary": {
+        "$value": "{Global.Text.textColorPrimary}",
+        "$type": "color",
+        "$description": "Main text color used for body copy and all primary textual content. Ensures optimal readability and contrast on standard surfaces.\nBehavior: Dynamic — switches between dark text on light backgrounds and light text on dark backgrounds."
+      },
+      "textcolormuted": {
+        "$value": "{BILD.gray.BILD045}",
+        "$type": "color",
+        "$description": "Muted text tone for subtle information, timestamps, or inactive text elements.\nBehavior: Dynamic — adjusts between mid-gray in Light mode and lighter gray in Dark mode."
+      },
+      "textcolorprimaryinverse": {
+        "$value": "{Global.Text.textColorPrimaryDark}",
+        "$type": "color",
+        "$description": "Inverse text color used on opposing surfaces (e.g., white text on red or dark backgrounds).\nBehavior: Dynamic — alternates between light and dark mode."
+      },
+      "textcolorprimaryconstant": {
+        "$value": "{Global.Text.textColorPrimary}",
+        "$type": "color",
+        "$description": "Used when primary text color must remain fixed regardless of mode (e.g., on light constant backgrounds).\nBehavior: Constant — same tone across Light and Dark mode."
+      },
+      "textcolorsuccessconstant": {
+        "$value": "{Semantic.Attention.attentionColorSuccessSecondary}",
+        "$type": "color",
+        "$description": "Used for positive or success-related messages (e.g., “Saved”, “Success”, or confirmation text) on success surface colors.\nBehavior: Constant — green tone remains consistent across both modes."
+      },
+      "textcolorprimaryinverseconstant": {
+        "$value": "{Global.Text.textColorPrimaryDark}",
+        "$type": "color",
+        "$description": "Fixed inverse tone for text that always appears on dark surfaces (e.g., hero headlines or persistent dark cards).\nBehavior: Constant — unchanged across modes."
+      },
+      "textcolorsecondary": {
+        "$value": "{Global.Text.textColorSecondary}",
+        "$type": "color",
+        "$description": "Secondary text color used for supportive information, subtitles, and less prominent text.\nBehavior: Dynamic — adapts between neutral tones to maintain proper contrast per theme. In 2025 css it is called figure meta."
+      },
+      "textcolorattentionhigh": {
+        "$value": "{Semantic.Attention.attentionColorHigh}",
+        "$type": "color",
+        "$description": "Used for strong warnings, errors, or destructive action labels.\nBehavior: Constant — red color remains unchanged between Light and Dark mode for visibility and recognition."
+      },
+      "textcoloraccent": {
+        "$value": "{Semantic.Attention.accentColorPrimary}",
+        "$type": "color",
+        "$description": "Accent text color used for links, interactive text, or highlighted key words. Changes from a red in light mode to a white in dark mode."
+      },
+      "textcolorattentionmedium": {
+        "$value": "{Semantic.Attention.attentionColorMedium}",
+        "$type": "color",
+        "$description": "Represents medium attention states, often used in warnings or pending states.\nBehavior: Constant — same orange tone across Light and Dark mode."
+      },
+      "textcolorondarksurface": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "Used for text displayed on dark surfaces to ensure maximum legibility and contrast.\nBehavior: Constant — always light neutral to guarantee accessibility on dark backgrounds."
+      }
+    },
+    "surface": {
+      "surfacecolorprimary": {
+        "$value": "{Global.Surface.surfaceColorPrimary}",
+        "$type": "color",
+        "$description": "Primary surface color used for main backgrounds and large layout areas (e.g., page background, primary containers).\nBehavior: Dynamic — adapts between light and dark surface tokens to maintain legibility and hierarchy."
+      },
+      "surfacecolorsecondary": {
+        "$value": "{Global.Surface.surfaceColorSecondary}",
+        "$type": "color",
+        "$description": "Used for secondary surface layers such as cards, panels, or nested containers that need to differentiate themselves from the primary surface. .\nBehavior: Dynamic — adapts brightness level based on mode for appropriate depth contrast."
+      },
+      "surfacecolorprimaryinverse": {
+        "$value": "{Global.Surface.surfaceColorPrimaryDark}",
+        "$type": "color",
+        "$description": "Inverse of the primary surface, used when Light and Dark surfaces are swapped (e.g., inverse cards or elevated sections).\nBehavior: Dynamic — switches between dark and light values depending on mode."
+      },
+      "surfacecolorprimaryconstantlight": {
+        "$value": "{Global.Surface.surfaceColorPrimary}",
+        "$type": "color",
+        "$description": "A fixed light surface tone used when a consistent light background is required (e.g., light panels within dark layouts).\nBehavior: Constant — remains the same in both modes."
+      },
+      "surfacecolorprimaryconstantdark": {
+        "$value": "{Global.Surface.surfaceColorPrimaryDark}",
+        "$type": "color",
+        "$description": "A fixed dark surface tone used for dark overlays or nested dark sections inside light layouts.\nBehavior: Constant — identical across Light and Dark mode."
+      },
+      "surfacecolorquartenary": {
+        "$value": "{Global.Surface.surfaceColorQuartenary}",
+        "$type": "color",
+        "$description": "HIghtest elevation surface color, typically used for grouping or background accents to differentiate themselves from all previous surface color options. Uses corresponding light/dark tones for consistent layering."
+      },
+      "surfacecolorsuccess": {
+        "$value": "{BILD.green.BILDGreen093}",
+        "$type": "color",
+        "$description": "Success-related background used for positive notifications, confirmation surfaces, or success banners.\nBehavior: Constant — remains the same across Light and Dark mode to ensure brand alignment."
+      },
+      "surfacecolortertiary": {
+        "$value": "{Global.Surface.surfaceColorTertiary}",
+        "$type": "color",
+        "$description": "Tertiary background layer for inner containers, grouped content, or subtle elevation steps  that need to differentiate themselves from the primary and secondary surfaces.\nBehavior: Dynamic — switches between light and dark tertiary tones."
+      },
+      "surfacecolortertiarygradientstop": {
+        "$value": "rgba(233, 236, 239, 0)",
+        "$type": "color",
+        "$description": "Represents tertiary-level gradient background.\nCurrently used on skeletons."
+      },
+      "surfacecolortertiaryinverse": {
+        "$value": "{Global.Surface.surfaceColorTertiaryDark}",
+        "$type": "color",
+        "$description": "Inverse tertiary background, applied when Light and Dark surfaces are reversed (e.g., dark-on-light cards).\nBehavior: Dynamic — swaps values between modes for contrast preservation."
+      },
+      "surfacecolorprimarygradientstop": {
+        "$value": "rgba(255, 255, 255, 0)",
+        "$type": "color",
+        "$description": "Defines the end stops for primary surface gradients, creating visual depth or elevation. Used next to sliders buttons and slider container edges for fading out content. Behavior: Dynamic — light gradients in Light mode, dark gradients in Dark mode."
+      },
+      "surfacecolorsecondarygradientstop": {
+        "$value": "rgba(242, 244, 245, 0)",
+        "$type": "color",
+        "$description": "Used for secondary surface gradients or subtle depth layers across backgrounds.\nBehavior: Dynamic — adapts to mode brightness for smooth gradient transitions."
+      },
+      "surfacecolorquartenaryinverse": {
+        "$value": "{Global.Surface.surfaceColorQuartenaryDark}",
+        "$type": "color",
+        "$description": "Inverse of the quartenary surface, used for background reversals in mixed-layout areas.\nBehavior: Dynamic — inverts between dark and light tones depending on mode."
+      }
+    },
+    "heading": {
+      "kickertextcoloronsurface": {
+        "$value": "{Global.Text.kickerTextColorOnSurface}",
+        "$type": "color",
+        "$description": "Used for kicker text and category labels placed directly on standard surface backgrounds.\nBehavior: Dynamic — adjusts between red for Light and a neutral tone in Dark modes."
+      },
+      "headlinecolorprimary": {
+        "$value": "{Global.Text.headlineColorPrimary}",
+        "$type": "color",
+        "$description": "Primary color for headings and display typography. Ensures clear hierarchy and optimal readability on main surfaces. Adapds it´s color based on the brand mode for brand recognition.\nBehavior: Dynamic — dark text in Light mode, light text in Dark mode."
+      },
+      "headlinecolorwhiteconst": {
+        "$value": "{Global.Text.headlineColorPrimaryDark}",
+        "$type": "color",
+        "$description": "Fixed white heading color used on dark or colored backgrounds (e.g., hero sections, banners) that remain constant across modes.\nBehavior: Constant — remains white in both Light and Dark mode."
+      },
+      "kickertextcoloronred": {
+        "$value": "{Global.Text.kickerTextColorOnBg}",
+        "$type": "color",
+        "$description": "Specialized kicker color for use on red or brand-colored backgrounds (e.g., red kicker bg within teaser cards).\nBehavior: Constant — remains consistent across light and darkmode."
+      },
+      "kickertextcolorondarkbg": {
+        "$value": "{BILD.alpha.alphaWhite80}",
+        "$type": "color",
+        "$description": "Applied to kicker or meta text on dark colored backgrounds to maintain high legibility.\nBehavior: Constant — always uses semi-transparent white for consistent readability."
+      },
+      "kickertextcoloronbrightbg": {
+        "$value": "{BILD.alpha.alphaBlack70}",
+        "$type": "color",
+        "$description": "Used for kicker text placed on bright or light colored backgrounds. Ensures balanced contrast without harsh visual dominance.\nBehavior: Constant — remains semi-transparent black across both modes."
+      }
+    },
+    "state": {
+      "colorsecondaryactive": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Defines the active state color for secondary actions (e.g., secondary buttons, tabs, or toggles).\nBehavior: Dynamic — light gray in Light mode and bright gray in Dark mode to maintain perceptual balance."
+      },
+      "colorprimaryactive": {
+        "$value": "{Global.State.colorPrimaryActive}",
+        "$type": "color",
+        "$description": "Used to represent the active or pressed state of primary actions such as tabs or links.\nBehavior: Constant — identical value across modes for consistent interaction feedback."
+      },
+      "colorsecondarydisabled": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Used for disabled secondary elements, ensuring reduced visual prominence while maintaining legibility.\nBehavior: Dynamic — adapts neutral tones based on theme brightness."
+      },
+      "colorprimarydisabled": {
+        "$value": "{BILD.gray.BILD096}",
+        "$type": "color",
+        "$description": "Defines the disabled color for primary components (e.g., disabled primary buttons, inputs). Reduces emphasis and contrast to signal inactivity.\nBehavior: Dynamic — slightly lighter in Light mode and darker in Dark mode to remain visually accessible."
+      },
+      "colorsecondaryactiveinverse": {
+        "$value": "{BILD.gray.BILD096}",
+        "$type": "color",
+        "$description": "Inverse variant of the secondary active state, applied on dark backgrounds or inverse layouts.\nBehavior: Dynamic — switches between bright and dark tones depending on the background."
+      },
+      "colortertiaryactive": {
+        "$value": "{BILD.green.BILDGreen070}",
+        "$type": "color",
+        "$description": "Represents active or pressed states for tertiary elements (e.g., link highlights, icons, or subtle interactive surfaces).\nBehavior: Constant — uses the same green success tone across Light and Dark mode."
+      },
+      "colortertiarydisabled": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Represents disabled states for tertiary levels, maintaining subtle visibility without drawing attention.\nBehavior: Dynamic — adjusts between gray tones for Light and Dark mode consistency."
+      }
+    },
+    "border": {
+      "bordercolormediumcontrast": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "Medium-emphasis border color for standard outlines, input fields, or separators that require visible yet non-dominant contrast.\nBehavior: Dynamic — adjusts to maintain legibility in Light and Dark themes."
+      },
+      "bordercolorlowcontrast": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Used for subtle dividers and low-emphasis borders in neutral areas (e.g., card outlines, input containers).\nDynamic — light gray in Light mode, dark gray in Dark mode."
+      },
+      "bordercolorhighcontrast": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "High-emphasis border color for clear delineation between surfaces (e.g., focus rings, high-contrast UI zones).\nBehavior: Dynamic — light surfaces use a darker neutral, dark surfaces a light neutral tone."
+      },
+      "bordercolorlowcontrastconstant": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Applies to UI elements that must visually remain the same regardless of theme (e.g., brand containers, static illustrations). Identical tone across Light and Dark mode."
+      },
+      "bordercolorsuccess": {
+        "$value": "{Semantic.Attention.attentionColorSuccessPrimary}",
+        "$type": "color",
+        "$description": "Used for success states and validation borders (e.g., input success outlines or confirmation frames).\nBehavior: Constant — same success tone across modes for consistent feedback semantics."
+      },
+      "bordercolorwarning": {
+        "$value": "{Semantic.Attention.attentionColorHigh}",
+        "$type": "color",
+        "$description": "Defines border color for warning and error-related components, typically used for input validation or caution zones.\nBehavior: Constant — retains the same red warning tone in both Light and Dark modes."
+      },
+      "bordercolorprimarydisabled": {
+        "$value": "{Semantic.State.colorPrimaryDisabled}",
+        "$type": "color",
+        "$description": "Applied to disabled states of primary elements (e.g., buttons, inputs) to visually reduce emphasis and indicate inactivity."
+      },
+      "bordercolorsecondarydisabled": {
+        "$value": "{Semantic.State.colorSecondaryDisabled}",
+        "$type": "color",
+        "$description": "Used for secondary component borders in a disabled state (e.g., secondary buttons, inactive input outlines)."
+      }
+    },
+    "core": {
+      "corecolorprimary": {
+        "$value": "{Global.Core.coreColorPrimary}",
+        "$type": "color",
+        "$description": "Used as the main brand color for key interactive elements such as primary buttons, active states, and prominent highlights. It remains constant across Light and Dark Mode."
+      },
+      "corecolorsecondary": {
+        "$value": "{Global.Core.coreColorSecondary}",
+        "$type": "color",
+        "$description": "Defines the secondary brand tone. This variable changes across Light and Dark Mode."
+      },
+      "corecolortertiary": {
+        "$value": "{Global.Core.coreColorTertiary}",
+        "$type": "color",
+        "$description": "Represents tertiary brand accents. This variable changes across Light and Dark Mode."
+      },
+      "corecolorsecondaryconstant": {
+        "$value": "{Global.Core.coreColorSecondary}",
+        "$type": "color",
+        "$description": "Use this on elements that must maintain the white color even in dark mode."
+      },
+      "corecolortertiaryconstant": {
+        "$value": "{Global.Core.coreColorTertiary}",
+        "$type": "color",
+        "$description": "Use this on elements that need to maintain the dark color across themes and color modes."
+      }
+    },
+    "icon": {
+      "iconcolorprimary": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Primary icon color on primary surfaces."
+      },
+      "iconcolorinverse": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "Inverse icon color for use on contrasting backgrounds (e.g., light icons on dark surfaces or dark icons on bright surfaces).\nBehavior: Dynamic — switches between light and dark."
+      },
+      "iconcolorsecondaryconstant": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Secondary icon tone for less prominent actions or supportive iconography (e.g., secondary buttons, tool icons). Remains unchanged across modes."
+      },
+      "iconcolorconstantondark": {
+        "$value": "{BILD.gray.BILD096}",
+        "$type": "color",
+        "$description": "Used for icons displayed on dark backgrounds that don´t change colors, ensuring sufficient contrast and legibility.\nBehavior: Constant — always uses a neutral bright value."
+      },
+      "iconcolorprimaryconstant": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Used for icons that must remain visually consistent regardless of mode (e.g.,  icons that are on surfaces that don't change color).\nIdentical tone in both Light and Dark mode."
+      },
+      "iconcolorsuccess": {
+        "$value": "{Semantic.Attention.attentionColorSuccessPrimary}",
+        "$type": "color",
+        "$description": "Represents success or confirmation icons (e.g., checkmarks, completion indicators).\nBehavior: Constant — same success green tone across Light and Dark mode."
+      }
+    },
+    "label": {
+      "labelcolorprimary": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Primary label color used for labels, badges, or tag text on light backgrounds. Ensures strong readability and visual hierarchy.\nBehavior: Dynamic — dark neutral in Light mode, light neutral in Dark mode."
+      },
+      "labelcolorsecondary": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Secondary label tone used for less prominent text such as secondary badges or supporting labels.\nBehavior: Dynamic — adapts between mid-grays for Light and Dark surfaces."
+      },
+      "labelcolordisabled": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "Disabled label tone indicating inactive or unavailable states in UI elements.\nBehavior: Dynamic — lighter gray in Light mode, darker neutral in Dark mode."
+      },
+      "labelcolorprimaryconstant": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Used when primary label color should remain unchanged across modes in static UI areas.\nBehavior: Constant — identical tone in both Light and Dark mode."
+      },
+      "labelcolorprimaryinverseconstant": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Fixed inverse label tone applied where white or bright text must always appear, regardless of theme.\nBehavior: Constant — remains bright neutral in both Light and Dark mode."
+      },
+      "labelcolortertiary": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Tertiary label tone for subtle, low-emphasis UI text such as placeholder text or tertiary badges.\nBehavior: Constant — identical tone across both modes for stable hierarchy."
+      },
+      "labelcolorprimaryinverse": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Inverse version of the primary label color, used on dark or colored backgrounds.\nBehavior: Dynamic — switches between light and dark."
+      }
+    },
+    "attention": {
+      "attentioncolorhigh": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color",
+        "$description": "High-level attention color used for errors, destructive actions, and critical alerts (e.g., delete actions, error states). Remains red in both Light and Dark mode for immediate recognition."
+      },
+      "accentcolorprimary": {
+        "$value": "{Global.Attention.accentColorPrimary}",
+        "$type": "color",
+        "$description": "Primary accent color used to emphasize interactive or highlight elements such as links, selection states, or focus indicators. Adapts in Darkmode to a fully white tone."
+      },
+      "attentioncolormedium": {
+        "$value": "{BILD.orange.BILDOrange}",
+        "$type": "color",
+        "$description": "Medium-level attention tone representing stronger caution or intermediate alert states. Commonly applied in warning messages. Constant — identical in both modes."
+      },
+      "attentioncolorlow": {
+        "$value": "{BILD.yellow.BILDYellow}",
+        "$type": "color",
+        "$description": "Low-level warning or attention tone, typically used for informational or cautionary messages. Same yellow tone across Light and Dark to maintain recognition."
+      },
+      "accentcolorprimaryconstant": {
+        "$value": "{Global.Attention.accentColorPrimary}",
+        "$type": "color",
+        "$description": "Used for accent highlights that must remain visually consistent across themes (e.g., brand identifiers, logos, or fixed emphasis areas). Color value does not change between Light and Dark mode."
+      },
+      "attentioncolorsuccessprimary": {
+        "$value": "{BILD.green.BILDGreen070}",
+        "$type": "color",
+        "$description": "Primary success color used to indicate positive states, confirmations, or completed actions (e.g., success banners, icons, or badges). Remains the same across modes to ensure recognizability and consistency."
+      },
+      "attentioncolorextralow": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "Very low-contrast background tone used for information or system-neutral surfaces, often for tooltips or quiet information highlights. Dynamic — light neutral in Light mode and dark neutral in Dark mode."
+      },
+      "attentioncolorsuccesssecondary": {
+        "$value": "{BILD.green.BILDGreen040}",
+        "$type": "color",
+        "$description": "Secondary success tone used for secondary states. Maintains the same color in both Light and Dark mode for clarity."
+      }
+    },
+    "overlay": {
+      "overlayscrimblack": {
+        "$value": "{BILD.alpha.alphaBlack70}",
+        "$type": "color",
+        "$description": "A semi-transparent black overlay used to dim background content when modals, drawers, or dialogs are active. Identical opacity and tone in both Light and Dark mode to ensure consistent overlay depth."
+      },
+      "overlayscrimwhite": {
+        "$value": "{BILD.alpha.alphaWhite70}",
+        "$type": "color",
+        "$description": "A semi-transparent white overlay used to brighten or fade background layers, often applied behind bottom sheets or temporary panels.\nBehavior: Constant — same opacity level across modes to preserve uniform layering behavior."
+      }
+    },
+    "layeropacity": {
+      "layeropacity05": {
+        "$value": "{Opacity.opacity05}",
+        "$type": "dimension"
+      },
+      "layeropacity10": {
+        "$value": "{Opacity.opacity10}",
+        "$type": "dimension"
+      },
+      "layeropacity20": {
+        "$value": "{Opacity.opacity20}",
+        "$type": "dimension"
+      },
+      "layeropacity30": {
+        "$value": "{Opacity.opacity30}",
+        "$type": "dimension"
+      },
+      "layeropacity40": {
+        "$value": "{Opacity.opacity40}",
+        "$type": "dimension"
+      },
+      "layeropacity50": {
+        "$value": "{Opacity.opacity50}",
+        "$type": "dimension"
+      },
+      "layeropacity60": {
+        "$value": "{Opacity.opacity60}",
+        "$type": "dimension"
+      },
+      "layeropacity70": {
+        "$value": "{Opacity.opacity70}",
+        "$type": "dimension"
+      },
+      "layeropacity80": {
+        "$value": "{Opacity.opacity80}",
+        "$type": "dimension"
+      },
+      "layeropacity90": {
+        "$value": "{Opacity.opacity90}",
+        "$type": "dimension"
+      },
+      "layeropacity100": {
+        "$value": "{Opacity.opacity100}",
+        "$type": "dimension"
+      },
+      "layeropacity00": {
+        "$value": "{Opacity.opacity00}",
+        "$type": "dimension"
+      }
+    }
+  },
+  "component": {
+    "subheader": {
+      "subheaderscolor": {
+        "$value": "{Semantic.Text.textColorPrimary}",
+        "$type": "color"
+      }
+    },
+    "breadcrumb": {
+      "breadcrumbtextcoloridle": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Use this token on breadcrumbs that are in their default idle state. This token changes color between light and dark modes. L:035 / D:096"
+      },
+      "breadcrumbtextcolorhover": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Use this token on breadcrumbs that the user's pointer is hovering on or clicked on. This token changes color between light and dark modes. L:015 / D:100"
+      }
+    },
+    "breakingnews": {
+      "breakingnewstitlesurfacecolor": {
+        "$value": "{Component.BreakingNews.breakingNewsTitleSurfaceColor}",
+        "$type": "color"
+      },
+      "breakingnewssurfacecolor": {
+        "$value": "{Component.BreakingNews.breakingNewsSurfaceColor}",
+        "$type": "color"
+      },
+      "breakingnewstextcontentcolor": {
+        "$value": "{Component.BreakingNews.breakingNewsTextContentColor}",
+        "$type": "color"
+      },
+      "breakingnewstoptitletextcolor": {
+        "$value": "{Component.BreakingNews.breakingNewsTopTitleTextColor}",
+        "$type": "color"
+      },
+      "breakingnewsbottomtitletextcolor": {
+        "$value": "{Component.BreakingNews.breakingNewsBottomTitleTextColor}",
+        "$type": "color"
+      }
+    },
+    "menu": {
+      "menusurfacecolor": {
+        "$value": "{Semantic.Surface.surfaceColorPrimary}",
+        "$type": "color"
+      },
+      "menuscrolledsurfacegradientcolor": {
+        "$value": "rgba(255, 255, 255, 0.949999988079071)",
+        "$type": "color",
+        "$description": "Used on a thin part at the top of header in navigation menu."
+      },
+      "menulinklanesurfacecolor": {
+        "$value": "{Component.Menu.menuLinkLaneSurfaceColor}",
+        "$type": "color"
+      },
+      "menulinklanelabelcolor": {
+        "$value": "{Component.Menu.menuLinkLaneLabelColor}",
+        "$type": "color"
+      },
+      "menulinklanelabelcoloractive": {
+        "$value": "{Component.Menu.menuLinkLaneLabelColorActive}",
+        "$type": "color"
+      },
+      "apptopbarsurfacecolor": {
+        "$value": "{Component.Menu.appTopBarSurfaceColor}",
+        "$type": "color"
+      },
+      "apptopbariconcolor": {
+        "$value": "{Component.Menu.appTopBarIconColor}",
+        "$type": "color"
+      },
+      "apptopbartextcolorprimary": {
+        "$value": "{Component.Menu.appTopBarTextColor}",
+        "$type": "color"
+      },
+      "apptobbartabnavbottomborder": {
+        "$value": "{Component.Menu.appTobBarTabNavBottomBorder}",
+        "$type": "color"
+      },
+      "apptobbartabnavbottomborderactive": {
+        "$value": "{Component.Menu.appTobBarTabNavBottomBorderActive}",
+        "$type": "color"
+      }
+    },
+    "partnerlinks": {
+      "partnerlinksbordercoloridle": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
+      },
+      "partnerlinksbordercoloractive": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
+      },
+      "partnerlinksbgcoloridle": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
+      },
+      "partnerlinksbgcoloractive": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
+      },
+      "partnerlinkscontainerbordercolor": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "!do not use! these variables have been deprecated and multitext link buttons are now classified as partner buttons."
+      }
+    },
+    "socialsharebutton": {
+      "socialsharebuttonlabelcolordefault": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color"
+      },
+      "socialsharebuttonlabelcoloractive": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color"
+      },
+      "socialsharebuttonbgcoloractive": {
+        "$value": "{BILD.gray.BILD025}",
+        "$type": "color"
+      },
+      "socialsharebuttonbgcolordefault": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color"
+      }
+    },
+    "button": {
+      "primary": {
+        "buttonprimarybrandbgcoloridle": {
+          "$value": "{Component.Button.PrimaryBrand.buttonPrimaryBgColorIdle}",
+          "$type": "color"
+        },
+        "buttonprimarybrandbgcolorhover": {
+          "$value": "{Component.Button.PrimaryBrand.buttonPrimaryBgColorHover}",
+          "$type": "color"
+        },
+        "buttonprimarylabelcolor": {
+          "$value": "{BILD.neutral.BILD100}",
+          "$type": "color"
+        },
+        "buttonprimarysuccesscoloridle": {
+          "$value": "{BILD.green.BILDGreen056}",
+          "$type": "color"
+        },
+        "buttonprimarysuccesscolorhover": {
+          "$value": "{BILD.green.BILDGreen040}",
+          "$type": "color"
+        },
+        "buttonprimaryneutralbgcoloridle": {
+          "$value": "{Component.Button.PrimaryNeutral.buttonPrimaryBgColorIdle}",
+          "$type": "color",
+          "$description": "Use this variable on the neutral color primary button. Tone changes between light and dark mode. Light mode Bild & SpoBi: Tone 015 ; Dark mode Bild & SpoBi: Tone 100"
+        },
+        "buttonprimaryneutralbgcolorhover": {
+          "$value": "{Component.Button.PrimaryNeutral.buttonPrimaryBgColorHover}",
+          "$type": "color"
+        }
+      },
+      "tertiary": {
+        "buttontertiarylabelcolor": {
+          "$value": "{BILD.gray.BILD035}",
+          "$type": "color"
+        },
+        "buttontertiarybordercoloridle": {
+          "$value": "{BILD.gray.BILD085}",
+          "$type": "color"
+        },
+        "buttontertiarybordercolorhover": {
+          "$value": "{BILD.gray.BILD035}",
+          "$type": "color"
+        },
+        "buttontertiarysuccessbgcolorhover": {
+          "$value": "{BILD.green.BILDGreen093}",
+          "$type": "color"
+        },
+        "buttontertiarysuccessbordercolor": {
+          "$value": "{BILD.green.BILDGreen056}",
+          "$type": "color"
+        }
+      },
+      "secondary": {
+        "buttonsecondarybgcolorhover": {
+          "$value": "{BILD.gray.BILD085}",
+          "$type": "color"
+        },
+        "buttonsecondarylabelcolor": {
+          "$value": "{BILD.gray.BILD035}",
+          "$type": "color"
+        },
+        "buttonsecondarybgcoloridle": {
+          "$value": "{BILD.gray.BILD093}",
+          "$type": "color"
+        }
+      },
+      "buttonlivetickerloadnewsurfacecolor": {
+        "$value": "{Semantic.Surface.surfaceColorPrimary}",
+        "$type": "color"
+      },
+      "buttonlivetickerloadnewlabelcolor": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color"
+      },
+      "ghost": {
+        "buttonghostbgcolorhover": {
+          "$value": "{BILD.gray.BILD085}",
+          "$type": "color"
+        }
+      }
+    },
+    "inputfield": {
+      "inputfieldbordercoloridle": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color"
+      },
+      "inputfieldbordercoloractive": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color"
+      },
+      "inputfieldbordercolordark": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color"
+      },
+      "inputfieldbordercolordarkactive": {
+        "$value": "{Semantic.Border.borderColorHighContrast}",
+        "$type": "color"
+      },
+      "inputfieldbgcolordarklowcontrast": {
+        "$value": "{BILD.gray.BILD025}",
+        "$type": "color"
+      },
+      "inputfieldbgcolordarkmediumcontrast": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color"
+      },
+      "inputfieldbgcolordarkhighcontrast": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color"
+      }
+    },
+    "dropdown": {
+      "dropdownbgcolorhover": {
+        "$value": "{Semantic.Surface.surfaceColorSecondary}",
+        "$type": "color"
+      },
+      "dropdownbgcoloridle": {
+        "$value": "{Semantic.Surface.surfaceColorPrimary}",
+        "$type": "color"
+      }
+    },
+    "textlink": {
+      "textlinkcolorsecondary": {
+        "$value": "{Semantic.Text.textColorSecondary}",
+        "$type": "color"
+      },
+      "textlinkcolorsecondaryactive": {
+        "$value": "{Semantic.Text.textColorPrimary}",
+        "$type": "color"
+      },
+      "textlinkcolorprimary": {
+        "$value": "{Semantic.Text.textColorPrimary}",
+        "$type": "color"
+      }
+    },
+    "tab": {
+      "tabbgcolorhover": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color"
+      },
+      "tablabelcoloractive": {
+        "$value": "{BILD.gray.BILD025}",
+        "$type": "color"
+      },
+      "tablabelcolordefault": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color"
+      },
+      "appbottomtabbarbgcolor": {
+        "$value": "{Component.Menu.appBottomTabBarBgColor}",
+        "$type": "color"
+      }
+    },
+    "menuitem": {
+      "menuitembordercoloractive": {
+        "$value": "{Component.Menu.menuLinkColorBorderActive}",
+        "$type": "color"
+      },
+      "menuitemlabelcolorprimary": {
+        "$value": "{Semantic.Label.labelColorSecondary}",
+        "$type": "color"
+      },
+      "menuitemlabelcolorprimaryactive": {
+        "$value": "{Semantic.Label.labelColorPrimary}",
+        "$type": "color"
+      },
+      "menuitemlabelcolorsecondary": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "The variable can be used on secondary menus that many times show up on dedicated home pages specific to a topic. The menu labels are often times using the color white across color modes."
+      }
+    },
+    "foldout": {
+      "foldoutlabelcoloractive": {
+        "$value": "{Semantic.State.colorPrimaryActive}",
+        "$type": "color"
+      },
+      "foldoutlabelcoloridle": {
+        "$value": "{Semantic.Label.labelColorSecondary}",
+        "$type": "color"
+      }
+    },
+    "newsticker": {
+      "newstickertimestampcolor": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color"
+      },
+      "newstickerbadgeiconscolor": {
+        "$value": "{Component.Newsticker.newsTickerTimestampColor}",
+        "$type": "color"
+      }
+    },
+    "alert": {
+      "alertsurfacecolor": {
+        "$value": "{Semantic.Attention.attentionColorExtraLow}",
+        "$type": "color",
+        "$description": "On marketing offer surfaces this variable is usually not used. The alertSurfaceConstant variables should be used. This token changes color between light and dark modes. L:100 / D:025"
+      },
+      "alertsurfacecolorconstant": {
+        "$value": "{Semantic.Surface.surfaceColorPrimaryConstantLight}",
+        "$type": "color",
+        "$description": "On marketing offer surfaces this variable is  used."
+      }
+    },
+    "empties": {
+      "emptiesbgcolor": {
+        "$value": "{Semantic.Surface.surfaceColorSecondary}",
+        "$type": "color"
+      },
+      "emptieslogocolor": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color"
+      }
+    },
+    "chips": {
+      "chipsbgcolorhover": {
+        "$value": "{BILD.red.BILDRed035}",
+        "$type": "color"
+      },
+      "chipslabelcolorhover": {
+        "$value": "{Semantic.Core.coreColorSecondaryConstant}",
+        "$type": "color"
+      },
+      "chipsbgcoloractive": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color"
+      },
+      "chipsbgcoloridle": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color"
+      },
+      "chipslabelcoloridle": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color"
+      }
+    },
+    "card": {
+      "cardsurfacebgcolor": {
+        "$value": "{Semantic.Surface.surfaceColorPrimary}",
+        "$type": "color"
+      }
+    },
+    "selection": {
+      "selectionbordercolor": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Checkboxes and Radio buttons use this variable for their border."
+      }
+    },
+    "_dsysdoc": {
+      "_dsysdocs_labeltextsurfacecolorprimaryprimitivename": {
+        "$value": "BILD100",
+        "$type": "string",
+        "$description": "This variable is only for use in Figma's Design System File. It is automating some of the content in documentation pages."
+      },
+      "_dsysdocs_labeltextcolormode": {
+        "$value": "(Light Mode)",
+        "$type": "string",
+        "$description": "This is currently for use in this design system's documentation texts. It is a text string made for being used in light and dark mode documentation texts."
+      },
+      "dsdocspacingitembgcolor": {
+        "$value": "rgba(221, 0, 0, 0.10000000149011612)",
+        "$type": "color"
+      },
+      "dsdocspacingitembordercolor": {
+        "$value": "rgba(221, 0, 0, 0.5)",
+        "$type": "color"
+      }
+    },
+    "hey": {
+      "heyfavinputfieldsurfacecolor": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color"
+      },
+      "heytextcolor": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color"
+      },
+      "heyiconutilcolor": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color"
+      },
+      "heyseparatorcolor": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "This is the most used color for separators across Bild products."
+      },
+      "heydrawersurfacecolor": {
+        "$value": "{Semantic.Surface.surfaceColorSecondary}",
+        "$type": "color"
+      }
+    },
+    "pagination": {
+      "paginationelementcolordefault": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color"
+      },
+      "paginationelementcoloractive": {
+        "$value": "{Semantic.Attention.accentColorPrimary}",
+        "$type": "color"
+      },
+      "gallerypaginationelementactiveopacity": {
+        "$value": "{Semantic.LayerOpacity.layerOpacity100}",
+        "$type": "dimension",
+        "$description": "Use this on gallery slider pagination elements. This can also be applied to hover states of those elements."
+      },
+      "scrollbartrackbgcolor": {
+        "$value": "{BILD.alpha.alphaBlack10}",
+        "$type": "color",
+        "$description": "Used as the background surface color scroll bars. Found on components that vertically or horizontally stack elements."
+      },
+      "scrollbarthumbbgcolor": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Use on the scroll bar interactive element which shows where the scroll view is positioned inside the full extent of the scrolling space."
+      }
+    },
+    "kicker": {
+      "standard": {
+        "kickerbgcoloronsurface": {
+          "$value": "{Global.Text.kickerBgColorOnSurface}",
+          "$type": "color"
+        }
+      },
+      "partner": {
+        "kickerstylebookbgcolor": {
+          "$value": "{Partner.Stylebook.stylebookCore}",
+          "$type": "color"
+        },
+        "kickerfitbookbgcolor": {
+          "$value": "{Partner.Fitbook.fitbookCore}",
+          "$type": "color"
+        },
+        "kickerpetbookbgcolor": {
+          "$value": "{Partner.Petbook.petbookCore}",
+          "$type": "color"
+        },
+        "kickermyhomebookbgcolor": {
+          "$value": "{Partner.MyHome.myhomeCore}",
+          "$type": "color"
+        },
+        "kickertravelbookbgcolor": {
+          "$value": "{Partner.Travelbook.travelbookCore}",
+          "$type": "color"
+        },
+        "kickertechbookbgcolor": {
+          "$value": "{Partner.Techbook.techbookCore}",
+          "$type": "color"
+        },
+        "kickerkaufberaterbgcolor": {
+          "$value": "{Partner.Kaufberater.kaufberaterCore}",
+          "$type": "color"
+        },
+        "kickercobibgcolor": {
+          "$value": "{Partner.ComputerBILD.cobiCore}",
+          "$type": "color"
+        },
+        "kickeraubibgcolor": {
+          "$value": "{Partner.Aubi.aubiCore}",
+          "$type": "color"
+        },
+        "kickerspobibgcolor": {
+          "$value": "{SportBILD.blue.spobiBlue029}",
+          "$type": "color"
+        },
+        "kickerbzbgcolor": {
+          "$value": "{Partner.Bz.bzCore}",
+          "$type": "color"
+        }
+      }
+    },
+    "teaser": {
+      "teaserhoveropacity": {
+        "$value": "{Semantic.LayerOpacity.layerOpacity80}",
+        "$type": "dimension",
+        "$description": "When users hover over graphical teasers the image reduces opacity to 80%."
+      },
+      "teasertitlebackgroundgradientstart": {
+        "$value": "{Component.Teaser.teaserTitleBackgroundGradientStart}",
+        "$type": "color"
+      },
+      "teasertitlebackgroundgradientstop": {
+        "$value": "{Component.Teaser.teaserTitleBackgroundGradientStop}",
+        "$type": "color"
+      }
+    },
+    "slider": {
+      "sliderbuttonopacity": {
+        "$value": "{Semantic.LayerOpacity.layerOpacity90}",
+        "$type": "dimension",
+        "$description": "When users hover on gallery slider buttons the opacity changes to 90%."
+      },
+      "slidertrackbgcolor": {
+        "$value": "{BILD.alpha.alphaWhite35}",
+        "$type": "color",
+        "$description": "This variable is used on audio player slider bars. It references a pure white with 35% opacity."
+      }
+    },
+    "mediaplayer": {
+      "vidplayercontrolsautoplaybuttonbgcolor": {
+        "$value": "{BILD.alpha.alphaBlack20}",
+        "$type": "color"
+      },
+      "vidplayercontrolbuttonsbghovercolor": {
+        "$value": "{BILD.alpha.alphaBILDRed80}",
+        "$type": "color",
+        "$description": "This variable is used for hover states of video player control buttons."
+      },
+      "vidplayercontrolbuttonsbgcolorhover": {
+        "$value": "{BILD.alpha.alphaBlack20}",
+        "$type": "color"
+      },
+      "vidplayeroverlayscrimcolor": {
+        "$value": "{BILD.alpha.alphaBlack50}",
+        "$type": "color"
+      },
+      "audioplayerplaybuttonbgcolor": {
+        "$value": "{BILD.alpha.alphaWhite30}",
+        "$type": "color"
+      },
+      "vidplayertooltipbgcolor": {
+        "$value": "{BILD.alpha.alphaBlack70}",
+        "$type": "color"
+      },
+      "vidplayercontrolbuttonsbgcolorpressed": {
+        "$value": "{BILD.alpha.alphaBlack05}",
+        "$type": "color"
+      },
+      "vidplayerprogressbarpreloadbgcolor": {
+        "$value": "{BILD.alpha.alphaWhite30}",
+        "$type": "color"
+      },
+      "vidplayerunmutebuttonbgcolor": {
+        "$value": "{BILD.alpha.alphaBlack20}",
+        "$type": "color"
+      },
+      "vidplayerunmutebuttonbgcolorhover": {
+        "$value": "{BILD.alpha.alphaBlack35}",
+        "$type": "color"
+      }
+    },
+    "avatar": {
+      "avatarlabelcolor": {
+        "$value": "{Component.Avatar.avatarLabelColor}",
+        "$type": "color",
+        "$description": "09-2025 css --article-author-name-color"
+      },
+      "avatarlabelcolorhover": {
+        "$value": "{Component.Avatar.avatarLabelColorHover}",
+        "$type": "color",
+        "$description": "09-2025 css --article-author-name-color"
+      }
+    },
+    "gallery": {
+      "appimagelightboxgallerybgcolor": {
+        "$value": "{BILD.neutral.BILDBlack}",
+        "$type": "color"
+      }
+    }
+  }
+}
