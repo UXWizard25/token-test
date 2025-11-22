@@ -1,0 +1,1310 @@
+{
+  "global": {
+    "typography": {
+      "fontsize": {
+        "display": {
+          "display1fontsizexs": {
+            "$value": "40px",
+            "$type": "dimension",
+            "$description": "Bild: 40 | SpoBi: 38 | Ads: 39 | This variable is used in the display1 text style font size parameter for small device sizes."
+          },
+          "display1fontsizesm": {
+            "$value": "40px",
+            "$type": "dimension",
+            "$description": "Bild: 40 | SpoBi: 38 | Ads: 39 | This variable is used in the display1 text style font size parameter for small device sizes."
+          },
+          "display1fontsizemd": {
+            "$value": "72px",
+            "$type": "dimension",
+            "$description": "Bild: 72 | SpoBi: 68 | Ads: 70 | This variable is used in the display1 text style font size parameter for medium device sizes."
+          },
+          "display1fontsizelg": {
+            "$value": "120px",
+            "$type": "dimension",
+            "$description": "Bild: 120 | SpoBi: 114 | Ads: 116 | This variable is used in the display1 text style font size parameter for large device sizes."
+          },
+          "display2fontsizexs": {
+            "$value": "36px",
+            "$type": "dimension",
+            "$description": "Bild: 36 | SpoBi: 34 | Ads: 35 | This variable is used in the display2 text style font size parameter for small device sizes."
+          },
+          "display2fontsizesm": {
+            "$value": "36px",
+            "$type": "dimension",
+            "$description": "Bild: 36 | SpoBi: 34 | Ads: 35 | This variable is used in the display2 text style font size parameter for small device sizes."
+          },
+          "display2fontsizemd": {
+            "$value": "42px",
+            "$type": "dimension",
+            "$description": "Bild: 42 | SpoBi: 40 | Ads: 41 | This variable is used in the display2 text style font size parameter for medium device sizes."
+          },
+          "display2fontsizelg": {
+            "$value": "64px",
+            "$type": "dimension",
+            "$description": "Bild: 64 | SpoBi: 61 | Ads: 62 | This variable is used in the display2 text style font size parameter for large device sizes."
+          },
+          "display3fontsizesm": {
+            "$value": "28px",
+            "$type": "dimension",
+            "$description": "Bild: 28 | SpoBi: 27 | Ads: 27 | This variable is used in the display3 text style font size parameter for small device sizes."
+          },
+          "display3fontsizemd": {
+            "$value": "32px",
+            "$type": "dimension",
+            "$description": "Bild: 32 | SpoBi: 30 | Ads: 31 | This variable is used in the display3 text style font size parameter for medium device sizes."
+          },
+          "display3fontsizelg": {
+            "$value": "40px",
+            "$type": "dimension",
+            "$description": "Bild: 40 | SpoBi: 38 | Ads: 39 | This variable is used in the display3 text style font size parameter for large device sizes."
+          },
+          "display3fontsizexs": {
+            "$value": "28px",
+            "$type": "dimension",
+            "$description": "Bild: 28 | SpoBi: 27 | Ads: 27 | This variable is used in the display3 text style font size parameter for small device sizes."
+          }
+        },
+        "headline": {
+          "headline1fontsizexs": {
+            "$value": "48px",
+            "$type": "dimension",
+            "$description": "Bild: 48 | SpoBi: 42 | Ads: 36 | This variable is used in the headline1 text style font size parameter for small device sizes."
+          },
+          "headline1fontsizesm": {
+            "$value": "48px",
+            "$type": "dimension",
+            "$description": "Bild: 48 | SpoBi: 42 | Ads: 36 | This variable is used in the headline1 text style font size parameter for small device sizes."
+          },
+          "headline1fontsizemd": {
+            "$value": "72px",
+            "$type": "dimension",
+            "$description": "Bild: 72 | SpoBi: 60 | Ads: 54 | This variable is used in the headline1 text style font size parameter for medium device sizes."
+          },
+          "headline1fontsizelg": {
+            "$value": "100px",
+            "$type": "dimension",
+            "$description": "Bild: 100 | SpoBi: 80 | Ads: 70 | This variable is used in the headline1 text style font size parameter for large device sizes."
+          },
+          "headline2fontsizexs": {
+            "$value": "40px",
+            "$type": "dimension",
+            "$description": "Bild: 40 | SpoBi: 42 | Ads: 30 | This variable is used in the headline2 text style font size parameter for small device sizes."
+          },
+          "headline2fontsizesm": {
+            "$value": "40px",
+            "$type": "dimension",
+            "$description": "Bild: 40 | SpoBi: 42 | Ads: 30 | This variable is used in the headline2 text style font size parameter for small device sizes."
+          },
+          "headline2fontsizemd": {
+            "$value": "48px",
+            "$type": "dimension",
+            "$description": "Bild: 48 | SpoBi: 44 | Ads: 36 | This variable is used in the headline2 text style font size parameter for medium device sizes."
+          },
+          "headline2fontsizelg": {
+            "$value": "64px",
+            "$type": "dimension",
+            "$description": "Bild: 64 | SpoBi: 50 | Ads: 48 | This variable is used in the headline2 text style font size parameter for large device sizes."
+          },
+          "headline3fontsizexs": {
+            "$value": "28px",
+            "$type": "dimension",
+            "$description": "Bild: 28 | SpoBi: 30 | Ads: 24 | This variable is used in the headline3 text style font size parameter for small device sizes."
+          },
+          "headline3fontsizesm": {
+            "$value": "28px",
+            "$type": "dimension",
+            "$description": "Bild: 28 | SpoBi: 30 | Ads: 24 | This variable is used in the headline3 text style font size parameter for small device sizes."
+          },
+          "headline3fontsizemd": {
+            "$value": "36px",
+            "$type": "dimension",
+            "$description": "Bild: 36 | SpoBi: 30 | Ads: 26 | This variable is used in the headline3 text style font size parameter for medium device sizes."
+          },
+          "headline3fontsizelg": {
+            "$value": "40px",
+            "$type": "dimension",
+            "$description": "Bild: 40 | SpoBi: 34 | Ads: 32 | This variable is used in the headline3 text style font size parameter for large device sizes."
+          },
+          "headline4fontsizexs": {
+            "$value": "22px",
+            "$type": "dimension",
+            "$description": "Bild: 22 | SpoBi: 21 | Ads: 16 | This variable is used in the headline4 text style font size parameter for small device sizes."
+          },
+          "headline4fontsizesm": {
+            "$value": "22px",
+            "$type": "dimension",
+            "$description": "Bild: 22 | SpoBi: 21 | Ads: 16 | This variable is used in the headline4 text style font size parameter for small device sizes."
+          },
+          "headline4fontsizemd": {
+            "$value": "26px",
+            "$type": "dimension",
+            "$description": "Bild: 26 | SpoBi: 26 | Ads: 20 | This variable is used in the headline4 text style font size parameter for medium device sizes."
+          },
+          "headline4fontsizelg": {
+            "$value": "32px",
+            "$type": "dimension",
+            "$description": "Bild: 32 | SpoBi: 26 | Ads: 22 | This variable is used in the headline4 text style font size parameter for large device sizes."
+          },
+          "headlinetextalign": {
+            "$value": "center",
+            "$type": "string",
+            "$description": "This variable is used for controlling the alignment of headlines across brands. current online css example var: --headline-text-align-lg"
+          }
+        },
+        "kicker": {
+          "kicker1fontsizexs": {
+            "$value": "18px",
+            "$type": "dimension",
+            "$description": "Bild: 18 | SpoBi: 20 | Ads: 16 | This variable is used in the kicker1 text style font size parameter for small device sizes. Current online css: --kicker-0-font-size-sm"
+          },
+          "kicker1fontsizesm": {
+            "$value": "18px",
+            "$type": "dimension",
+            "$description": "Bild: 18 | SpoBi: 20 | Ads: 16 | This variable is used in the kicker1 text style font size parameter for small device sizes. Current online css: --kicker-0-font-size-sm"
+          },
+          "kicker1fontsizemd": {
+            "$value": "22px",
+            "$type": "dimension",
+            "$description": "Bild: 22 | SpoBi: 26 | Ads: 18 | This variable is used in the kicker1 text style font size parameter for medium device sizes. Current online css: --kicker-0-font-size-md"
+          },
+          "kicker1fontsizelg": {
+            "$value": "30px",
+            "$type": "dimension",
+            "$description": "Bild: 30 | SpoBi: 32 | Ads: 25 | This variable is used in the kicker1 text style font size parameter for large device sizes. Current online css: --kicker-0-font-size-lg"
+          },
+          "kicker2fontsizexs": {
+            "$value": "18px",
+            "$type": "dimension",
+            "$description": "Bild: 18 | SpoBi: 16 | Ads: 16 | This variable is used in the kicker2 text style font size parameter for small device sizes. Current online css: --kicker-1-font-size-sm"
+          },
+          "kicker2fontsizesm": {
+            "$value": "18px",
+            "$type": "dimension",
+            "$description": "Bild: 18 | SpoBi: 16 | Ads: 16 | This variable is used in the kicker2 text style font size parameter for small device sizes. Current online css: --kicker-1-font-size-sm"
+          },
+          "kicker2fontsizemd": {
+            "$value": "22px",
+            "$type": "dimension",
+            "$description": "Bild: 22 | SpoBi: 26 | Ads: 18 | This variable is used in the kicker2 text style font size parameter for medium device sizes. Current online css: --kicker-1-font-size-md"
+          },
+          "kicker2fontsizelg": {
+            "$value": "24px",
+            "$type": "dimension",
+            "$description": "Bild: 24 | SpoBi: 26 | Ads: 21 | This variable is used in the kicker2 text style font size parameter for large device sizes. Current online css: --kicker-1-font-size-lg"
+          },
+          "kicker3fontsizexs": {
+            "$value": "16px",
+            "$type": "dimension",
+            "$description": "Bild: 16 | SpoBi: 16 | Ads: 14 | This variable is used in the kicker3 text style font size parameter for small device sizes. Current online css: --kicker-2-font-size-sm"
+          },
+          "kicker3fontsizesm": {
+            "$value": "16px",
+            "$type": "dimension",
+            "$description": "Bild: 16 | SpoBi: 16 | Ads: 14 | This variable is used in the kicker3 text style font size parameter for small device sizes. Current online css: --kicker-2-font-size-sm"
+          },
+          "kicker3fontsizemd": {
+            "$value": "18px",
+            "$type": "dimension",
+            "$description": "Bild: 18 | SpoBi: 20 | Ads: 14 | This variable is used in the kicker3 text style font size parameter for medium device sizes. Current online css: --kicker-2-font-size-md"
+          },
+          "kicker3fontsizelg": {
+            "$value": "20px",
+            "$type": "dimension",
+            "$description": "Bild: 20 | SpoBi: 22 | Ads: 16 | This variable is used in the kicker3 text style font size parameter for large device sizes. Current online css: --kicker-2-font-size-lg"
+          },
+          "kicker4fontsizexs": {
+            "$value": "14px",
+            "$type": "dimension",
+            "$description": "Bild: 14 | SpoBi: 14 | Ads: 12 | This variable is used in the kicker4 text style font size parameter for small device sizes. Current online css: --kicker-3-font-size-sm"
+          },
+          "kicker4fontsizesm": {
+            "$value": "14px",
+            "$type": "dimension",
+            "$description": "Bild: 14 | SpoBi: 14 | Ads: 12 | This variable is used in the kicker4 text style font size parameter for small device sizes. Current online css: --kicker-3-font-size-sm"
+          },
+          "kicker4fontsizemd": {
+            "$value": "16px",
+            "$type": "dimension",
+            "$description": "Bild: 16 | SpoBi: 16 | Ads: 14 | This variable is used in the kicker4 text style font size parameter for medium device sizes. Current online css: --kicker-3-font-size-md"
+          },
+          "kicker4fontsizelg": {
+            "$value": "16px",
+            "$type": "dimension",
+            "$description": "Bild: 16 | SpoBi: 18 | Ads: 14 | This variable is used in the kicker4 text style font size parameter for large device sizes. Current online css: --kicker-3-font-size-lg"
+          }
+        },
+        "subheadline": {
+          "subheadline1fontsizexs": {
+            "$value": "24px",
+            "$type": "dimension",
+            "$description": "Bild: 24 | SpoBi: 18 | Ads: 18 | This variable is used in the subheadline1 text style font size parameter for small device sizes."
+          },
+          "subheadline1fontsizesm": {
+            "$value": "24px",
+            "$type": "dimension",
+            "$description": "Bild: 24 | SpoBi: 18 | Ads: 18 | This variable is used in the subheadline1 text style font size parameter for small device sizes."
+          },
+          "subheadline1fontsizemd": {
+            "$value": "32px",
+            "$type": "dimension",
+            "$description": "Bild: 32 | SpoBi: 22 | Ads: 18 | This variable is used in the subheadline1 text style font size parameter for medium device sizes."
+          },
+          "subheadline1fontsizelg": {
+            "$value": "36px",
+            "$type": "dimension",
+            "$description": "Bild: 36 | SpoBi: 26 | Ads: 28 | This variable is used in the subheadline1 text style font size parameter for large device sizes."
+          }
+        },
+        "title": {
+          "title1fontsizexs": {
+            "$value": "22px",
+            "$type": "dimension",
+            "$description": "Bild 22 | SpoBi 24 | Ads 22 | current online css: --ressort-header-font-size-sm"
+          },
+          "title1fontsizesm": {
+            "$value": "22px",
+            "$type": "dimension",
+            "$description": "Bild 22 | SpoBi 24 | Ads 22 | current online css: --ressort-header-font-size-sm"
+          },
+          "title1fontsizemd": {
+            "$value": "22px",
+            "$type": "dimension",
+            "$description": "Bild 22 | SpoBi 28 | Ads 22 | current online css: --ressort-header-font-size-md"
+          },
+          "title1fontsizelg": {
+            "$value": "28px",
+            "$type": "dimension",
+            "$description": "Bild 28 | SpoBi 30 | Ads 28 | current online css: --ressort-header-font-size-lg"
+          },
+          "title2fontsizexs": {
+            "$value": "16px",
+            "$type": "dimension",
+            "$description": "Bild 16 | SpoBi 16 | Ads 14 | current online css var: --caption-1-font-size-sm"
+          },
+          "title2fontsizesm": {
+            "$value": "16px",
+            "$type": "dimension",
+            "$description": "Bild 16 | SpoBi 16 | Ads 14 | current online css: --caption-1-font-size-sm"
+          },
+          "title2fontsizemd": {
+            "$value": "18px",
+            "$type": "dimension",
+            "$description": "Bild 18 | SpoBi 18 | Ads 16 | current online css: --caption-1-font-size-md"
+          },
+          "title2fontsizelg": {
+            "$value": "20px",
+            "$type": "dimension",
+            "$description": "Bild 20 | SpoBi 20 | Ads 18 | current online css: --caption-1-font-size-lg"
+          }
+        },
+        "callout": {
+          "callout1fontsizexs": {
+            "$value": "18px",
+            "$type": "dimension",
+            "$description": "Bild: 18 | SpoBi: 18 | Ads: 16 | This variable is used in the callout1 text style font size parameter for small device sizes. Current online css:"
+          },
+          "callout1fontsizesm": {
+            "$value": "18px",
+            "$type": "dimension",
+            "$description": "Bild: 18 | SpoBi: 18 | Ads: 16 | This variable is used in the callout1 text style font size parameter for small device sizes. Current online css:"
+          },
+          "callout1fontsizemd": {
+            "$value": "22px",
+            "$type": "dimension",
+            "$description": "Bild: 22 | SpoBi: 24 | Ads: 22 | This variable is used in the callout1 text style font size parameter for medium device sizes. Current online css:"
+          },
+          "callout1fontsizelg": {
+            "$value": "22px",
+            "$type": "dimension",
+            "$description": "Bild: 22 | SpoBi: 24 | Ads: 22 | This variable is used in the callout1 text style font size parameter for large device sizes. Current online css:"
+          }
+        },
+        "body": {
+          "bodyfontsizexs": {
+            "$value": "21px",
+            "$type": "dimension",
+            "$description": "Bild: 21 | SpoBi: 17 | Ads: 17 | This variable is used in the body text style font size parameter for small device sizes. Current online css: --body-font-size"
+          },
+          "bodyfontsizesm": {
+            "$value": "21px",
+            "$type": "dimension",
+            "$description": "Bild: 21 | SpoBi: 17 | Ads: 17 | This variable is used in the body text style font size parameter for small device sizes. Current online css: --body-font-size"
+          },
+          "bodyfontsizemd": {
+            "$value": "21px",
+            "$type": "dimension",
+            "$description": "Bild: 21 | SpoBi: 17 | Ads: 17 | This variable is used in the body text style font size parameter for medium device sizes. Current online css: --body-font-size"
+          },
+          "bodyfontsizelg": {
+            "$value": "21px",
+            "$type": "dimension",
+            "$description": "Bild: 21 | SpoBi: 17 | Ads: 17 | This variable is used in the body text style font size parameter for large device sizes. Current online css: --body-font-size"
+          }
+        },
+        "footnote": {
+          "footnote1fontsizexs": {
+            "$value": "16px",
+            "$type": "dimension",
+            "$description": "--footnote-font-size-sm"
+          },
+          "footnote1fontsizesm": {
+            "$value": "16px",
+            "$type": "dimension",
+            "$description": "--footnote-font-size-sm"
+          },
+          "footnote1fontsizemd": {
+            "$value": "16px",
+            "$type": "dimension"
+          },
+          "footnote1fontsizelg": {
+            "$value": "18px",
+            "$type": "dimension",
+            "$description": "--footnote-font-size-lg"
+          },
+          "footnote2fontsizexs": {
+            "$value": "12px",
+            "$type": "dimension"
+          },
+          "footnote2fontsizesm": {
+            "$value": "12px",
+            "$type": "dimension"
+          },
+          "footnote2fontsizemd": {
+            "$value": "12px",
+            "$type": "dimension"
+          },
+          "footnote2fontsizelg": {
+            "$value": "16px",
+            "$type": "dimension"
+          }
+        },
+        "quote": {
+          "quotefontsizexs": {
+            "$value": "16px",
+            "$type": "dimension"
+          },
+          "quotefontsizesm": {
+            "$value": "16px",
+            "$type": "dimension"
+          },
+          "quotefontsizemd": {
+            "$value": "18px",
+            "$type": "dimension"
+          },
+          "quotefontsizelg": {
+            "$value": "20px",
+            "$type": "dimension"
+          }
+        },
+        "label": {
+          "label1fontsize": {
+            "$value": "17px",
+            "$type": "dimension"
+          },
+          "label2fontsize": {
+            "$value": "15px",
+            "$type": "dimension"
+          },
+          "label3fontsize": {
+            "$value": "12px",
+            "$type": "dimension"
+          },
+          "label4fontsize": {
+            "$value": "8px",
+            "$type": "dimension"
+          },
+          "label1respfontsizexs": {
+            "$value": "10px",
+            "$type": "dimension"
+          },
+          "label1respfontsizesm": {
+            "$value": "10px",
+            "$type": "dimension"
+          },
+          "label1respfontsizemd": {
+            "$value": "15px",
+            "$type": "dimension"
+          },
+          "label1respfontsizelg": {
+            "$value": "17px",
+            "$type": "dimension"
+          }
+        }
+      },
+      "lineheight": {
+        "display": {
+          "display1lineheightxs": {
+            "$value": "40px",
+            "$type": "dimension"
+          },
+          "display1lineheightsm": {
+            "$value": "40px",
+            "$type": "dimension"
+          },
+          "display1lineheightmd": {
+            "$value": "72px",
+            "$type": "dimension"
+          },
+          "display1lineheightlg": {
+            "$value": "120px",
+            "$type": "dimension"
+          },
+          "display2lineheightxs": {
+            "$value": "36px",
+            "$type": "dimension"
+          },
+          "display2lineheightsm": {
+            "$value": "36px",
+            "$type": "dimension"
+          },
+          "display2lineheightmd": {
+            "$value": "42px",
+            "$type": "dimension"
+          },
+          "display2lineheightlg": {
+            "$value": "64px",
+            "$type": "dimension"
+          },
+          "display3lineheightlg": {
+            "$value": "40px",
+            "$type": "dimension"
+          },
+          "display3lineheightmd": {
+            "$value": "32px",
+            "$type": "dimension"
+          },
+          "display3lineheightsm": {
+            "$value": "28px",
+            "$type": "dimension"
+          },
+          "display3lineheightxs": {
+            "$value": "28px",
+            "$type": "dimension"
+          }
+        },
+        "headline": {
+          "headline1lineheightxs": {
+            "$value": "48px",
+            "$type": "dimension"
+          },
+          "headline1lineheightsm": {
+            "$value": "48px",
+            "$type": "dimension"
+          },
+          "headline1lineheightmd": {
+            "$value": "72px",
+            "$type": "dimension"
+          },
+          "headline1lineheightlg": {
+            "$value": "100px",
+            "$type": "dimension"
+          },
+          "headline2lineheightxs": {
+            "$value": "40px",
+            "$type": "dimension"
+          },
+          "headline2lineheightsm": {
+            "$value": "40px",
+            "$type": "dimension"
+          },
+          "headline2lineheightmd": {
+            "$value": "48px",
+            "$type": "dimension"
+          },
+          "headline2lineheightlg": {
+            "$value": "64px",
+            "$type": "dimension"
+          },
+          "headline3lineheightxs": {
+            "$value": "28px",
+            "$type": "dimension"
+          },
+          "headline3lineheightsm": {
+            "$value": "28px",
+            "$type": "dimension"
+          },
+          "headline3lineheightmd": {
+            "$value": "36px",
+            "$type": "dimension"
+          },
+          "headline3lineheightlg": {
+            "$value": "40px",
+            "$type": "dimension"
+          },
+          "headline4lineheightxs": {
+            "$value": "22px",
+            "$type": "dimension"
+          },
+          "headline4lineheightsm": {
+            "$value": "22px",
+            "$type": "dimension"
+          },
+          "headline4lineheightmd": {
+            "$value": "22px",
+            "$type": "dimension"
+          },
+          "headline4lineheightlg": {
+            "$value": "30px",
+            "$type": "dimension"
+          }
+        },
+        "subheadline": {
+          "subheadline1lineheightxs": {
+            "$value": "24px",
+            "$type": "dimension"
+          },
+          "subheadline1lineheightsm": {
+            "$value": "24px",
+            "$type": "dimension"
+          },
+          "subheadline1lineheightmd": {
+            "$value": "32px",
+            "$type": "dimension"
+          },
+          "subheadline1lineheightlg": {
+            "$value": "36px",
+            "$type": "dimension"
+          }
+        },
+        "kicker": {
+          "kicker1lineheightxs": {
+            "$value": "19.799999237060547px",
+            "$type": "dimension"
+          },
+          "kicker1lineheightsm": {
+            "$value": "19.799999237060547px",
+            "$type": "dimension"
+          },
+          "kicker1lineheightmd": {
+            "$value": "22px",
+            "$type": "dimension"
+          },
+          "kicker1lineheightlg": {
+            "$value": "30px",
+            "$type": "dimension"
+          },
+          "kicker2lineheightxs": {
+            "$value": "19.799999237060547px",
+            "$type": "dimension"
+          },
+          "kicker2lineheightsm": {
+            "$value": "19.799999237060547px",
+            "$type": "dimension"
+          },
+          "kicker2lineheightmd": {
+            "$value": "22px",
+            "$type": "dimension"
+          },
+          "kicker2lineheightlg": {
+            "$value": "24px",
+            "$type": "dimension"
+          },
+          "kicker3lineheightxs": {
+            "$value": "17.600000381469727px",
+            "$type": "dimension"
+          },
+          "kicker3lineheightsm": {
+            "$value": "17.600000381469727px",
+            "$type": "dimension"
+          },
+          "kicker3lineheightmd": {
+            "$value": "18px",
+            "$type": "dimension"
+          },
+          "kicker3lineheightlg": {
+            "$value": "20px",
+            "$type": "dimension"
+          },
+          "kicker4lineheightxs": {
+            "$value": "15.399999618530273px",
+            "$type": "dimension"
+          },
+          "kicker4lineheightsm": {
+            "$value": "15.399999618530273px",
+            "$type": "dimension"
+          },
+          "kicker4lineheightmd": {
+            "$value": "17.600000381469727px",
+            "$type": "dimension"
+          },
+          "kicker4lineheightlg": {
+            "$value": "16px",
+            "$type": "dimension"
+          }
+        },
+        "title": {
+          "title1lineheightxs": {
+            "$value": "22px",
+            "$type": "dimension"
+          },
+          "title1lineheightsm": {
+            "$value": "22px",
+            "$type": "dimension"
+          },
+          "title1lineheightmd": {
+            "$value": "22px",
+            "$type": "dimension"
+          },
+          "title1lineheightlg": {
+            "$value": "28px",
+            "$type": "dimension"
+          },
+          "title2lineheightxs": {
+            "$value": "17.600000381469727px",
+            "$type": "dimension"
+          },
+          "title2lineheightsm": {
+            "$value": "17.600000381469727px",
+            "$type": "dimension"
+          },
+          "title2lineheightmd": {
+            "$value": "19.799999237060547px",
+            "$type": "dimension"
+          },
+          "title2lineheightlg": {
+            "$value": "22px",
+            "$type": "dimension"
+          }
+        },
+        "callout": {
+          "callout1lineheightxs": {
+            "$value": "18px",
+            "$type": "dimension"
+          },
+          "callout1lineheightsm": {
+            "$value": "18px",
+            "$type": "dimension"
+          },
+          "callout1lineheightmd": {
+            "$value": "22px",
+            "$type": "dimension"
+          },
+          "callout1lineheightlg": {
+            "$value": "22px",
+            "$type": "dimension"
+          }
+        },
+        "body": {
+          "bodylineheightxs": {
+            "$value": "28px",
+            "$type": "dimension"
+          },
+          "bodylineheightsm": {
+            "$value": "28px",
+            "$type": "dimension"
+          },
+          "bodylineheightmd": {
+            "$value": "28px",
+            "$type": "dimension"
+          },
+          "bodylineheightlg": {
+            "$value": "32px",
+            "$type": "dimension"
+          }
+        },
+        "footnote": {
+          "footnote1lineheightxs": {
+            "$value": "21px",
+            "$type": "dimension"
+          },
+          "footnote1lineheightsm": {
+            "$value": "21px",
+            "$type": "dimension"
+          },
+          "footnote1lineheightmd": {
+            "$value": "21px",
+            "$type": "dimension"
+          },
+          "footnote1lineheightlg": {
+            "$value": "23px",
+            "$type": "dimension"
+          },
+          "footnote2lineheightxs": {
+            "$value": "15.600000381469727px",
+            "$type": "dimension"
+          },
+          "footnote2lineheightsm": {
+            "$value": "15.600000381469727px",
+            "$type": "dimension"
+          },
+          "footnote2lineheightmd": {
+            "$value": "15.800000190734863px",
+            "$type": "dimension"
+          },
+          "footnote2lineheightlg": {
+            "$value": "21px",
+            "$type": "dimension"
+          }
+        },
+        "label": {
+          "label1lineheight": {
+            "$value": "17px",
+            "$type": "dimension",
+            "$description": "Bild 17 | SpoBi 20.4 | Ads 20.4 | The label 1 text style uses this variable for its line height parameter."
+          },
+          "label1resplineheightxs": {
+            "$value": "10px",
+            "$type": "dimension",
+            "$description": "Bild 10 | SpoBi 12 | Ads 10 | The label1 responsive text style uses this variable for its line height parameter."
+          },
+          "label1resplineheightsm": {
+            "$value": "10px",
+            "$type": "dimension",
+            "$description": "Bild 10 | SpoBi 12 | Ads 10 | The label1 responsive text style uses this variable for its line height parameter."
+          },
+          "label1resplineheightmd": {
+            "$value": "15px",
+            "$type": "dimension",
+            "$description": "Bild 15 | SpoBi 18 | Ads 15 | The label1 responsive text style uses this variable for its line height parameter."
+          },
+          "label1resplineheightlg": {
+            "$value": "17px",
+            "$type": "dimension",
+            "$description": "Bild 17 | SpoBi 20.4 | Ads 17 | The label1 responsive text style uses this variable for its line height parameter."
+          },
+          "label2lineheight": {
+            "$value": "16px",
+            "$type": "dimension",
+            "$description": "Bild 16 | SpoBi 19.2 | Ads 16 | The label 2 text style uses this variable for its line height parameter."
+          },
+          "label3lineheight": {
+            "$value": "14.399999618530273px",
+            "$type": "dimension",
+            "$description": "Bild 14.4 | SpoBi 14.4 | Ads 14.4 | The label 3 text style uses this variable for its line height parameter."
+          },
+          "label4lineheight": {
+            "$value": "10px",
+            "$type": "dimension",
+            "$description": "Bild 10 | SpoBi 10 | Ads 10 | The label 4 text style uses this variable for its line height parameter."
+          }
+        },
+        "quote": {
+          "quotelineheightxs": {
+            "$value": "16px",
+            "$type": "dimension"
+          },
+          "quotelineheightsm": {
+            "$value": "16px",
+            "$type": "dimension"
+          },
+          "quotelineheightmd": {
+            "$value": "18px",
+            "$type": "dimension"
+          },
+          "quotelineheightlg": {
+            "$value": "22px",
+            "$type": "dimension"
+          }
+        }
+      },
+      "fontweight": {
+        "body": {
+          "bodyfontweightbook": {
+            "$value": "{FontWeight.400BookFontWeight}",
+            "$type": "dimension"
+          },
+          "bodyfontweightbold": {
+            "$value": "{FontWeight.700BlackFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "footnote": {
+          "footnotefontweightbook": {
+            "$value": "{FontWeight.400BookFontWeight}",
+            "$type": "dimension"
+          },
+          "footnotefontweightbold": {
+            "$value": "{FontWeight.700BlackFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "label": {
+          "labelfontweightbook": {
+            "$value": "{FontWeight.400BookFontWeight}",
+            "$type": "dimension"
+          },
+          "labelfontweightbold": {
+            "$value": "{FontWeight.700BlackFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "quote": {
+          "quotefontweight": {
+            "$value": "{FontWeight.800BlackFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "display": {
+          "displayfontweight": {
+            "$value": "{FontWeight.800BlackFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "headline": {
+          "headline1fontweightst": {
+            "$value": "{FontWeightString.700BlackFontWeight}",
+            "$type": "string"
+          },
+          "headline1fontweight": {
+            "$value": "{FontWeight.700BlackFontWeight}",
+            "$type": "dimension"
+          },
+          "headline2fontweight": {
+            "$value": "{FontWeight.700BlackFontWeight}",
+            "$type": "dimension"
+          },
+          "headline3fontweight": {
+            "$value": "{FontWeight.700BlackFontWeight}",
+            "$type": "dimension"
+          },
+          "headline4fontweight": {
+            "$value": "{FontWeight.600BoldFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "subheadline": {
+          "subheadlinefontweight": {
+            "$value": "{FontWeight.700BlackFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "kicker": {
+          "kickerfontweight": {
+            "$value": "{FontWeight.700BlackFontWeight}",
+            "$type": "dimension"
+          },
+          "kickerfontweightst": {
+            "$value": "{FontWeightString.700BlackFontWeight}",
+            "$type": "string"
+          }
+        },
+        "callout": {
+          "calloutfontweight": {
+            "$value": "{FontWeight.800BlackFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "title": {
+          "titlefontweight": {
+            "$value": "{FontWeight.800BlackFontWeight}",
+            "$type": "dimension"
+          }
+        }
+      },
+      "fontfamily": {
+        "kickerfontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+          "$type": "string",
+          "$description": "Bild: GothamXNarrow | SpoBi: AntennaExtraCond | Ads: LucidaGrande | This variable is used in the kickers text styles font family parameter."
+        },
+        "displayfontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGotham}",
+          "$type": "string",
+          "$description": "Bild: Gotham | SpoBi: AntennaCond | Ads: LucidaGrande | This variable is used in the display text style font family parameter."
+        },
+        "headlinefontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGothamCond}",
+          "$type": "string",
+          "$description": "Bild: GothamCond | SpoBi: AntennaExtraCond | Ads: LucidaGrande | This variable is used in the headlines text style font family parameter."
+        },
+        "subheadlinefontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGothamCond}",
+          "$type": "string",
+          "$description": "Bild: GothamCond | SpoBi: AntennaCond | Ads: LucidaGrande | This variable is used in the subheadlines text style font family parameter."
+        },
+        "bodyfontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+          "$type": "string",
+          "$description": "Bild: GothamXNarrow | SpoBi: Inter | Ads: LucidaGrande | This variable is used in the body text style font family parameter."
+        },
+        "footnotefontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+          "$type": "string",
+          "$description": "Bild: GothamXNarrow | SpoBi: Inter | Ads: LucidaGrande | This variable is used in the footnotes text style font family parameter."
+        },
+        "labelfontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+          "$type": "string",
+          "$description": "Bild: GothamXNarrow | SpoBi: AntennaExtraCond | Ads: LucidaGrande | This variable is used in the labels text styles font family parameter."
+        },
+        "quotefontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGotham}",
+          "$type": "string",
+          "$description": "Bild: Gotham | SpoBi: AntennaCond | Ads: LucidaGrande | This variable is used in the quotes text style font family parameter."
+        },
+        "titlefontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGotham}",
+          "$type": "string",
+          "$description": "Bild: Gotham | SpoBi: AntennaCond | Ads: LucidaGrande | This variable is used in the titles text style font family parameter."
+        },
+        "calloutfontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGotham}",
+          "$type": "string",
+          "$description": "Bild: Gotham | SpoBi: AntennaCond | Ads: LucidaGrande | This variable is used in the callouts text style font family parameter."
+        }
+      }
+    },
+    "visibilty": {
+      "hideonbild": {
+        "$value": false,
+        "$type": "boolean"
+      },
+      "hideonsportbild": {
+        "$value": true,
+        "$type": "boolean"
+      },
+      "onlyadvertorial": {
+        "$value": false,
+        "$type": "boolean"
+      },
+      "hideonadvertorial": {
+        "$value": true,
+        "$type": "boolean"
+      },
+      "onlybild": {
+        "$value": true,
+        "$type": "boolean"
+      },
+      "onlysportbild": {
+        "$value": false,
+        "$type": "boolean"
+      }
+    }
+  },
+  "component": {
+    "article": {
+      "fontsize": {
+        "articleimagecaptionfontsizexs": {
+          "$value": "16px",
+          "$type": "dimension",
+          "$description": "--article-figure-caption-font-size-sm"
+        },
+        "articleimagecaptionfontsizemd": {
+          "$value": "18px",
+          "$type": "dimension",
+          "$description": "--article-figure-caption-font-size-md"
+        },
+        "articleimagecaptionfontsizelg": {
+          "$value": "18px",
+          "$type": "dimension",
+          "$description": "--article-figure-caption-font-size-lg"
+        },
+        "articleimagecaptionfontsizesm": {
+          "$value": "16px",
+          "$type": "dimension",
+          "$description": "--article-figure-caption-font-size-sm"
+        },
+        "articleimagesourcefontsizexs": {
+          "$value": "16px",
+          "$type": "dimension",
+          "$description": "--article-figure-meta-font-size-sm"
+        },
+        "articleimagesourcefontsizesm": {
+          "$value": "16px",
+          "$type": "dimension",
+          "$description": "--article-figure-meta-font-size-sm"
+        },
+        "articleimagesourcefontsizemd": {
+          "$value": "16px",
+          "$type": "dimension",
+          "$description": "--article-figure-meta-font-size-sm"
+        },
+        "articleimagesourcefontsizelg": {
+          "$value": "18px",
+          "$type": "dimension",
+          "$description": "--article-figure-meta-font-size-lg"
+        }
+      },
+      "lineheight": {
+        "articleimagecaptionlineheightxs": {
+          "$value": "19.5px",
+          "$type": "dimension",
+          "$description": "--article-figure-caption-line-height-sm ; Bild: 19.5 // SpoBi: 16.9 // Ad: 19.5"
+        },
+        "articleimagecaptionlineheightmd": {
+          "$value": "24.75px",
+          "$type": "dimension",
+          "$description": "--article-figure-caption-line-height-md ; Bild: 24.75 // SpoBi: 16.9 // Ad: 19.5"
+        },
+        "articleimagecaptionlineheightlg": {
+          "$value": "24.75px",
+          "$type": "dimension",
+          "$description": "--article-figure-caption-line-height-lg ; Bild: 24.75 // SpoBi: 19.5 // Ad: 24"
+        },
+        "articleimagecaptionlineheightsm": {
+          "$value": "19.5px",
+          "$type": "dimension",
+          "$description": "--article-figure-caption-line-height-sm ; Bild: 19.5 // SpoBi: 16.9 // Ad: 19.5"
+        },
+        "articleimagesourcelineheightmd": {
+          "$value": "21px",
+          "$type": "dimension",
+          "$description": "--article-figure-meta-line-height-sm ; Bild: 21 // SpoBi: 17 // Ad: 19"
+        },
+        "articleimagesourcelineheightlg": {
+          "$value": "23px",
+          "$type": "dimension",
+          "$description": "--article-figure-meta-line-height-lg ; Bild: 23 // SpoBi: 19 // Ad: 24"
+        },
+        "articleimagesourcelineheightxs": {
+          "$value": "21px",
+          "$type": "dimension",
+          "$description": "--article-figure-meta-line-height-sm ; Bild: 21 // SpoBi: 17 // Ad: 19"
+        },
+        "articleimagesourcelineheightsm": {
+          "$value": "21px",
+          "$type": "dimension",
+          "$description": "--article-figure-meta-line-height-sm ; Bild: 21 // SpoBi: 17 // Ad: 19"
+        }
+      }
+    },
+    "breadcrumb": {
+      "fontsize": {
+        "breadcrumbfontsizexs": {
+          "$value": "15px",
+          "$type": "dimension",
+          "$description": "--breadcrumb-font-size-sm"
+        },
+        "breadcrumbfontsizesm": {
+          "$value": "15px",
+          "$type": "dimension",
+          "$description": "--breadcrumb-font-size-sm"
+        },
+        "breadcrumbfontsizemd": {
+          "$value": "15px",
+          "$type": "dimension",
+          "$description": "--breadcrumb-font-size-sm"
+        },
+        "breadcrumbfontsizelg": {
+          "$value": "12px",
+          "$type": "dimension",
+          "$description": "--breadcrumb-font-size-lg"
+        }
+      },
+      "lineheight": {
+        "breadcrumblineheightxs": {
+          "$value": "15px",
+          "$type": "dimension",
+          "$description": "not defined as variable"
+        },
+        "breadcrumblineheightsm": {
+          "$value": "15px",
+          "$type": "dimension",
+          "$description": "not defined as variable"
+        },
+        "breadcrumblineheightmd": {
+          "$value": "15px",
+          "$type": "dimension",
+          "$description": "not defined as variable"
+        },
+        "breadcrumblineheightlg": {
+          "$value": "12px",
+          "$type": "dimension",
+          "$description": "not defined as variable"
+        }
+      },
+      "fontfamily": {
+        "breadcrumbfontfamily": {
+          "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+          "$type": "string",
+          "$description": "--breadcrumb-font"
+        }
+      },
+      "fontweight": {
+        "breadcrumbfontweight": {
+          "$value": "{FontWeight.700BlackFontWeight}",
+          "$type": "dimension",
+          "$description": "--breadcrumb-font-size-sm"
+        }
+      }
+    },
+    "menu": {
+      "menuitemfontsize": {
+        "$value": "{Global.Typography.FontSize.Label.label2FontSize}",
+        "$type": "dimension",
+        "$description": "--nav-btn-font-size"
+      },
+      "apptopbartitlefontsizemd": {
+        "$value": "14px",
+        "$type": "dimension",
+        "$description": "--caption-1-font-size-md"
+      },
+      "apptopbartitlefontsizelg": {
+        "$value": "14px",
+        "$type": "dimension",
+        "$description": "--caption-1-font-size-lg"
+      },
+      "apptopbartitlefontsizexs": {
+        "$value": "12px",
+        "$type": "dimension",
+        "$description": "--caption-1-font-size-sm"
+      },
+      "apptopbartitlefontsizesm": {
+        "$value": "12px",
+        "$type": "dimension",
+        "$description": "--caption-1-font-size-sm"
+      },
+      "apptopbartitlelineheightmd": {
+        "$value": "17px",
+        "$type": "dimension"
+      },
+      "apptopbartitlelineheightlg": {
+        "$value": "17px",
+        "$type": "dimension"
+      },
+      "apptopbartitlelineheightxs": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "apptopbartitlelineheightsm": {
+        "$value": "14px",
+        "$type": "dimension"
+      }
+    },
+    "teaser": {
+      "teasertitleinlinespacelg": {
+        "$value": "{space1_5x}",
+        "$type": "dimension",
+        "$description": "--teaser-title-padding-lg"
+      },
+      "teasertitleinlinespacemd": {
+        "$value": "{space1_5x}",
+        "$type": "dimension",
+        "$description": "--teaser-title-padding-md"
+      },
+      "teasertitleinlinespacesm": {
+        "$value": "{space1x}",
+        "$type": "dimension",
+        "$description": "--teaser-title-padding-sm"
+      },
+      "teasertitleinlinespacexs": {
+        "$value": "{space1x}",
+        "$type": "dimension",
+        "$description": "--teaser-title-padding-xs"
+      },
+      "quad": {
+        "qteasertitleinlinespacelg": {
+          "$value": "{space1_5x}",
+          "$type": "dimension"
+        },
+        "qteasertitleinlinespacemd": {
+          "$value": "{space2x}",
+          "$type": "dimension"
+        },
+        "qteasertitleinlinespacesm": {
+          "$value": "{Component.Teaser.teaserTitleInlineSpaceSM}",
+          "$type": "dimension"
+        },
+        "qteasertitleinlinespacexs": {
+          "$value": "{Component.Teaser.teaserTitleInlineSpaceXS}",
+          "$type": "dimension"
+        }
+      },
+      "ateaser": {
+        "ateasertitleinlinespacelg": {
+          "$value": "{space1_5x}",
+          "$type": "dimension"
+        },
+        "ateasertitleinlinespacemd": {
+          "$value": "{space1_5x}",
+          "$type": "dimension"
+        },
+        "ateasertitleinlinespacexs": {
+          "$value": "{Component.Teaser.teaserTitleInlineSpaceXS}",
+          "$type": "dimension"
+        },
+        "ateasertitleinlinespacesm": {
+          "$value": "{Component.Teaser.teaserTitleInlineSpaceSM}",
+          "$type": "dimension"
+        }
+      },
+      "bteaser": {
+        "bteasertitleinlinespace": {
+          "$value": "{space1x}",
+          "$type": "dimension"
+        }
+      },
+      "2xateaser": {
+        "2xateasertitleinlinespace": {
+          "$value": "{space1x}",
+          "$type": "dimension"
+        }
+      },
+      "miniq": {
+        "miniqteasertitleinlinespacemd": {
+          "$value": "{space1x}",
+          "$type": "dimension"
+        },
+        "miniqteasertitleinlinespacelg": {
+          "$value": "{space1x}",
+          "$type": "dimension"
+        },
+        "miniqteasertitleinlinespacesm": {
+          "$value": "{Component.Teaser.teaserTitleInlineSpaceSM}",
+          "$type": "dimension"
+        },
+        "miniqteasertitleinlinespacexs": {
+          "$value": "{Component.Teaser.teaserTitleInlineSpaceXS}",
+          "$type": "dimension"
+        }
+      },
+      "supera": {
+        "superateasertitleinlinespace": {
+          "$value": "{space2x}",
+          "$type": "dimension"
+        }
+      }
+    },
+    "avatar": {
+      "avatarfontfamily": {
+        "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+        "$type": "string",
+        "$description": "current css 09-2025 --article-author-font // Bild: GothamXNarrow; SpoBi: Inter; Ads: LucidaGrande"
+      },
+      "avatarfontsizesm": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "09-2025 css using footnote var for font sizes SM & LG // Bild: 16; SpoBi: 13; Ads: 13"
+      },
+      "avatarfontsizelg": {
+        "$value": "18px",
+        "$type": "dimension",
+        "$description": "09-2025 css using footnote var for font sizes SM & LG // Bild: 18; SpoBi: 15; Ads: 15"
+      }
+    },
+    "breakingnews": {
+      "breakingnewscontentfontsize": {
+        "$value": "21px",
+        "$type": "dimension"
+      }
+    },
+    "accordion": {
+      "accordionlabelfontfamily": {
+        "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+        "$type": "string"
+      }
+    },
+    "footer": {
+      "footerlinkfontfamily": {
+        "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+        "$type": "string"
+      }
+    },
+    "mediaplayer": {
+      "videotimebadgefontfamily": {
+        "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+        "$type": "string"
+      }
+    },
+    "inputfield": {
+      "inputfieldlabelfontfamily": {
+        "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+        "$type": "string"
+      }
+    }
+  },
+  "brandname": {
+    "$value": "BILD",
+    "$type": "string"
+  }
+}
