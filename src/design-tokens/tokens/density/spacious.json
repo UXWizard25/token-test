@@ -1,0 +1,45 @@
+{
+  "component": {
+    "button": {
+      "buttoncontentgapspace": {
+        "$value": "{space1x}",
+        "$type": "dimension",
+        "$description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
+      },
+      "buttonstackspace": {
+        "$value": "{space1_5x}",
+        "$type": "dimension",
+        "$description": "This variable is in the SpaceScaling collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
+      },
+      "buttonlabelfontsize": {
+        "$value": "19px",
+        "$type": "dimension",
+        "$description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling size could work across different content scaling / size / contrast themes. Font size across devices: 15 - 17 - 19"
+      },
+      "buttoninlinespace": {
+        "$value": "{space3x}",
+        "$type": "dimension",
+        "$description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling space could work across different content scaling / size / contrast themes."
+      }
+    },
+    "inputfield": {
+      "inputfieldinlinespace": {
+        "$value": "{space2x}",
+        "$type": "dimension"
+      },
+      "inputfieldstackspace": {
+        "$value": "{space1_5x}",
+        "$type": "dimension"
+      },
+      "inputfieldheightsize": {
+        "$value": "{size6x}",
+        "$type": "dimension"
+      },
+      "inputfieldlabelfontsize": {
+        "$value": "19px",
+        "$type": "dimension",
+        "$description": "This variable is in the SpaceScaling Collection. It was made to experiment with how scaling size could work across different content scaling / size / contrast themes. Font size across scaling options: compact 15 - default 17 - spacious 19"
+      }
+    }
+  }
+}
