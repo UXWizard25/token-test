@@ -1,0 +1,200 @@
+{
+  "fontfamily": {
+    "bild": {
+      "fontfamilygothamxnarrow": {
+        "$value": "Gotham XNarrow",
+        "$type": "string"
+      },
+      "fontfamilygothamcond": {
+        "$value": "Gotham Condensed",
+        "$type": "string"
+      },
+      "fontfamilygotham": {
+        "$value": "Gotham",
+        "$type": "string"
+      }
+    },
+    "advertorial": {
+      "fontfamilylucidagrande": {
+        "$value": "Lucida Grande",
+        "$type": "string"
+      }
+    },
+    "sportbild": {
+      "fontfamilyantennaextracond": {
+        "$value": "AntennaExtraCond",
+        "$type": "string"
+      },
+      "fontfamilyantennacond": {
+        "$value": "AntennaCond",
+        "$type": "string"
+      },
+      "fontfamilyinter": {
+        "$value": "Inter",
+        "$type": "string"
+      }
+    }
+  },
+  "fontweight": {
+    "700blackfontweight": {
+      "$value": "700px",
+      "$type": "dimension",
+      "$description": "700 is considered black weight because Gotham Condensed is the primary font family (most used in headlines). In other font families 700 is not black weight but bold."
+    },
+    "900extrablackfontweight": {
+      "$value": "900px",
+      "$type": "dimension"
+    },
+    "400bookfontweight": {
+      "$value": "400px",
+      "$type": "dimension"
+    },
+    "1000ultrafontweight": {
+      "$value": "1000px",
+      "$type": "dimension"
+    },
+    "800blackfontweight": {
+      "$value": "800px",
+      "$type": "dimension"
+    },
+    "350bookfontweight": {
+      "$value": "350px",
+      "$type": "dimension"
+    },
+    "600boldfontweight": {
+      "$value": "600px",
+      "$type": "dimension"
+    },
+    "100thinfontweight": {
+      "$value": "100px",
+      "$type": "dimension"
+    },
+    "300lightfontweight": {
+      "$value": "300px",
+      "$type": "dimension"
+    },
+    "200extralightfontweight": {
+      "$value": "200px",
+      "$type": "dimension"
+    },
+    "500mediumfontweight": {
+      "$value": "500px",
+      "$type": "dimension"
+    },
+    "bolditalicfontweightst": {
+      "$value": "Bold Italic",
+      "$type": "string"
+    },
+    "blackfontweightst": {
+      "$value": "Black",
+      "$type": "string"
+    }
+  },
+  "letterspacing": {
+    "letterspace-0_25": {
+      "$value": "-0.25px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of -0.25."
+    },
+    "letterspace-0": {
+      "$value": "0px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of 0."
+    },
+    "letterspace1": {
+      "$value": "1px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of 1."
+    },
+    "letterspace0_5": {
+      "$value": "0.5px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of 0.5."
+    },
+    "letterspace0_25": {
+      "$value": "0.25px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of 0.25."
+    },
+    "letterspace-0_5": {
+      "$value": "-0.5px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of -0.5."
+    },
+    "letterspace2": {
+      "$value": "2px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of 2."
+    },
+    "letterspace-1": {
+      "$value": "-1px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of -1."
+    },
+    "letterspace-2": {
+      "$value": "-2px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of -2."
+    },
+    "letterspace3": {
+      "$value": "3px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of 3. Text styles that have smaller font sizes should use increasingly positive values for their letter spacings on smaller device sizes."
+    },
+    "letterspace-3": {
+      "$value": "-3px",
+      "$type": "dimension",
+      "$description": "This variable is a primitive for use in creating semantic variables that need to use a large letter spacing value of -3. Text styles that have larger font sizes should use increasingly negative values for their letter spacings on larger device sizes."
+    }
+  },
+  "fontweightstring": {
+    "1000ultrafontweight": {
+      "$value": "1000",
+      "$type": "string"
+    },
+    "900extrablackfontweight": {
+      "$value": "900",
+      "$type": "string"
+    },
+    "800blackfontweight": {
+      "$value": "800",
+      "$type": "string"
+    },
+    "700blackfontweight": {
+      "$value": "700",
+      "$type": "string"
+    },
+    "600boldfontweight": {
+      "$value": "600",
+      "$type": "string"
+    },
+    "500mediumfontweight": {
+      "$value": "500",
+      "$type": "string"
+    },
+    "400bookfontweight": {
+      "$value": "400",
+      "$type": "string"
+    },
+    "350bookfontweight": {
+      "$value": "350",
+      "$type": "string"
+    },
+    "200extralightfontweight": {
+      "$value": "200",
+      "$type": "string"
+    },
+    "100thinfontweight": {
+      "$value": "100",
+      "$type": "string"
+    },
+    "600bolditalicfontweight": {
+      "$value": "Bold Italic",
+      "$type": "string"
+    },
+    "700blackitalicfontweight": {
+      "$value": "Black Italic",
+      "$type": "string"
+    }
+  }
+}
