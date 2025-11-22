@@ -1,0 +1,803 @@
+{
+  "global": {
+    "dropshadowsoft": {
+      "shadowsoftsm": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.04,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 4,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.08,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 2,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 6,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ],
+        "$description": "Broad and soft shadows with low contrast. Best for cards, sheets, or subtle surface separation."
+      },
+      "shadowsoftmd": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.03,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 2,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 16,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.07,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 4,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 12,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ],
+        "$description": "Broad and soft shadows with low contrast. Best for cards, sheets, or subtle surface separation."
+      },
+      "shadowsoftlg": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.03,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 8,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 24,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.07,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 8,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 16,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ],
+        "$description": "Broad and soft shadows with low contrast. Best for cards, sheets, or subtle surface separation."
+      },
+      "shadowsoftxl": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.05,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 0,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 64,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.1,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 16,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 32,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ],
+        "$description": "Broad and soft shadows with low contrast. Best for cards, sheets, or subtle surface separation."
+      }
+    },
+    "dropshadowhard": {
+      "shadowhardsm": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.2,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 2,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.1,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 3,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 1,
+              "unit": "px"
+            }
+          }
+        ],
+        "$description": "Sharper, higher-contrast shadows. Best for dialogs, modals, dropdowns and overlays that require stronger focus."
+      },
+      "shadowhardmd": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.1,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 4,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 8,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.16,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 2,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 4,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ],
+        "$description": "Sharper, higher-contrast shadows. Best for dialogs, modals, dropdowns and overlays that require stronger focus."
+      },
+      "shadowhardlg": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.2,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 2,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 3,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.1,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 6,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 10,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 4,
+              "unit": "px"
+            }
+          }
+        ],
+        "$description": "Sharper, higher-contrast shadows. Best for dialogs, modals, dropdowns and overlays that require stronger focus."
+      },
+      "shadowhardxl": {
+        "$type": "shadow",
+        "$value": [
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.2,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 4,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 4,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": {
+              "colorSpace": "srgb",
+              "components": [
+                0,
+                0,
+                0
+              ],
+              "alpha": 0.1,
+              "hex": "#000000"
+            },
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 8,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 12,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 6,
+              "unit": "px"
+            }
+          }
+        ],
+        "$description": "Sharper, higher-contrast shadows. Best for dialogs, modals, dropdowns and overlays that require stronger focus."
+      }
+    },
+    "backdropblur": {
+      "backdropblurxs": {
+        "$type": "blur",
+        "$value": {
+          "type": "background",
+          "radius": {
+            "value": 4,
+            "unit": "px"
+          }
+        },
+        "$description": "Blurs the background behind an element to create glass or frosted effects. Not to be confused with Layer Blur, which blurs the element itself."
+      },
+      "backdropblursm": {
+        "$type": "blur",
+        "$value": {
+          "type": "background",
+          "radius": {
+            "value": 8,
+            "unit": "px"
+          }
+        },
+        "$description": "Blurs the background behind an element to create glass or frosted effects. Not to be confused with Layer Blur, which blurs the element itself."
+      },
+      "backdropblurmd": {
+        "$type": "blur",
+        "$value": {
+          "type": "background",
+          "radius": {
+            "value": 16,
+            "unit": "px"
+          }
+        },
+        "$description": "Blurs the background behind an element to create glass or frosted effects. Not to be confused with Layer Blur, which blurs the element itself."
+      },
+      "backdropblurlg": {
+        "$type": "blur",
+        "$value": {
+          "type": "background",
+          "radius": {
+            "value": 24,
+            "unit": "px"
+          }
+        },
+        "$description": "Blurs the background behind an element to create glass or frosted effects. Not to be confused with Layer Blur, which blurs the element itself."
+      },
+      "backdropblurxl": {
+        "$type": "blur",
+        "$value": {
+          "type": "background",
+          "radius": {
+            "value": 32,
+            "unit": "px"
+          }
+        },
+        "$description": "Blurs the background behind an element to create glass or frosted effects. Not to be confused with Layer Blur, which blurs the element itself."
+      },
+      "backdropblur2xl": {
+        "$type": "blur",
+        "$value": {
+          "type": "background",
+          "radius": {
+            "value": 64,
+            "unit": "px"
+          }
+        },
+        "$description": "Blurs the background behind an element to create glass or frosted effects. Not to be confused with Layer Blur, which blurs the element itself."
+      }
+    },
+    "layerblur": {
+      "layerblurxs": {
+        "$type": "blur",
+        "$value": {
+          "type": "layer",
+          "radius": {
+            "value": 4,
+            "unit": "px"
+          }
+        },
+        "$description": "Creates blur on frame content (e.g. images, illustrations). Not to be confused with Backdrop Blur, which blurs the background behind an element."
+      },
+      "layerblursm": {
+        "$type": "blur",
+        "$value": {
+          "type": "layer",
+          "radius": {
+            "value": 8,
+            "unit": "px"
+          }
+        },
+        "$description": "Creates blur on frame content (e.g. images, illustrations). Not to be confused with Backdrop Blur, which blurs the background behind an element."
+      },
+      "layerblurmd": {
+        "$type": "blur",
+        "$value": {
+          "type": "layer",
+          "radius": {
+            "value": 16,
+            "unit": "px"
+          }
+        },
+        "$description": "Creates blur on frame content (e.g. images, illustrations). Not to be confused with Backdrop Blur, which blurs the background behind an element."
+      },
+      "layerblurlg": {
+        "$type": "blur",
+        "$value": {
+          "type": "layer",
+          "radius": {
+            "value": 24,
+            "unit": "px"
+          }
+        },
+        "$description": "Creates blur on frame content (e.g. images, illustrations). Not to be confused with Backdrop Blur, which blurs the background behind an element."
+      },
+      "layerblurxl": {
+        "$type": "blur",
+        "$value": {
+          "type": "layer",
+          "radius": {
+            "value": 40,
+            "unit": "px"
+          }
+        },
+        "$description": "Creates blur on frame content (e.g. images, illustrations). Not to be confused with Backdrop Blur, which blurs the background behind an element."
+      },
+      "layerblur2xl": {
+        "$type": "blur",
+        "$value": {
+          "type": "layer",
+          "radius": {
+            "value": 64,
+            "unit": "px"
+          }
+        },
+        "$description": "Creates blur on frame content (e.g. images, illustrations). Not to be confused with Backdrop Blur, which blurs the background behind an element."
+      }
+    }
+  },
+  "component": {
+    "alert": {
+      "alertshadowdown": {
+        "$type": "shadow",
+        "$value": {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.2,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 6,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 10,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      },
+      "alertshadowup": {
+        "$type": "shadow",
+        "$value": {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.2,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": -2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 10,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "menu": {
+      "menushadow": {
+        "$type": "shadow",
+        "$value": {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.1,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 8,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 10,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -8,
+            "unit": "px"
+          }
+        }
+      },
+      "heyinputshadow": {
+        "$type": "shadow",
+        "$value": {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.1,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 8,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 10,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -8,
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "teaser": {
+      "teaserheadlinesshadow": {
+        "$type": "shadow",
+        "$value": {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.6,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      }
+    }
+  }
+}
