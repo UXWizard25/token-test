@@ -1,0 +1,464 @@
+{
+  "bild": {
+    "red": {
+      "bildred": {
+        "$value": "#DD0000",
+        "$type": "color",
+        "$description": "Tone 046"
+      },
+      "bildred035": {
+        "$value": "#AF0002",
+        "$type": "color"
+      },
+      "bildred053": {
+        "$value": "#F52D2D",
+        "$type": "color"
+      }
+    },
+    "gray": {
+      "bild015": {
+        "$value": "#232629",
+        "$type": "color"
+      },
+      "bild085": {
+        "$value": "#CED4DA",
+        "$type": "color"
+      },
+      "bild035": {
+        "$value": "#4B525A",
+        "$type": "color"
+      },
+      "bild025": {
+        "$value": "#343C41",
+        "$type": "color"
+      },
+      "bild060": {
+        "$value": "#8C9196",
+        "$type": "color"
+      },
+      "bild096": {
+        "$value": "#F2F4F5",
+        "$type": "color"
+      },
+      "bild093": {
+        "$value": "#E9ECEF",
+        "$type": "color"
+      },
+      "bild085-50": {
+        "$value": "rgba(206, 212, 218, 0.5)",
+        "$type": "color",
+        "$description": "The 50% opacity on this color makes it equivalent to BILD093."
+      },
+      "bild073": {
+        "$value": "#AEB4B9",
+        "$type": "color"
+      },
+      "bild045": {
+        "$value": "#666B70",
+        "$type": "color"
+      },
+      "bild010": {
+        "$value": "#1C1C1C",
+        "$type": "color"
+      },
+      "bild020": {
+        "$value": "#2C3138",
+        "$type": "color"
+      }
+    },
+    "neutral": {
+      "bild100": {
+        "$value": "#FFFFFF",
+        "$type": "color"
+      },
+      "bildblack": {
+        "$value": "#000000",
+        "$type": "color"
+      }
+    },
+    "orange": {
+      "bildorange": {
+        "$value": "#FD8227",
+        "$type": "color",
+        "$description": "Tone: 067"
+      }
+    },
+    "green": {
+      "bildgreen070": {
+        "$value": "#00C373",
+        "$type": "color"
+      },
+      "bildgreen063": {
+        "$value": "#00AF67",
+        "$type": "color"
+      },
+      "bildgreen093": {
+        "$value": "#CEF4E4",
+        "$type": "color"
+      },
+      "bildgreen093-50": {
+        "$value": "rgba(206, 244, 228, 0.5)",
+        "$type": "color"
+      },
+      "bildgreen056-50": {
+        "$value": "rgba(0, 155, 90, 0.5)",
+        "$type": "color"
+      },
+      "bildgreen040": {
+        "$value": "#006E3E",
+        "$type": "color",
+        "$description": "This value of green was found in a text field's text color."
+      },
+      "bildgreen056": {
+        "$value": "#18995C",
+        "$type": "color"
+      }
+    },
+    "textlabels": {
+      "bildred": {
+        "$value": "BILDRed",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bild100": {
+        "$value": "BILD100",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bild096": {
+        "$value": "BILD096",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bild085": {
+        "$value": "BILD085",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bild060": {
+        "$value": "BILD060",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bild035": {
+        "$value": "BILD035",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bild025": {
+        "$value": "BILD025",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bild015": {
+        "$value": "BILD015",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bildorange": {
+        "$value": "BILDOrange",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bildred053": {
+        "$value": "BILDRed053",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bildred035": {
+        "$value": "BILDRed035",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bildgreen093": {
+        "$value": "BILDGreen093",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bildgreen070": {
+        "$value": "BILDGreen070",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bildgreen063": {
+        "$value": "BILDGreen063",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bild093": {
+        "$value": "BILD093",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bildyellow": {
+        "$value": "BILDYellow",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bild073": {
+        "$value": "BILD073",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      },
+      "bild045": {
+        "$value": "BILD045",
+        "$type": "string",
+        "$description": "This is a variable used only for documentation purposes in the design system Figma Foundations pages."
+      }
+    },
+    "yellow": {
+      "bildyellow": {
+        "$value": "#FFBF00",
+        "$type": "color",
+        "$description": "Tone: 081"
+      }
+    },
+    "purple": {
+      "bildberry": {
+        "$value": "#551937",
+        "$type": "color",
+        "$description": "Tone: 020"
+      }
+    },
+    "alpha": {
+      "alphablack20": {
+        "$value": "rgba(0, 0, 0, 0.20000000298023224)",
+        "$type": "color"
+      },
+      "alphablack10": {
+        "$value": "rgba(0, 0, 0, 0.10000000149011612)",
+        "$type": "color"
+      },
+      "alphablack60": {
+        "$value": "rgba(0, 0, 0, 0.6000000238418579)",
+        "$type": "color",
+        "$description": "Used on elevation effects."
+      },
+      "alphablack30": {
+        "$value": "rgba(0, 0, 0, 0.30000001192092896)",
+        "$type": "color"
+      },
+      "alphablack70": {
+        "$value": "rgba(0, 0, 0, 0.699999988079071)",
+        "$type": "color",
+        "$description": "Used on elevation effects."
+      },
+      "alphawhite10": {
+        "$value": "rgba(255, 255, 255, 0.10000000149011612)",
+        "$type": "color"
+      },
+      "alphawhite20": {
+        "$value": "rgba(255, 255, 255, 0.20000000298023224)",
+        "$type": "color"
+      },
+      "alphawhite30": {
+        "$value": "rgba(255, 255, 255, 0.30000001192092896)",
+        "$type": "color"
+      },
+      "alphawhite60": {
+        "$value": "rgba(255, 255, 255, 0.6000000238418579)",
+        "$type": "color",
+        "$description": "Used on elevation effects."
+      },
+      "alphawhite70": {
+        "$value": "rgba(255, 255, 255, 0.699999988079071)",
+        "$type": "color",
+        "$description": "Used on elevation effects."
+      },
+      "alphawhite35": {
+        "$value": "rgba(255, 255, 255, 0.3499999940395355)",
+        "$type": "color"
+      },
+      "alphabildred80": {
+        "$value": "rgba(221, 0, 0, 0.800000011920929)",
+        "$type": "color",
+        "$description": "Used on elevation effects."
+      },
+      "alphablack80": {
+        "$value": "rgba(0, 0, 0, 0.800000011920929)",
+        "$type": "color",
+        "$description": "Used on elevation effects."
+      },
+      "alphawhite80": {
+        "$value": "rgba(255, 255, 255, 0.800000011920929)",
+        "$type": "color",
+        "$description": "Used on elevation effects."
+      },
+      "alphablack35": {
+        "$value": "rgba(0, 0, 0, 0.3499999940395355)",
+        "$type": "color"
+      },
+      "alphablack0": {
+        "$value": "rgba(0, 0, 0, 0.10000000149011612)",
+        "$type": "color"
+      },
+      "alphablack50": {
+        "$value": "rgba(0, 0, 0, 0.5)",
+        "$type": "color"
+      },
+      "alphablack05": {
+        "$value": "rgba(0, 0, 0, 0.05000000074505806)",
+        "$type": "color"
+      }
+    },
+    "blue": {
+      "bildblue": {
+        "$value": "#00B1FF",
+        "$type": "color",
+        "$description": "This Blue color was taken from the Weather 2024 project. Tone: 069"
+      }
+    }
+  },
+  "partner": {
+    "fitbook": {
+      "fitbookcore": {
+        "$value": "#FF97B7",
+        "$type": "color"
+      }
+    },
+    "petbook": {
+      "petbookcore": {
+        "$value": "#B9DB91",
+        "$type": "color"
+      }
+    },
+    "myhome": {
+      "myhomecore": {
+        "$value": "#66CCCC",
+        "$type": "color"
+      }
+    },
+    "travelbook": {
+      "travelbookcore": {
+        "$value": "#8EF0ED",
+        "$type": "color"
+      }
+    },
+    "techbook": {
+      "techbookcore": {
+        "$value": "#93E4FF",
+        "$type": "color"
+      }
+    },
+    "kaufberater": {
+      "kaufberatercore": {
+        "$value": "#55476E",
+        "$type": "color"
+      }
+    },
+    "bz": {
+      "bzcore": {
+        "$value": "#E3001B",
+        "$type": "color"
+      }
+    },
+    "aubi": {
+      "aubicore": {
+        "$value": "#F00000",
+        "$type": "color"
+      }
+    },
+    "computerbild": {
+      "cobicore": {
+        "$value": "#DC231C",
+        "$type": "color"
+      }
+    }
+  },
+  "sportbild": {
+    "blue": {
+      "spobiblue098": {
+        "$value": "#F7F9FD",
+        "$type": "color"
+      },
+      "spobiblue081": {
+        "$value": "#BDCADB",
+        "$type": "color"
+      },
+      "spobiblue029": {
+        "$value": "#174482",
+        "$type": "color",
+        "$description": "Tone: 29"
+      },
+      "spobiblue016": {
+        "$value": "#0A2750",
+        "$type": "color",
+        "$description": "This variable in the current online CSS is called main-tenant-color for the spobi tenant."
+      },
+      "spobiblue010": {
+        "$value": "#081828",
+        "$type": "color"
+      },
+      "spobiblue038": {
+        "$value": "#315998",
+        "$type": "color"
+      }
+    },
+    "red": {
+      "spobired": {
+        "$value": "#E52528",
+        "$type": "color"
+      }
+    },
+    "alpha": {
+      "spobiblue016-0": {
+        "$value": "rgba(10, 39, 80, 0)",
+        "$type": "color"
+      },
+      "spobiblue016-70": {
+        "$value": "rgba(10, 39, 80, 0.699999988079071)",
+        "$type": "color"
+      }
+    }
+  },
+  "opacity": {
+    "opacity05": {
+      "$value": "5px",
+      "$type": "dimension"
+    },
+    "opacity10": {
+      "$value": "10px",
+      "$type": "dimension"
+    },
+    "opacity20": {
+      "$value": "20px",
+      "$type": "dimension"
+    },
+    "opacity40": {
+      "$value": "40px",
+      "$type": "dimension"
+    },
+    "opacity60": {
+      "$value": "60px",
+      "$type": "dimension"
+    },
+    "opacity80": {
+      "$value": "80px",
+      "$type": "dimension"
+    },
+    "opacity100": {
+      "$value": "100px",
+      "$type": "dimension"
+    },
+    "opacity90": {
+      "$value": "90px",
+      "$type": "dimension"
+    },
+    "opacity30": {
+      "$value": "30px",
+      "$type": "dimension"
+    },
+    "opacity50": {
+      "$value": "50px",
+      "$type": "dimension"
+    },
+    "opacity00": {
+      "$value": "0px",
+      "$type": "dimension"
+    },
+    "opacity70": {
+      "$value": "70px",
+      "$type": "dimension"
+    }
+  }
+}
