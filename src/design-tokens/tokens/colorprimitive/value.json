@@ -289,7 +289,7 @@
         "$type": "color"
       },
       "alphablack0": {
-        "$value": "rgba(0, 0, 0, 0)",
+        "$value": "rgba(0, 0, 0, 0.10000000149011612)",
         "$type": "color"
       },
       "alphablack50": {
