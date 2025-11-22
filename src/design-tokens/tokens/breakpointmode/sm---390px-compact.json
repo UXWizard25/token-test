@@ -1,0 +1,2278 @@
+{
+  "component": {
+    "article": {
+      "ariclemobile1colgridimagemarginspace": {
+        "$value": "{space0x}",
+        "$type": "dimension"
+      },
+      "articletopmarginspace": {
+        "$value": "{Semantic.Space.Stack.Responsive.stackSpaceRespSM}",
+        "$type": "dimension",
+        "$description": "8 | 8 | 12 | 16 - This space variable is used at the top edge of the article main content bounding box."
+      },
+      "articlekickerfontsize": {
+        "$value": "{Semantic.Typography.FontSize.Kicker.Kicker1FontSize}",
+        "$type": "dimension",
+        "$description": "This variable is used to control the font size of kickers in the heading section of article pages. 18 - 18 - 22 - 30"
+      },
+      "articleheadlinefontsize": {
+        "$value": "{Semantic.Typography.FontSize.Headline.Headline2FontSize}",
+        "$type": "dimension",
+        "$description": "40 - 40 - 72 - 100 - This variable uses the semantic variables headline2 for XS&SM, headline1 for MD&LG"
+      },
+      "articlegalleryateaserwidth": {
+        "$value": "145px",
+        "$type": "dimension",
+        "$description": "same as standard teaser width size variable"
+      },
+      "articleimagecaptionfontsize": {
+        "$value": "{Component.Article.FontSize.articleImageCaptionFontSizeSM}",
+        "$type": "dimension",
+        "$description": "CSS --article-figure-meta-font-size 16-16-18-18"
+      },
+      "articleimagesourcefontsize": {
+        "$value": "{Component.Article.FontSize.articleImageSourceFontSizeSM}",
+        "$type": "dimension",
+        "$description": "NMT CSS --article-figure-meta-font-size"
+      },
+      "articleimagecaptionlineheight": {
+        "$value": "{Component.Article.LineHeight.articleImageCaptionLineHeightSM}",
+        "$type": "dimension",
+        "$description": "this component level variable references the branding variables"
+      },
+      "articleimagesourcelineheight": {
+        "$value": "{Component.Article.LineHeight.articleImageSourceLineHeightSM}",
+        "$type": "dimension"
+      },
+      "articlecontentstackspace": {
+        "$value": "{Semantic.Space.Stack.Responsive.stackSpaceRespLG}",
+        "$type": "dimension",
+        "$description": "16 - 16 - 24 - 32 - This variable creates the vertical spacing between different article body elements such as avatars, media players, corssheadings, paragraphs, field sets, images, tables, quotes, videos, social embeds, etc."
+      },
+      "articleheadingsstackspace": {
+        "$value": "{space1_5x}",
+        "$type": "dimension",
+        "$description": "12 | 12 | 12 | 16 - This spacing variable is used for the space between article page heading kickers, headlines and subheadlines. XS&SM need review; correct value might be 8"
+      },
+      "articleimagelandscapeinlinespace": {
+        "$value": "{space0x}",
+        "$type": "dimension"
+      },
+      "articlemetafontfamily": {
+        "$value": "{Global.Typography.FontFamily.titleFontFamily}",
+        "$type": "string",
+        "$description": "This variable is used on the font size of article day&time stamp that usually shows up along with the article author avatars. On app versions this variable is used for the avatar names. This variable references variables from the branding collection."
+      },
+      "articlemetafontsize": {
+        "$value": "12px",
+        "$type": "dimension",
+        "$description": "This variable is used on the font size of article day&time stamp that usually shows up along with the article author avatars. On app versions this variable is used for the avatar names. 12 - 12 - 14 - 16"
+      },
+      "articlecontentinlinespace": {
+        "$value": "{space2x}",
+        "$type": "dimension",
+        "$description": "16 | 16 | 72 | 162 - This variable is used for making the left and right spacings around article content blocks. Current css has the article-body class assigned to a div and article body contains these horizontal padding values."
+      },
+      "articleheadingsinlinespace": {
+        "$value": "{space2x}",
+        "$type": "dimension",
+        "$description": "16 | 16 | 72 | 16 - This variable is used for the left and right space within the article page headings container which holds the article page kicker, headline and subheadline."
+      },
+      "articleimageportaitinlinespace": {
+        "$value": "{space0x}",
+        "$type": "dimension"
+      },
+      "articleimagecontainerstackspace": {
+        "$value": "{Semantic.Space.Stack.Responsive.stackSpaceRespSM}",
+        "$type": "dimension"
+      },
+      "articleinfoboxinlinespace": {
+        "$value": "{Semantic.Space.Inline.Responsive.inlineSpaceRespLG}",
+        "$type": "dimension"
+      },
+      "articleinfoboxstackspace": {
+        "$value": "{Semantic.Space.Stack.Responsive.stackSpaceRespLG}",
+        "$type": "dimension"
+      }
+    },
+    "_dsysdocs": {
+      "bilddesignframespace": {
+        "$value": "{Semantic.Layout.Grid.Responsive.gridSpaceRespBase}",
+        "$type": "dimension",
+        "$description": "Variable used in spacing parameters of bild.design webpage mockups. move to bild.design group maybe"
+      },
+      "dsmaincontainerspace": {
+        "$value": "{space0x}",
+        "$type": "dimension",
+        "$description": "This variable is used on documentation pages. This is an alternative variable to the main container max width variable. 0 - 0 - 68 - 68"
+      },
+      "dsysdocswidthsize": {
+        "$value": "750px",
+        "$type": "dimension"
+      },
+      "maincontentstagesize": {
+        "$value": "{Component._DSysDocs.DSysDocsWidthSize}",
+        "$type": "dimension",
+        "$description": "This variable is used as a max width size for content blocks. For mobile devices this var references the DSysDocsWidthSize var 320 - 750 - 962 - 1024"
+      },
+      "foundationsbannerheightsize": {
+        "$value": "{size10x}",
+        "$type": "dimension",
+        "$description": "This variable is used on documentation pages that have an artistic banner at the top of the page that is related to the foundation topic on the page. 80 - 80 -80 - 140"
+      },
+      "dscaptionstackspace0_5x": {
+        "$value": "{space0_5x}",
+        "$type": "dimension",
+        "$description": "This variable is used in documentation pages that have small caption or lables along with a UI component documented. 4 - 4 - 6 - 8"
+      },
+      "dscaptionstackspace1x": {
+        "$value": "{space1x}",
+        "$type": "dimension"
+      },
+      "1columnmobile": {
+        "$value": "320px",
+        "$type": "dimension",
+        "$description": "This variable is used only for this design system's component tests."
+      },
+      "thinbannerverticalheightsize": {
+        "$value": "558px",
+        "$type": "dimension",
+        "$description": "This variable is currently used on a thin gallery that appears on desktop websites with petbook and other \"books\" content. Its height changes to a large height on mobile sites. 558 - 558 - 558 - 186"
+      },
+      "specsfontfamily": {
+        "$value": "{FontFamily.BILD.FontFamilyGotham}",
+        "$type": "string",
+        "$description": "This variable is used only for texts and labels that form part of this design system's documentation."
+      },
+      "docheaderheightsize": {
+        "$value": "144px",
+        "$type": "dimension",
+        "$description": "This variable is used on documentation headers that contain info about platfroms and component names. 144 - 144 - 160 - 180"
+      }
+    },
+    "menu": {
+      "menuitemspace": {
+        "$value": "{space1x}",
+        "$type": "dimension"
+      },
+      "menuitemfontsize": {
+        "$value": "{Component.Menu.menuItemFontSize}",
+        "$type": "dimension",
+        "$description": "This variable is used on the menu link lane and on the mobile side menu drawer."
+      },
+      "menuitemutilfontsize": {
+        "$value": "{size1_5x}",
+        "$type": "dimension"
+      },
+      "menuitemutilstackspace": {
+        "$value": "{space1_25x}",
+        "$type": "dimension"
+      },
+      "menulinklaneheightsize": {
+        "$value": "{size6x}",
+        "$type": "dimension"
+      },
+      "menuutillinkitemheightsize": {
+        "$value": "{size6x}",
+        "$type": "dimension"
+      },
+      "menulinkiteminlinespace": {
+        "$value": "{space0_5x}",
+        "$type": "dimension"
+      },
+      "menulogodefaultsize": {
+        "$value": "{size7x}",
+        "$type": "dimension"
+      },
+      "menulogoscrolledsize": {
+        "$value": "{size7x}",
+        "$type": "dimension"
+      },
+      "menuspecialnaviitemheightsize": {
+        "$value": "48px",
+        "$type": "dimension"
+      },
+      "subnavbarheightsize": {
+        "$value": "{size5_25x}",
+        "$type": "dimension"
+      },
+      "menuutilitylinkscontainerheightsize": {
+        "$value": "{Semantic.Size.Constant.sizeConstLG}",
+        "$type": "dimension"
+      },
+      "menutopstackspace": {
+        "$value": "{Semantic.Space.Stack.Constant.stackSpaceConstSM}",
+        "$type": "dimension"
+      },
+      "menuleftinlinespace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConstSM}",
+        "$type": "dimension"
+      },
+      "menuutilitylinksgapspace": {
+        "$value": "{Semantic.Space.Gap.Constant.gapSpaceConstXL}",
+        "$type": "dimension"
+      },
+      "menurightinlinespace": {
+        "$value": "{space0x}",
+        "$type": "dimension"
+      },
+      "menubottomstackspace": {
+        "$value": "{Semantic.Space.Stack.Constant.stackSpaceConstSM}",
+        "$type": "dimension"
+      },
+      "menuutilitylinksdividerheightsize": {
+        "$value": "{Semantic.Size.Constant.sizeConstSM}",
+        "$type": "dimension"
+      },
+      "menushadowvisibility": {
+        "$value": "{BILD.alpha.alphaBlack10}",
+        "$type": "color",
+        "$description": "This color type variables are only in this semantic collection for making subtle shadow effects change visibility across device sizes. Shadow alpha: 10 - 10 - 10 - 0"
+      },
+      "heyinputshadowvisibility": {
+        "$value": "{BILD.alpha.alphaBlack0}",
+        "$type": "color",
+        "$description": "This color type variables are only in this semantic collection for making subtle shadow effects change visibility across device sizes. Shadow alpha: 0 - 0 - 0 - 10"
+      },
+      "apptopbartitlefontsize": {
+        "$value": "{Component.Menu.appTopBarTitleFontSizeSM}",
+        "$type": "dimension"
+      },
+      "apptopbarstagetitleheight": {
+        "$value": "{Component.Menu.appTopBarTitleLineHeightSM}",
+        "$type": "dimension"
+      },
+      "iosapptopbarheightsize": {
+        "$value": "44px",
+        "$type": "dimension"
+      },
+      "iosapptopbarleftinlinespace": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "iosapptopbarrightinlinespace": {
+        "$value": "16px",
+        "$type": "dimension"
+      }
+    },
+    "teaser": {
+      "teasertitleinlineleftspace": {
+        "$value": "{Semantic.Layout.Grid.Responsive.gridSpaceRespBase}",
+        "$type": "dimension"
+      },
+      "teasertitlestackspace": {
+        "$value": "{space0_5x}",
+        "$type": "dimension"
+      },
+      "mqteaser": {
+        "mqteaserheadlinefontsize": {
+          "$value": "{Semantic.Typography.FontSize.Headline.Headline4FontSize}",
+          "$type": "dimension",
+          "$description": "XS-headline4FontSize:22 // SM-headline4FontSize:22 // MD-headline3FontSize:36 // LG-headline3FontSize:40"
+        },
+        "mqteaserheadlinefontweight": {
+          "$value": "{Semantic.Typography.FontWeight.Headline.headline4FontWeight}",
+          "$type": "dimension"
+        },
+        "mqteaserheadlinelineheight": {
+          "$value": "{Semantic.Typography.LineHeight.Headline.headline4LineHeight}",
+          "$type": "dimension"
+        },
+        "mqteasertitleinlinespace": {
+          "$value": "{Component.Teaser.miniQ.miniQTeaserTitleInlineSpaceSM}",
+          "$type": "dimension"
+        }
+      },
+      "ateaser": {
+        "ateaserkickerfontsize": {
+          "$value": "{Semantic.Typography.FontSize.Kicker.Kicker3FontSize}",
+          "$type": "dimension",
+          "$description": "16 - 16 - 22 - 24 This variable references the semantic variables kicker3fontsize and kicker2fontsize. At the 600px breakpoint smaller devices use the kicker3 variable"
+        },
+        "ateaserheadlinefontsize": {
+          "$value": "{Semantic.Typography.FontSize.Headline.Headline3FontSize}",
+          "$type": "dimension",
+          "$description": "This variable references the semantic variables headline3 (XS&SM) and headline2 (MD&LG). 28 - 28 - 48 - 64"
+        },
+        "ateaserkickerlineheight": {
+          "$value": "{Semantic.Typography.FontSize.Kicker.Kicker3FontSize}",
+          "$type": "dimension"
+        },
+        "ateaserheadlinelineheight": {
+          "$value": "{Semantic.Typography.FontSize.Headline.Headline3FontSize}",
+          "$type": "dimension"
+        },
+        "ateasertitleinlinespace": {
+          "$value": "{Component.Teaser.aTeaser.aTeaserTitleInlineSpaceSM}",
+          "$type": "dimension"
+        }
+      },
+      "teasertitlegapspace": {
+        "$value": "{Semantic.Space.Gap.Constant.gapSpaceConstXS}",
+        "$type": "dimension"
+      },
+      "stdteaser": {
+        "stdteaserimagetitlegapspace": {
+          "$value": "{Semantic.Space.Gap.Constant.gapSpaceConstXS}",
+          "$type": "dimension"
+        },
+        "stdteaserbadgesmarginspace": {
+          "$value": "{space0_5x}",
+          "$type": "dimension",
+          "$description": "This variable is used for creating space around the outside of a subscription badge or video icon badge."
+        },
+        "stdteaserkickerheadlinestackspace": {
+          "$value": "{Semantic.Space.Stack.Constant.stackSpaceConst3XS}",
+          "$type": "dimension",
+          "$description": "2 | 2 | 2 | 2 - This variable is used on the standard teaser vertical spacing between the kicker and the headline. It references the semantic variable stackSpaceConst3XS"
+        }
+      },
+      "teaserkickerbginlinespace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConstXS}",
+        "$type": "dimension"
+      },
+      "teaserkickerbgstackspace": {
+        "$value": "{Semantic.Space.Stack.Constant.stackSpaceConst3XS}",
+        "$type": "dimension"
+      },
+      "qteaser": {
+        "quadheadlinefontsize": {
+          "$value": "{Semantic.Typography.FontSize.Headline.Headline1FontSize}",
+          "$type": "dimension",
+          "$description": "This component level variable is used on the quad teaser headline. It references the semantic level variable headline1. 48 - 48 - 72 - 100"
+        },
+        "quadkickerfontsize": {
+          "$value": "{Semantic.Typography.FontSize.Kicker.Kicker1FontSize}",
+          "$type": "dimension"
+        },
+        "quadheadlinelineheight": {
+          "$value": "{Semantic.Typography.LineHeight.Headline.Headline1LineHeight}",
+          "$type": "dimension"
+        },
+        "qteasertitleinlinespace": {
+          "$value": "{Component.Teaser.Quad.qTeaserTitleInlineSpaceSM}",
+          "$type": "dimension"
+        }
+      },
+      "teaserbadgesmarginspace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConstSM}",
+        "$type": "dimension",
+        "$description": "This variable is used for creating space around the outside of a subscription badge or video icon badge."
+      },
+      "teaserbadgesheightsizelg": {
+        "$value": "{Semantic.Size.Constant.sizeConstXS}",
+        "$type": "dimension",
+        "$description": "This token is for controling the height of badges that are inside of teasers. 32 - 32 - 32 - 40"
+      },
+      "teasertitlebottomstackspace": {
+        "$value": "{space1_5x}",
+        "$type": "dimension"
+      },
+      "teaserbadgesheightsizesm": {
+        "$value": "{Semantic.Size.Responsive.sizeResp2XS}",
+        "$type": "dimension"
+      },
+      "bildplay": {
+        "bildplayteaserwidthsize": {
+          "$value": "145px",
+          "$type": "dimension"
+        }
+      },
+      "teaserlayoutgridspace": {
+        "$value": "{Semantic.Layout.Grid.Responsive.gridSpaceRespBase}",
+        "$type": "dimension"
+      },
+      "supera": {
+        "superateasertitleinlinespace": {
+          "$value": "{Component.Teaser.superA.superAteaserTitleInlineSpace}",
+          "$type": "dimension",
+          "$description": "16 - 16 - 16 - 16"
+        }
+      },
+      "bteaser": {
+        "bteasertitleinlinespace": {
+          "$value": "{Component.Teaser.bTeaser.bTeaserTitleInlineSpace}",
+          "$type": "dimension"
+        }
+      }
+    },
+    "table": {
+      "tablecolumnwidthsize1x": {
+        "$value": "{size10x}",
+        "$type": "dimension"
+      },
+      "tablecolumnwidthsize2x": {
+        "$value": "{size17_5x}",
+        "$type": "dimension"
+      },
+      "tablecolumnwidthsize0_5x": {
+        "$value": "{size5x}",
+        "$type": "dimension"
+      },
+      "tablecolumnwidthsize1_5x": {
+        "$value": "{size15x}",
+        "$type": "dimension"
+      },
+      "tablecolumnwidthsize2_5x": {
+        "$value": "{size22_5x}",
+        "$type": "dimension"
+      },
+      "tablecolumnwidthsize0_75x": {
+        "$value": "{size7x}",
+        "$type": "dimension"
+      },
+      "tablecolumnwidthsize3x": {
+        "$value": "{size25x}",
+        "$type": "dimension"
+      },
+      "tableitemmaxwidthsize": {
+        "$value": "224px",
+        "$type": "dimension"
+      }
+    },
+    "separators": {
+      "separatorthicknesssize": {
+        "$value": "{Semantic.Border.BorderWidth.BorderWidthThick}",
+        "$type": "dimension"
+      }
+    },
+    "avatar": {
+      "avatarlabelfontsize": {
+        "$value": "{Component.Avatar.avatarFontSizeSM}",
+        "$type": "dimension",
+        "$description": "This variable is used on avatar names in article pages. Bild: 16 - 16 - 16 - 18; SpoBi&Ads: 13 - 13 - 13 - 15"
+      },
+      "avatararticlesize": {
+        "$value": "{Semantic.Size.Constant.sizeConstMD}",
+        "$type": "dimension",
+        "$description": "This variable is used for setting the size of avatar images in article pages. It references the sizeConstMD variable from the \"generic\" semantic collection. Its value is 48 across devices."
+      },
+      "avatarauthorpagesize": {
+        "$value": "{size12x}",
+        "$type": "dimension",
+        "$description": "96 - 96 - 130 - 130 This variable is used for controlling the size of the avatar image on author pages."
+      },
+      "avatarfontfamily": {
+        "$value": "{Component.Avatar.avatarFontFamily}",
+        "$type": "string",
+        "$description": "This variable is used in avatar text styles. It receives values from the Brand Tokens Collection. Bild: GothamXNarrow; SpoBi: Inter; Ads: LucidaGrande"
+      },
+      "avatarlabellineheight": {
+        "$value": "21px",
+        "$type": "dimension",
+        "$description": "This variable is used for controlling the line height of avatar texts. Its values influence the stacking space between avatar texts. 21 - 21 - 21 - 23"
+      },
+      "avatarlanegapspace": {
+        "$value": "{space2x}",
+        "$type": "dimension",
+        "$description": "This variable is used for setting the inline space between multiple avatars that are horizontally placed in a lane when an article has multiple authors. 16 - 16 - 24 - 24"
+      },
+      "appavatarfontfamily": {
+        "$value": "{Semantic.Typography.FontFamily.titleFontFamily}",
+        "$type": "string",
+        "$description": "This variable is used for setting the font of avatars on iOS and Android platforms. This is subject to review."
+      }
+    },
+    "button": {
+      "buttonlabelfontsize": {
+        "$value": "{Component.Button.buttonLabelFontSize}",
+        "$type": "dimension"
+      },
+      "buttoninlinespace": {
+        "$value": "{Component.Button.buttonInlineSpace}",
+        "$type": "dimension"
+      },
+      "partnerlinkbuttonlabelfontsize": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "Use this variable for controlling the font size of partner buttons. 16 - 16 - 16 - 18"
+      },
+      "partnerlinkbuttonlabelheightsize": {
+        "$value": "{size6x}",
+        "$type": "dimension"
+      },
+      "buttonborderwidthsize": {
+        "$value": "{Semantic.Border.BorderWidth.BorderWidthThick}",
+        "$type": "dimension"
+      },
+      "buttoncontentminheightsize": {
+        "$value": "{Semantic.Size.Constant.sizeConst2XS}",
+        "$type": "dimension",
+        "$description": "This fixed height variable ensures that the button maintains a consistent height, even when the icon is not active."
+      },
+      "partnerlinkbuttoninlinespace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConstSM}",
+        "$type": "dimension"
+      },
+      "buttonlabellineheight": {
+        "$value": "{Component.Button.buttonLabelFontSize}",
+        "$type": "dimension"
+      },
+      "buttoncontentgapspace": {
+        "$value": "{Component.Button.buttonContentGapSpace}",
+        "$type": "dimension"
+      },
+      "buttonstackspace": {
+        "$value": "{Component.Button.buttonStackSpace}",
+        "$type": "dimension"
+      },
+      "buttonborderradius": {
+        "$value": "{Semantic.Border.BorderRadius.borderRadiusMD}",
+        "$type": "dimension"
+      }
+    },
+    "newsticker": {
+      "newstickertimefontsize": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "similar to kicker3 values - 16 - 16 - 16 - 18"
+      },
+      "newstickertimefontweight": {
+        "$value": "{FontWeight.700BlackFontWeight}",
+        "$type": "dimension"
+      },
+      "newstickertimefontfamily": {
+        "$value": "{Semantic.Typography.FontFamily.labelFontFamily}",
+        "$type": "string"
+      },
+      "newstickertimelineheight": {
+        "$value": "20.799999237060547px",
+        "$type": "dimension",
+        "$description": "Figma currently does not allow for percentages in Line Height variables. The values in this token are the result of multiplying the font size by the line height variable defined on the Bild home css -> newsTickerTime line height: 1.3. Line height for this component does not change across devices."
+      },
+      "newstickercontentstackspace": {
+        "$value": "{Semantic.Space.Gap.Constant.gapSpaceConstXS}",
+        "$type": "dimension"
+      },
+      "newstickerkickerinnerstackspace": {
+        "$value": "{space0_25x}",
+        "$type": "dimension"
+      },
+      "newstickertitlesinlinespace": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "newstickerbadgesinlinespace": {
+        "$value": "{space1x}",
+        "$type": "dimension"
+      },
+      "newstickertime&kickerstackspace": {
+        "$value": "{space0_5x}",
+        "$type": "dimension"
+      },
+      "newstickerentriesstackspace": {
+        "$value": "{space2_75x}",
+        "$type": "dimension"
+      },
+      "newstickerkickerinnerinlinespace": {
+        "$value": "{space0_5x}",
+        "$type": "dimension"
+      },
+      "newstickerskeletonbottomspace": {
+        "$value": "{space8x}",
+        "$type": "dimension"
+      },
+      "newstickerreddotsize": {
+        "$value": "{size1_5x}",
+        "$type": "dimension"
+      },
+      "newstickerentriesleftinlinespace": {
+        "$value": "{space2_75x}",
+        "$type": "dimension"
+      },
+      "newstickerlineinlinespace": {
+        "$value": "{space0_75x}",
+        "$type": "dimension"
+      },
+      "newstickerappcardheightsize": {
+        "$value": "116px",
+        "$type": "dimension"
+      },
+      "newstickerappcardwidthsize": {
+        "$value": "250px",
+        "$type": "dimension"
+      }
+    },
+    "liveticker": {
+      "livetickerheadlinefontweight": {
+        "$value": "{FontWeight.600BoldFontWeight}",
+        "$type": "dimension"
+      },
+      "livetickerheadlinesfontsize": {
+        "$value": "22px",
+        "$type": "dimension",
+        "$description": "This variable is used for the font size of live ticker headlines. 22 - 22 - 32 - 32"
+      },
+      "timestampfontfamily": {
+        "$value": "{FontFamily.BILD.FontFamilyGothamXNarrow}",
+        "$type": "string"
+      },
+      "livetickertimestampfontsize": {
+        "$value": "14px",
+        "$type": "dimension",
+        "$description": "This variable is used for the live ticker time stamp font size. 14 - 14 - 16 - 16"
+      },
+      "livetickertime&headlinestackspace": {
+        "$value": "{space0_5x}",
+        "$type": "dimension"
+      },
+      "livetickerslideritemwidthmaxsize": {
+        "$value": "257px",
+        "$type": "dimension"
+      },
+      "livetickerappcardheightsize": {
+        "$value": "96px",
+        "$type": "dimension"
+      },
+      "livetickerappcardwidthsize": {
+        "$value": "250px",
+        "$type": "dimension"
+      }
+    },
+    "video": {
+      "videotimebadgecornersize": {
+        "$value": "{Semantic.Border.BorderRadius.borderRadiusXS}",
+        "$type": "dimension",
+        "$description": "This variable is used on video player badges that display a red play icon on top of a white square next to a time stamp. This variable references the borderRadiusXS. Constant value of 2 across device sizes."
+      },
+      "videotimebadgefontsize": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "16 - 16 - 18 - 18 -- This variable is used to control the videoTimeBadge text style's font size parameter. The typography style that uses this variable is the videoTimeBadge style. The badge that uses this variable appears on the upper right corner of horizontal videos."
+      },
+      "videotimebadgesize": {
+        "$value": "{size3x}",
+        "$type": "dimension",
+        "$description": "24 - 24 - 32 - 40 - This variable is used on horizontal video badges that contain a red play icon on top of a white square next to a timestamp."
+      },
+      "videoredplayiconwidthsize": {
+        "$value": "{size1x}",
+        "$type": "dimension"
+      },
+      "videoredplayiconheightsize": {
+        "$value": "{size1_25x}",
+        "$type": "dimension",
+        "$description": "This variable is used for changing the red play icon inside the white square."
+      },
+      "videobadgetimelineheight": {
+        "$value": "21px",
+        "$type": "dimension"
+      },
+      "videoskeletoncontainerheight": {
+        "$value": "180px",
+        "$type": "dimension"
+      },
+      "videoframeinlinespace": {
+        "$value": "0px",
+        "$type": "dimension"
+      },
+      "verticalvideomockheadlinefontsize": {
+        "$value": "22px",
+        "$type": "dimension"
+      },
+      "videoadbadgefontsize": {
+        "$value": "14px",
+        "$type": "dimension",
+        "$description": "14 - 14 - 16 - 16 -- This variable is used in the videoAdBadge font size parameter."
+      }
+    },
+    "pagination": {
+      "gallerypaginationitemheightsize": {
+        "$value": "{size0_5x}",
+        "$type": "dimension"
+      },
+      "gallerypaginationcontainerwebinlinespace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConstSM}",
+        "$type": "dimension",
+        "$description": "8 - 8 - 12 - 12 - this component level variable references the inlineSpaceConst semantic variables; SM for smaller devices, MD for larger devices"
+      },
+      "gallerypaginationcontainerstackspace": {
+        "$value": "{Semantic.Space.Stack.Constant.stackSpaceConstMD}",
+        "$type": "dimension",
+        "$description": "12 - 12 - 16 - 16 - this component level variable references the semantic"
+      },
+      "gallerypaginationcontainerappinlinespace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConstMD}",
+        "$type": "dimension"
+      },
+      "scrollbarthicknesssize": {
+        "$value": "{size1x}",
+        "$type": "dimension"
+      }
+    },
+    "dropdown": {
+      "dropdownborderradius": {
+        "$value": "{Semantic.Border.BorderRadius.borderRadiusSM}",
+        "$type": "dimension"
+      },
+      "dropdownitemstackspace": {
+        "$value": "{space1x}",
+        "$type": "dimension"
+      },
+      "dropdowniteminlinespace": {
+        "$value": "{Semantic.Layout.Grid.Responsive.gridSpaceRespBase}",
+        "$type": "dimension"
+      }
+    },
+    "inputfield": {
+      "inputfieldstackspace": {
+        "$value": "{Component.Inputfield.inputFieldStackSpace}",
+        "$type": "dimension"
+      },
+      "inputfieldinlinespace": {
+        "$value": "{Component.Inputfield.inputFieldInlineSpace}",
+        "$type": "dimension"
+      },
+      "inputfieldminilabelinlinespace": {
+        "$value": "{space0_5x}",
+        "$type": "dimension"
+      },
+      "inputfieldfontsize": {
+        "$value": "{Component.Inputfield.inputFieldLabelFontSize}",
+        "$type": "dimension",
+        "$description": "This variable controls texts inside of input fields such as dropdowns, date input and other text inputs that appear in forms for example. compact 15 - default 17 - spacious 19"
+      },
+      "inputfieldimessageinlinespace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConstLG}",
+        "$type": "dimension"
+      },
+      "inputfieldheightsize": {
+        "$value": "{Component.Inputfield.inputFieldHeightSize}",
+        "$type": "dimension"
+      },
+      "heyinputcontainerinlinespace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConstSM}",
+        "$type": "dimension"
+      },
+      "inputfieldmessagegapspace": {
+        "$value": "{Semantic.Space.Gap.Constant.gapSpaceConstXS}",
+        "$type": "dimension"
+      },
+      "inputfieldfontfamily": {
+        "$value": "{Component.Inputfield.inputFieldLabelFontFamily}",
+        "$type": "string"
+      }
+    },
+    "breadcrumb": {
+      "breadcrumbfontsize": {
+        "$value": "{Component.Breadcrumb.FontSize.breadcrumbFontSizeSM}",
+        "$type": "dimension",
+        "$description": "15 - 15 - 15 - 12 -- Breadcrumbs have a slightly larger font size on mobile devices compared to when they are rendered on larger desktop devices."
+      },
+      "breadcrumbfontfamily": {
+        "$value": "{Component.Breadcrumb.FontFamily.breadcrumbFontFamily}",
+        "$type": "string"
+      },
+      "breadcrumb&arrowleftinlinespace1": {
+        "$value": "3px",
+        "$type": "dimension"
+      },
+      "breadcrumb&arrowrightinlinespace2": {
+        "$value": "5px",
+        "$type": "dimension"
+      },
+      "breadcrumbinlinespace": {
+        "$value": "{Semantic.Layout.Grid.Responsive.gridSpaceRespBase}",
+        "$type": "dimension"
+      },
+      "breadcrumblineheight": {
+        "$value": "{Component.Breadcrumb.LineHeight.breadcrumbLineHeightSM}",
+        "$type": "dimension",
+        "$description": "15 - 15 - 15 - 12 -- Breadcrumbs have a slightly larger font size on mobile devices compared to when they are rendered on larger desktop devices."
+      },
+      "breadcrumbfontweight": {
+        "$value": "{Component.Breadcrumb.FontWeight.breadcrumbFontWeight}",
+        "$type": "dimension"
+      },
+      "breadcrumbstackspace": {
+        "$value": "14px",
+        "$type": "dimension"
+      }
+    },
+    "icon": {
+      "iconsize": {
+        "$value": "{Semantic.Size.Constant.sizeConst2XS}",
+        "$type": "dimension"
+      },
+      "iconsizeembeddmedia": {
+        "$value": "40px",
+        "$type": "dimension"
+      }
+    },
+    "badge": {
+      "badgesinnerstackspace": {
+        "$value": "{Semantic.Space.Stack.Constant.stackSpaceConst3XS}",
+        "$type": "dimension",
+        "$description": "This space variable is used for creating the top and bottom space between a badge's text label and the surface that the text label is on top of."
+      },
+      "badgesinnerinlinespace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConst2XS}",
+        "$type": "dimension",
+        "$description": "This space variable is used for creating the left and right space between a badge's text label and the badge background surface that the text label is on top of."
+      },
+      "adlabelbadgeheightsize": {
+        "$value": "30px",
+        "$type": "dimension",
+        "$description": "30 - 30 - 30 - 30 - This variable is used on the Advert rectangular badge that is found above an ad containers."
+      }
+    },
+    "sectiontitle": {
+      "sectiontitleinnerstackbottomspace": {
+        "$value": "{space1_5x}",
+        "$type": "dimension"
+      },
+      "sectiontitleheightsize": {
+        "$value": "{size4x}",
+        "$type": "dimension"
+      },
+      "sectiontitle&arrowinlinespace": {
+        "$value": "5px",
+        "$type": "dimension",
+        "$description": "This variable is used on large title headings that are h2 elements in html and indicate a new section in the user interface. This space changes when a user hovers over the large title."
+      },
+      "sectiontitle&arrowinlinespaceactive": {
+        "$value": "5px",
+        "$type": "dimension",
+        "$description": "This variable is used for increasing the space between the text and the arrow at the end of the large title text. On mobile devices there is no hover state so this variables values are the same as the default state values."
+      }
+    },
+    "audioplayer": {
+      "audioplayerfontsize": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "This variable is used in the text style dedicated to audio player labels for elapsed time, reproduction speed and short functionality description text. 16 - 16 - 16 - 18"
+      }
+    },
+    "specialnavi": {
+      "specialnaviinlinespace": {
+        "$value": "{space3x}",
+        "$type": "dimension"
+      }
+    },
+    "chips": {
+      "chipsfontsize": {
+        "$value": "{size2x}",
+        "$type": "dimension",
+        "$description": "This variable is used on the chips font size parameter of the chips text style. The font size changes only for the change between larger device widths and any device smaller than the largest. 16 - 16 -16 - 18"
+      },
+      "chipsinlinespace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConstMD}",
+        "$type": "dimension"
+      },
+      "chipsstackspace": {
+        "$value": "{Semantic.Space.Stack.Constant.stackSpaceConstSM}",
+        "$type": "dimension"
+      }
+    },
+    "search": {
+      "searchresultbadgeheightsize": {
+        "$value": "{size2_25x}",
+        "$type": "dimension"
+      }
+    },
+    "radiobuttons": {
+      "radioselectorsize": {
+        "$value": "{size2_5x}",
+        "$type": "dimension"
+      },
+      "radioselectordotactivesize": {
+        "$value": "{size1_5x}",
+        "$type": "dimension"
+      }
+    },
+    "skeletons": {
+      "headlinesskeletonimageplaceholdermaxwidth": {
+        "$value": "282px",
+        "$type": "dimension"
+      },
+      "articleskeletonimageinlinespace": {
+        "$value": "{Semantic.Layout.Grid.Responsive.gridSpaceRespBase}",
+        "$type": "dimension"
+      },
+      "articleskeletontextinlinespace": {
+        "$value": "0px",
+        "$type": "dimension"
+      },
+      "articletextskeletonheightsize": {
+        "$value": "270px",
+        "$type": "dimension"
+      }
+    },
+    "spinners": {
+      "videospinnersize": {
+        "$value": "{Semantic.Size.Constant.sizeConstSM}",
+        "$type": "dimension"
+      },
+      "videospinnerstrokesize": {
+        "$value": "2px",
+        "$type": "dimension"
+      },
+      "videospinnersize0_5x": {
+        "$value": "20px",
+        "$type": "dimension"
+      }
+    },
+    "breakingnews": {
+      "breakingnewscontainerheightsize": {
+        "$value": "{Semantic.Size.Constant.sizeConstLG}",
+        "$type": "dimension"
+      },
+      "breakingnewsbadgeuppertitlefontsize": {
+        "$value": "13px",
+        "$type": "dimension"
+      },
+      "breakingnewsbadgelowertitlefontsize": {
+        "$value": "23px",
+        "$type": "dimension"
+      },
+      "breakingnewsbadgeuppertitlelineheight": {
+        "$value": "13px",
+        "$type": "dimension"
+      },
+      "breakingnewsbadgelowertitlelineheight": {
+        "$value": "21px",
+        "$type": "dimension"
+      },
+      "breakingnewsbadgetitelsstackspace": {
+        "$value": "{space0x}",
+        "$type": "dimension"
+      },
+      "breakingnewsscrollingtextfontsize": {
+        "$value": "21px",
+        "$type": "dimension"
+      },
+      "breakingnewsscrollingtextlineheight": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "breakingnewsbadgeinlinespace": {
+        "$value": "{size0_75x}",
+        "$type": "dimension"
+      }
+    },
+    "infoelement": {
+      "infoelementteaserbadgeheightsize": {
+        "$value": "{size2x}",
+        "$type": "dimension"
+      },
+      "infoelementteaserimageheightsize": {
+        "$value": "{size10x}",
+        "$type": "dimension"
+      },
+      "infoelementteaserimagewidthsize": {
+        "$value": "{size10x}",
+        "$type": "dimension"
+      },
+      "infoelementteaserbadgemarginspace": {
+        "$value": "{space0_5x}",
+        "$type": "dimension"
+      }
+    },
+    "mediaplayer": {
+      "podcastplaybuttonsize": {
+        "$value": "{size6x}",
+        "$type": "dimension"
+      },
+      "vidplayerbottombargapspace": {
+        "$value": "0px",
+        "$type": "dimension"
+      },
+      "audioplayerheaderstackspace": {
+        "$value": "{size7x}",
+        "$type": "dimension"
+      },
+      "videotimebadgefontfamily": {
+        "$value": "{Component.MediaPlayer.videoTimeBadgeFontFamily}",
+        "$type": "string"
+      },
+      "vidplayercontrolbuttonsize": {
+        "$value": "{size5_25x}",
+        "$type": "dimension"
+      },
+      "vidplayercontrolbuttoniconsizehover": {
+        "$value": "{size3_5x}",
+        "$type": "dimension"
+      },
+      "vidplayertimecodefontsize": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "vidplayertimecodecontainerminwidthsize": {
+        "$value": "45px",
+        "$type": "dimension"
+      },
+      "vidplayerprogressbarcontainerheightsize": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "vidplayerunmutebuttonwidthsize": {
+        "$value": "220px",
+        "$type": "dimension"
+      }
+    },
+    "tabs": {
+      "tablabelfontsize": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "Tab labels font size remain constant at 16px across devices and breakpoints. This behavior can be seen on the Mein Konto page tabs for purchases and payment data."
+      },
+      "iostabbarheightsize": {
+        "$value": "49px",
+        "$type": "dimension"
+      },
+      "androidtabbarheightsize": {
+        "$value": "56px",
+        "$type": "dimension"
+      },
+      "tablabelfontsizeline": {
+        "$value": "12px",
+        "$type": "dimension",
+        "$description": "Tab labels font size remain constant at 16px across devices and breakpoints. This behavior can be seen on the Mein Konto page tabs for purchases and payment data."
+      },
+      "appstabslabelfontsize": {
+        "$value": "12px",
+        "$type": "dimension",
+        "$description": "Tab labels font size remain constant at 16px across devices and breakpoints. This behavior can be seen on the Mein Konto page tabs for purchases and payment data."
+      },
+      "appstabslabellineheight": {
+        "$value": "14.399999618530273px",
+        "$type": "dimension",
+        "$description": "Tab labels font size remain constant at 16px across devices and breakpoints. This behavior can be seen on the Mein Konto page tabs for purchases and payment data."
+      },
+      "topbartabitemheightsize": {
+        "$value": "44px",
+        "$type": "dimension"
+      }
+    },
+    "drawers": {
+      "mobilemenudrawerstackspace": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "mobilemenudrawerleftinlinespace": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "mobilemenudrawerrightinlinespace": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "mobilemenudrawermaxwidthsize": {
+        "$value": "400px",
+        "$type": "dimension"
+      }
+    },
+    "quotes": {
+      "quotecontainerinlinespace": {
+        "$value": "{Semantic.Space.Inline.Constant.inlineSpaceConstLG}",
+        "$type": "dimension"
+      },
+      "quotecontainerstackspace": {
+        "$value": "{Semantic.Space.Stack.Responsive.stackSpaceRespLG}",
+        "$type": "dimension"
+      },
+      "quotequotationmarksfontsize": {
+        "$value": "{size3_5x}",
+        "$type": "dimension"
+      },
+      "quotecontentgapspace": {
+        "$value": "{Semantic.Space.Gap.Constant.gapSpaceConstLG}",
+        "$type": "dimension"
+      }
+    },
+    "carousel": {
+      "galleryteasertitlebottomspace": {
+        "$value": "{space3_5x}",
+        "$type": "dimension",
+        "$description": "This token is used to create more bottom padding space on system teaser headlines inside the gallery to avoid overlapping with the pagination."
+      },
+      "galleryteaserappgapspace": {
+        "$value": "{space0x}",
+        "$type": "dimension",
+        "$description": "This token is used to create more bottom padding space on system teaser headlines inside the gallery to avoid overlapping with the pagination."
+      },
+      "appepapercarouselitemfocuswidth": {
+        "$value": "182px",
+        "$type": "dimension"
+      },
+      "appepapercarouselitemdefaultwidth": {
+        "$value": "144px",
+        "$type": "dimension"
+      },
+      "appepapercarousebeilageitemwidth": {
+        "$value": "110px",
+        "$type": "dimension"
+      },
+      "standardteasergalleryteaserwidthweb": {
+        "$value": "145px",
+        "$type": "dimension"
+      },
+      "standardteasergalleryteaserwidthapp": {
+        "$value": "280px",
+        "$type": "dimension"
+      }
+    },
+    "sliders": {
+      "sliderprogressbaridleheightsize": {
+        "$value": "{size0_5x}",
+        "$type": "dimension"
+      },
+      "sliderprogressbarhoverheightsize": {
+        "$value": "{size1x}",
+        "$type": "dimension"
+      },
+      "sliderprogressinactiveheightsize": {
+        "$value": "{size0_25x}",
+        "$type": "dimension"
+      },
+      "vidplayerprogressbarheightsize": {
+        "$value": "{size1_5x}",
+        "$type": "dimension"
+      }
+    },
+    "footer": {
+      "footerfontsize": {
+        "$value": "11px",
+        "$type": "dimension",
+        "$description": "This variable is used on footer links that commonly show up at the bottom of pages. The font size parameter remains constant at 11 px across device sizes."
+      },
+      "footerlineheight": {
+        "$value": "14px",
+        "$type": "dimension"
+      },
+      "footerfontfamily": {
+        "$value": "{Component.Footer.FooterLinkFontFamily}",
+        "$type": "string"
+      }
+    },
+    "accordion": {
+      "accordionlabelfontfamily": {
+        "$value": "{Component.Accordion.accordionLabelFontFamily}",
+        "$type": "string",
+        "$description": "This variable exists specifically for changing the accordion font family across brands. It is subject to review. Bild: GothamXNarrow, SpoBi: Inter, Ads: LucindaGrande"
+      }
+    },
+    "paywall": {
+      "paywallcontainergapspace": {
+        "$value": "-48px",
+        "$type": "dimension"
+      },
+      "paywallheaderbottomstackspace": {
+        "$value": "{space10x}",
+        "$type": "dimension"
+      },
+      "paywallcardmaxwidthsize": {
+        "$value": "346px",
+        "$type": "dimension"
+      },
+      "paywallcardpricetagfontsize": {
+        "$value": "{size8x}",
+        "$type": "dimension",
+        "$description": "This variable is used on the paywall card price tag. 64 constant"
+      },
+      "paywallcardpricetaglineheight": {
+        "$value": "{size8x}",
+        "$type": "dimension"
+      },
+      "paywallcardpricenotelineheight": {
+        "$value": "{size5x}",
+        "$type": "dimension"
+      },
+      "paywallcardpricenotefontsize": {
+        "$value": "{size5x}",
+        "$type": "dimension",
+        "$description": "This variable is used on the paywall card text under the price tag. 40 - 40 - 40 - 40"
+      }
+    },
+    "toggleswitch": {
+      "apptoggleitemlabelfontsize": {
+        "$value": "14px",
+        "$type": "dimension",
+        "$description": "This variable is used on labels in list items with toggle switches found in app preferences. 14 - 14 - 16 - 18"
+      },
+      "apptoggleitemlabellineheight": {
+        "$value": "14.100000381469727px",
+        "$type": "dimension",
+        "$description": "This variable is used on labels in list items with toggle switches found in app preferences. 14.1 - 14.1 - 16.2 - 18.2"
+      }
+    },
+    "cards": {
+      "searchresultcardimagewidthsize": {
+        "$value": "216px",
+        "$type": "dimension"
+      },
+      "searchresultcardimageheightsizestacked": {
+        "$value": "189px",
+        "$type": "dimension"
+      },
+      "newstickerimagecardwidthsize": {
+        "$value": "206px",
+        "$type": "dimension"
+      }
+    },
+    "datepicker": {
+      "datepickeritemdaywidthsize": {
+        "$value": "44px",
+        "$type": "dimension"
+      },
+      "datepickeritemheightsize": {
+        "$value": "44px",
+        "$type": "dimension"
+      },
+      "datepickeritemyearwidthsize": {
+        "$value": "77px",
+        "$type": "dimension"
+      }
+    }
+  },
+  "semantic": {
+    "layout": {
+      "grid": {
+        "responsive": {
+          "gridspaceresplg": {
+            "$value": "{space3x}",
+            "$type": "dimension",
+            "$description": "24-24-32-32 – use for side paddings and gutters in responsive layouts"
+          },
+          "gridspacerespxl": {
+            "$value": "{space6x}",
+            "$type": "dimension",
+            "$description": "48-48-64-64 – use for side paddings and gutters in responsive layouts"
+          },
+          "gridspacerespbase": {
+            "$value": "{space1_5x}",
+            "$type": "dimension",
+            "$description": "12-12-12-16 – use for side paddings and gutters in responsive layouts"
+          },
+          "gridspacerespsm": {
+            "$value": "{space0_75x}",
+            "$type": "dimension",
+            "$description": "6-6-6-8 – use for side paddings and gutters in responsive layouts"
+          },
+          "pageinlinespace": {
+            "$value": "{space0x}",
+            "$type": "dimension",
+            "$description": "0-0-0-16 – This token is used on the main homepages content container, ensuring full-width layout (no horizontal padding) on mobile and tablet breakpoints."
+          }
+        },
+        "constant": {
+          "gridspaceconstlg": {
+            "$value": "{space2x}",
+            "$type": "dimension",
+            "$description": "16-16-16-16 – use for fixed side paddings and gutters"
+          },
+          "gridspaceconstsm": {
+            "$value": "{space1_5x}",
+            "$type": "dimension",
+            "$description": "12-12-12-12 – use for fixed side paddings and gutters"
+          }
+        },
+        "layoutguide": {
+          "layoutguidegridcolums": {
+            "$value": "4px",
+            "$type": "dimension",
+            "$description": "Used to set the column count in Figma Layout guide Grids"
+          }
+        }
+      },
+      "section": {
+        "sectionspacebase": {
+          "$value": "{space4_5x}",
+          "$type": "dimension",
+          "$description": "36-36-48-48 – Use for vertical spacing between sections in a layout."
+        },
+        "sectionspacelg": {
+          "$value": "{space9x}",
+          "$type": "dimension",
+          "$description": "72-72-96-96 – Use for vertical spacing between sections in a layout"
+        },
+        "paragraphendspace": {
+          "$value": "{space2x}",
+          "$type": "dimension",
+          "$description": "16-16-32-32 – Use for spacing after paragraphs in text content"
+        },
+        "sectionspacesm": {
+          "$value": "{space3x}",
+          "$type": "dimension",
+          "$description": "24-24-36-36 – Use for vertical spacing between subsections in a layout"
+        }
+      },
+      "breakpoints": {
+        "breakpointminwidthsize": {
+          "$value": "390px",
+          "$type": "dimension",
+          "$description": "320 - 390 - 600 - 1024 – Defines the minimum width of the main frame for different breakpoints.\nApply this token to the main frame of page layouts to simulate realistic minimum widths across responsive viewports."
+        },
+        "breakpointmaxwidthsize": {
+          "$value": "599px",
+          "$type": "dimension",
+          "$description": "389 - 599 - 1023 - 1024 – Defines the minimum width of the main frame for different breakpoints.\nApply this token to the main frame of page layouts to simulate realistic maximum widths across responsive viewports."
+        }
+      },
+      "canvasheightsizeweb": {
+        "$value": "844px",
+        "$type": "dimension",
+        "$description": "Common viewport height size based on the selected mode.\nApply this token to the main frame of page layouts to simulate realistic vertical space."
+      },
+      "contentwidth": {
+        "contentmaxwidthmedium": {
+          "$value": "700px",
+          "$type": "dimension",
+          "$description": "Use for content containers that should not fill the full page width on larger viewports. This is commonly used on article body text content and other elements in an article page."
+        },
+        "contentmaxwidthfull": {
+          "$value": "1024px",
+          "$type": "dimension",
+          "$description": "Use for content containers that should fill the full width of the page"
+        }
+      },
+      "canvaswidthsizeweb": {
+        "$value": "390px",
+        "$type": "dimension",
+        "$description": "Common viewport width size based on the selected breakpoint.\nApply this token to the main frame of page layouts."
+      },
+      "canvaswidthsizeapp": {
+        "$value": "390px",
+        "$type": "dimension",
+        "$description": "Common viewport width size based on the selected breakpoint.\nApply this token to the main frame of page layouts."
+      },
+      "canvasheightsizeapp": {
+        "$value": "844px",
+        "$type": "dimension",
+        "$description": "Common viewport height size based on the selected mode.\nApply this token to the main frame of page layouts to simulate realistic vertical space."
+      }
+    },
+    "typography": {
+      "fontsize": {
+        "title": {
+          "title1fontsize": {
+            "$value": "{Global.Typography.FontSize.Title.title1FontSizeSM}",
+            "$type": "dimension",
+            "$description": "22 - 22 - 22 - 28 -- html class stage-block-title__text css var --ressort-header-font-size(sm-md-lg)"
+          },
+          "title2fontsize": {
+            "$value": "{Global.Typography.FontSize.Title.title2FontSizeSM}",
+            "$type": "dimension",
+            "$description": "16 - 16 - 18 - 20 - html class stage-block-title__text css var --ressort-header-font-size(sm-md-lg)"
+          }
+        },
+        "display": {
+          "display1fontsize": {
+            "$value": "{Global.Typography.FontSize.Display.display1FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This variable is used on the font size parameter for the display1 text style. 40 - 40 - 72 - 120"
+          },
+          "display2fontsize": {
+            "$value": "{Global.Typography.FontSize.Display.display2FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This variable is used for the font size parameter of the Display2 text style. 36 - 36 - 42 - 64"
+          },
+          "display3fontsize": {
+            "$value": "{Global.Typography.FontSize.Display.display3FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This variable is used on the display3 font size parameter of the display3 text style. 28 - 28 - 32 - 40"
+          }
+        },
+        "headline": {
+          "headline1fontsize": {
+            "$value": "{Global.Typography.FontSize.Headline.headline1FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This token is used for the headline1 text style's font size parameter. 48 - 48 - 72 - 100"
+          },
+          "headline2fontsize": {
+            "$value": "{Global.Typography.FontSize.Headline.headline2FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This token is used on the headline2 text style's font size parameter. 40 - 40 - 48 - 64"
+          },
+          "headline3fontsize": {
+            "$value": "{Global.Typography.FontSize.Headline.headline3FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This token is used on the headline3 text style's font size parameter. 28 - 28 - 36 - 40"
+          },
+          "headline4fontsize": {
+            "$value": "{Global.Typography.FontSize.Headline.headline4FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This token controls the headline4 text style's font size parameter: 22 - 22 - 26 - 32"
+          }
+        },
+        "body": {
+          "bodyfontsize": {
+            "$value": "{Global.Typography.FontSize.Body.bodyFontSizeSM}",
+            "$type": "dimension",
+            "$description": "This variable is used on the body text style's font size parameter. It remains constant at 21."
+          }
+        },
+        "label": {
+          "label3fontsize": {
+            "$value": "{Global.Typography.FontSize.Label.label3FontSize}",
+            "$type": "dimension",
+            "$description": "This token is used in the label3 text style's font size parameter. Its value remains constant at 12 across device sizes."
+          },
+          "label2fontsize": {
+            "$value": "{Global.Typography.FontSize.Label.label2FontSize}",
+            "$type": "dimension",
+            "$description": "This variable controls the label2 text style's font size parameter. Its value remains constant at 15."
+          },
+          "label1fontsize": {
+            "$value": "{Global.Typography.FontSize.Label.label1FontSize}",
+            "$type": "dimension",
+            "$description": "This token is used in the label1 text style font size parameter. Its value remains constant at 17 across device sizes."
+          },
+          "label1fontsizeresponsive": {
+            "$value": "{Global.Typography.FontSize.Label.label1RespFontSizeSM}",
+            "$type": "dimension",
+            "$description": "10 - 10 - 15 - 17 Use this label font size when you want your label's font size to change across device sizes."
+          },
+          "label4fontsize": {
+            "$value": "{Global.Typography.FontSize.Label.label4FontSize}",
+            "$type": "dimension",
+            "$description": "This token is used in the font size parameter of the label4 text style. The value remains constant at 8."
+          }
+        },
+        "callout": {
+          "callout1fontsize": {
+            "$value": "{Global.Typography.FontSize.Callout.callout1FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This token is used for the font size parameter of the callout text style. 18 - 18 - 22 - 22"
+          }
+        },
+        "footnote": {
+          "footnote1fontsize": {
+            "$value": "{Global.Typography.FontSize.Footnote.footnote1FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This token is used on the footnote text style font size parameter. 16 - 16 - 16 - 18"
+          },
+          "footnote2fontsize": {
+            "$value": "{Global.Typography.FontSize.Footnote.footnote2FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This token is used in the font size parameter of the footnote2 text style. 12 - 12 - 12 - 16"
+          }
+        },
+        "kicker": {
+          "kicker1fontsize": {
+            "$value": "{Global.Typography.FontSize.Kicker.kicker1FontSizeSM}",
+            "$type": "dimension",
+            "$description": "Values come from NMT Figma File 01_Foundation; in online CSS this is kicker0. 18 - 18 - 22 - 30 - This variable does not exist yet in online css. Online css is called kicker0 for smallest font size."
+          },
+          "kicker2fontsize": {
+            "$value": "{Global.Typography.FontSize.Kicker.kicker2FontSizeSM}",
+            "$type": "dimension",
+            "$description": "Values come from comparing NMT Figma File 01_Foundation to online CSS. Online kickers are numbered from 0 to 3. This DS uses 1 to 4 following html convention of h1, h2, h3, etc. 18 - 18 - 22 - 24"
+          },
+          "kicker3fontsize": {
+            "$value": "{Global.Typography.FontSize.Kicker.kicker3FontSizeSM}",
+            "$type": "dimension",
+            "$description": "Values come from comparing NMT Figma File 01_Foundation to online CSS. Online kickers are numbered from 0 to 3. 16 - 16 - 18 - 20"
+          },
+          "kicker4fontsize": {
+            "$value": "{Global.Typography.FontSize.Kicker.kicker4FontSizeSM}",
+            "$type": "dimension",
+            "$description": "Values come from comparing NMT Figma File 01_Foundation to online CSS. Online kickers are numbered from 0 to 3. 14 - 14 - 16 - 16"
+          }
+        },
+        "subheadline": {
+          "subheadline1fontsize": {
+            "$value": "{Global.Typography.FontSize.Subheadline.subheadline1FontSizeSM}",
+            "$type": "dimension",
+            "$description": "This token controls the subheadline1 font size parameter. 24 - 24 - 32 - 36"
+          }
+        },
+        "quote": {
+          "quotefontsize": {
+            "$value": "{Global.Typography.FontSize.Quote.quoteFontSizeSM}",
+            "$type": "dimension",
+            "$description": "16 - 16 - 18 - 20 -- This variable is used for controlling the font size of the quote text style."
+          }
+        }
+      },
+      "fontfamily": {
+        "bodyfontfamily": {
+          "$value": "{Global.Typography.FontFamily.bodyFontFamily}",
+          "$type": "string",
+          "$description": "This variable references the bodyFontFamily variable from the branding collection."
+        },
+        "calloutfontfamily": {
+          "$value": "{Global.Typography.FontFamily.calloutFontFamily}",
+          "$type": "string"
+        },
+        "headlinefontfamily": {
+          "$value": "{Global.Typography.FontFamily.headlineFontFamily}",
+          "$type": "string"
+        },
+        "footnotefontfamily": {
+          "$value": "{Global.Typography.FontFamily.footnoteFontFamily}",
+          "$type": "string"
+        },
+        "labelfontfamily": {
+          "$value": "{Global.Typography.FontFamily.labelFontFamily}",
+          "$type": "string"
+        },
+        "kickerfontfamily": {
+          "$value": "{Global.Typography.FontFamily.kickerFontFamily}",
+          "$type": "string"
+        },
+        "subheadlinefontfamily": {
+          "$value": "{Global.Typography.FontFamily.subheadlineFontFamily}",
+          "$type": "string"
+        },
+        "titlefontfamily": {
+          "$value": "{Global.Typography.FontFamily.titleFontFamily}",
+          "$type": "string"
+        },
+        "quotefontfamily": {
+          "$value": "{Global.Typography.FontFamily.quoteFontFamily}",
+          "$type": "string"
+        },
+        "displayfontfamily": {
+          "$value": "{Global.Typography.FontFamily.displayFontFamily}",
+          "$type": "string"
+        }
+      },
+      "fontweight": {
+        "callout": {
+          "calloutfontweight": {
+            "$value": "{Global.Typography.FontWeight.Callout.calloutFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "label": {
+          "labelfontweightbold": {
+            "$value": "{Global.Typography.FontWeight.Label.labelFontWeightBold}",
+            "$type": "dimension"
+          },
+          "labelfontweightbook": {
+            "$value": "{Global.Typography.FontWeight.Label.labelFontWeightBook}",
+            "$type": "dimension"
+          }
+        },
+        "body": {
+          "bodyfontweightbook": {
+            "$value": "{Global.Typography.FontWeight.Body.bodyFontWeightBook}",
+            "$type": "dimension"
+          },
+          "bodyfontweightbold": {
+            "$value": "{Global.Typography.FontWeight.Body.bodyFontWeightBold}",
+            "$type": "dimension"
+          }
+        },
+        "kicker": {
+          "kickerfontweight": {
+            "$value": "{Global.Typography.FontWeight.Kicker.kickerFontWeight}",
+            "$type": "dimension"
+          },
+          "kickerfontweightst": {
+            "$value": "{Global.Typography.FontWeight.Kicker.kickerFontWeightST}",
+            "$type": "string"
+          }
+        },
+        "subheadline": {
+          "subheadlinefontweight": {
+            "$value": "{Global.Typography.FontWeight.Subheadline.subheadlineFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "headline": {
+          "headline1fontweight": {
+            "$value": "{Global.Typography.FontWeight.Headline.headline1FontWeight}",
+            "$type": "dimension"
+          },
+          "headline2fontweight": {
+            "$value": "{Global.Typography.FontWeight.Headline.headline2FontWeight}",
+            "$type": "dimension"
+          },
+          "headline3fontweight": {
+            "$value": "{Global.Typography.FontWeight.Headline.headline3FontWeight}",
+            "$type": "dimension"
+          },
+          "headline4fontweight": {
+            "$value": "{Global.Typography.FontWeight.Headline.headline4FontWeight}",
+            "$type": "dimension"
+          },
+          "headline1fontweightst": {
+            "$value": "{Global.Typography.FontWeight.Headline.headline1FontWeightSt}",
+            "$type": "string",
+            "$description": "This variable is a string type variable for controlling not only headline font weight but also the italic style for Sport Bild headlines."
+          }
+        },
+        "title": {
+          "titlefontweight": {
+            "$value": "{Global.Typography.FontWeight.Title.titleFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "display": {
+          "displayfontweight": {
+            "$value": "{Global.Typography.FontWeight.Display.displayFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "quote": {
+          "quotefontweight": {
+            "$value": "{Global.Typography.FontWeight.Quote.quoteFontWeight}",
+            "$type": "dimension"
+          }
+        },
+        "footnote": {
+          "footnotefontweightbook": {
+            "$value": "{Global.Typography.FontWeight.Footnote.footnoteFontWeightBook}",
+            "$type": "dimension"
+          },
+          "footnotefontweightbold": {
+            "$value": "{Global.Typography.FontWeight.Footnote.footnoteFontWeightBold}",
+            "$type": "dimension"
+          }
+        }
+      },
+      "lineheight": {
+        "body": {
+          "bodylineheight": {
+            "$value": "{Global.Typography.LineHeight.Body.bodyLineHeightSM}",
+            "$type": "dimension",
+            "$description": "Figma's font line height currently does not allow for multipliers as is used on current website css var(--body-line-height)"
+          }
+        },
+        "kicker": {
+          "kicker4lineheight": {
+            "$value": "{Global.Typography.LineHeight.Kicker.kicker4LineHeightSM}",
+            "$type": "dimension"
+          },
+          "kicker3lineheight": {
+            "$value": "{Global.Typography.LineHeight.Kicker.kicker3LineHeightSM}",
+            "$type": "dimension"
+          },
+          "kicker2lineheight": {
+            "$value": "{Global.Typography.LineHeight.Kicker.kicker2LineHeightSM}",
+            "$type": "dimension"
+          },
+          "kicker1lineheight": {
+            "$value": "{Global.Typography.LineHeight.Kicker.kicker1LineHeightSM}",
+            "$type": "dimension"
+          }
+        },
+        "label": {
+          "label3lineheight": {
+            "$value": "{Global.Typography.LineHeight.Label.label3LineHeight}",
+            "$type": "dimension"
+          },
+          "label1lineheight": {
+            "$value": "{Global.Typography.LineHeight.Label.label1LineHeight}",
+            "$type": "dimension",
+            "$description": "This variable is used in the label1 text style's line height parameter. It references branding variables for brand specific line heights."
+          },
+          "label1responsivelineheight": {
+            "$value": "{Global.Typography.LineHeight.Label.label1RespLineHeightSM}",
+            "$type": "dimension"
+          },
+          "label2lineheight": {
+            "$value": "{Global.Typography.LineHeight.Label.label2LineHeight}",
+            "$type": "dimension"
+          },
+          "label4lineheight": {
+            "$value": "{Global.Typography.LineHeight.Label.label4LineHeight}",
+            "$type": "dimension"
+          }
+        },
+        "display": {
+          "display1lineheight": {
+            "$value": "{Global.Typography.LineHeight.Display.display1LineHeightSM}",
+            "$type": "dimension"
+          },
+          "display2lineheight": {
+            "$value": "{Global.Typography.LineHeight.Display.display2LineHeightSM}",
+            "$type": "dimension"
+          },
+          "display3lineheight": {
+            "$value": "{Global.Typography.LineHeight.Display.display3LineHeightSM}",
+            "$type": "dimension"
+          }
+        },
+        "title": {
+          "title1lineheight": {
+            "$value": "{Global.Typography.LineHeight.Title.title1LineHeightSM}",
+            "$type": "dimension"
+          },
+          "title2lineheight": {
+            "$value": "{Global.Typography.LineHeight.Title.title2LineHeightSM}",
+            "$type": "dimension",
+            "$description": "html class stage-block-title__text css var --ressort-header-font-size(sm-md-lg)"
+          }
+        },
+        "quote": {
+          "quotelineheight": {
+            "$value": "{Global.Typography.LineHeight.Quote.quoteLineHeightSM}",
+            "$type": "dimension",
+            "$description": "This variable is used in the quote text style line height parameter."
+          }
+        },
+        "footnote": {
+          "footnote1lineheight": {
+            "$value": "{Global.Typography.LineHeight.Footnote.footnote1LineHeightSM}",
+            "$type": "dimension"
+          },
+          "footnote2lineheight": {
+            "$value": "{Global.Typography.LineHeight.Footnote.footnote2LineHeightSM}",
+            "$type": "dimension"
+          }
+        },
+        "headline": {
+          "headline1lineheight": {
+            "$value": "{Global.Typography.LineHeight.Headline.headline1LineHeightSM}",
+            "$type": "dimension"
+          },
+          "headline2lineheight": {
+            "$value": "{Global.Typography.LineHeight.Headline.headline2LineHeightSM}",
+            "$type": "dimension"
+          },
+          "headline3lineheight": {
+            "$value": "{Global.Typography.LineHeight.Headline.headline3LineHeightSM}",
+            "$type": "dimension"
+          },
+          "headline4lineheight": {
+            "$value": "{Global.Typography.LineHeight.Headline.headline4LineHeightSM}",
+            "$type": "dimension"
+          }
+        },
+        "callout": {
+          "calloutlineheight": {
+            "$value": "{Global.Typography.LineHeight.Callout.callout1LineHeightSM}",
+            "$type": "dimension"
+          }
+        },
+        "subheadline": {
+          "subheadline1lineheight": {
+            "$value": "{Global.Typography.LineHeight.Subheadline.subheadline1LineHeightSM}",
+            "$type": "dimension"
+          }
+        }
+      },
+      "letterspacing": {
+        "letterspacingpositivesm": {
+          "$value": "{LetterSpacing.letterSpace0_5}",
+          "$type": "dimension",
+          "$description": "0.5 | 0.5 | 0.5 | 0.5 | This variable takes primitive letter spacing variables and creates this semantic variable for use on designs that change across device sizes."
+        },
+        "letterspacingpositivelg": {
+          "$value": "{LetterSpacing.letterSpace2}",
+          "$type": "dimension",
+          "$description": "2 | 2 | 2 | 3 | This variable takes primitive letter spacing variables and creates this semantic variable for use on designs that change across device sizes."
+        },
+        "letterspacingpositivemd": {
+          "$value": "{LetterSpacing.letterSpace1}",
+          "$type": "dimension",
+          "$description": "1 | 1 | 1 | 1 | This variable takes primitive letter spacing variables and creates this semantic variable for use on designs that change across device sizes."
+        },
+        "letterspacingnone": {
+          "$value": "{LetterSpacing.letterSpace-0}",
+          "$type": "dimension",
+          "$description": "0 | 0 | 0 | 0 | This variable takes primitive letter spacing variables and creates this semantic variable for use on designs that change across device sizes."
+        },
+        "letterspacingnegativesm": {
+          "$value": "{LetterSpacing.letterSpace-0_5}",
+          "$type": "dimension",
+          "$description": "-0.5 | -0.5 | -0.25 | -0.25 | This variable takes primitive letter spacing variables and creates this semantic variable for use on designs that change across device sizes."
+        },
+        "letterspacingnegativemd": {
+          "$value": "{LetterSpacing.letterSpace-1}",
+          "$type": "dimension",
+          "$description": "-1 | -1 | -1 | -1 | This variable takes primitive letter spacing variables and creates this semantic variable for use on designs that change across device sizes."
+        },
+        "letterspacingnegativelg": {
+          "$value": "{LetterSpacing.letterSpace-2}",
+          "$type": "dimension",
+          "$description": "-2 | -2 | -2 | -3 | This variable takes primitive letter spacing variables and creates this semantic variable for use on designs that change across device sizes."
+        },
+        "letterspacingnegativexs": {
+          "$value": "{LetterSpacing.letterSpace-0_25}",
+          "$type": "dimension",
+          "$description": "-0.25 | -0.25 | -0.25 | -0.25 | This variable takes primitive letter spacing variables and creates this semantic variable for use on designs that change across device sizes. This letter spacing was only found in large titles on iOS mobile app large title component."
+        },
+        "letterspacingpositivexs": {
+          "$value": "{LetterSpacing.letterSpace0_25}",
+          "$type": "dimension",
+          "$description": "0.25 | 0.25 | 0.25 | 0.25 | This variable takes primitive letter spacing variables and creates this semantic variable for use on designs that change across device sizes."
+        },
+        "display": {
+          "display1letterspacing": {
+            "$value": "{LetterSpacing.letterSpace-0_5}",
+            "$type": "dimension",
+            "$description": "-0.5 | -0.5 | -1 | -2 | This variable is used for the letter spacing parameter of the display1 text style. On smaller devices the value is smaller than on larger devices. On desktop devices the letter spacing is further reduced for making the text style more compact."
+          },
+          "display2letterspacing": {
+            "$value": "{LetterSpacing.letterSpace-0_5}",
+            "$type": "dimension",
+            "$description": "-0.5 | -0.5 | -1 | -1 | This variable is used for the letter spacing parameter of the display2 text style. On smaller devices the value is smaller than on larger devices."
+          },
+          "display3letterspacing": {
+            "$value": "{LetterSpacing.letterSpace-0_5}",
+            "$type": "dimension",
+            "$description": "-0.5 | -0.5 | -1 | -1 | This variable is used for the letter spacing parameter of the display3 text style. On smaller devices the value is smaller than on larger devices."
+          }
+        }
+      }
+    },
+    "border": {
+      "borderradius": {
+        "borderradiusxs": {
+          "$value": "{size0_25x}",
+          "$type": "dimension",
+          "$description": "2-2-2-2 use for corner rounding on very small UI elements such as tooltips and badges."
+        },
+        "borderradiusmd": {
+          "$value": "{size1x}",
+          "$type": "dimension",
+          "$description": "8-8-8-8 – Standard radius for buttons, chips, input fields, and medium-sized interactive elements."
+        },
+        "borderradiussm": {
+          "$value": "{size0_5x}",
+          "$type": "dimension",
+          "$description": "4-4-4-4 – use for corner rounding on compact components like checkboxes or small input controls."
+        },
+        "borderradiusxl": {
+          "$value": "{size3x}",
+          "$type": "dimension",
+          "$description": "24-24-24-24 – use for corner rounding on larger cards, overlays, dialogs, and other container components."
+        },
+        "borderradiuslg": {
+          "$value": "{size2x}",
+          "$type": "dimension",
+          "$description": "16-16-16-16 – use for corner rounding on small cards, overlays, and modal surfaces."
+        },
+        "borderradiusnone": {
+          "$value": "{size0x}",
+          "$type": "dimension",
+          "$description": "0-0-0-0 – no corner rounding. Used as default for flat layouts, content modules, images, and teaser elements."
+        },
+        "borderradiusfull": {
+          "$value": "9999px",
+          "$type": "dimension",
+          "$description": "creates fully rounded shapes, typically used for circular elements like avatars."
+        }
+      },
+      "borderwidth": {
+        "borderwidththin": {
+          "$value": "{size0_125x}",
+          "$type": "dimension",
+          "$description": "1-1-1-1 – use for subtle outlines and dividers"
+        },
+        "borderwidththick": {
+          "$value": "{size0_25x}",
+          "$type": "dimension",
+          "$description": "2-2-2-2 – use for stronger outlines on form elements (inputs), buttons (outline variants), and interaction states (focus, hover, active)"
+        },
+        "borderwidthhairline": {
+          "$value": "0.33000001311302185px",
+          "$type": "dimension",
+          "$description": "0.33 -0.33 -0.33 -0.33 – primarily used in mobile app interfaces. Optimized for high-density displays to create subtle dividers and outlines without visual overload."
+        }
+      }
+    },
+    "visibility": {
+      "boolean": {
+        "visilblemobileonly": {
+          "$value": true,
+          "$type": "boolean",
+          "$description": "Use for showing elements on mobile viewport sizes only"
+        },
+        "visilbledesktoponly": {
+          "$value": false,
+          "$type": "boolean",
+          "$description": "Use for showing elements on desktop viewport sizes only"
+        },
+        "visilbleabove600px": {
+          "$value": false,
+          "$type": "boolean",
+          "$description": "Use for showing elements on viewport sizes above 600 px"
+        },
+        "visilblebelow600px": {
+          "$value": true,
+          "$type": "boolean",
+          "$description": "Use for showing elements on viewport sizes below 600 px"
+        },
+        "hideonmobile": {
+          "$value": false,
+          "$type": "boolean",
+          "$description": "Use for hiding elements on mobile viewport sizes"
+        },
+        "visilbletabletonly": {
+          "$value": false,
+          "$type": "boolean",
+          "$description": "Use for showing elements on tablet viewport sizes only"
+        },
+        "hideondesktop": {
+          "$value": true,
+          "$type": "boolean",
+          "$description": "Use for hiding elements on desktop viewport sizes only"
+        }
+      },
+      "variantswitch": {
+        "changeonlg": {
+          "$value": "xs/sm/md",
+          "$type": "string"
+        },
+        "changeonmd": {
+          "$value": "xs/sm",
+          "$type": "string",
+          "$description": "This variable is used for controlling size changes across device sizes on some components such as the vertical newsticker cards and the search results cards. Both have cards that change layouts at different breakpoints."
+        },
+        "bpspecificweb": {
+          "$value": "xs/sm",
+          "$type": "string"
+        },
+        "bpspecificapp": {
+          "$value": "compact",
+          "$type": "string"
+        }
+      }
+    },
+    "space": {
+      "inline": {
+        "responsive": {
+          "inlinespacerespsm": {
+            "$value": "{space1x}",
+            "$type": "dimension",
+            "$description": "8-8-12-16 – use for horizontal (left/right) padding of UI elements that scales across breakpoints"
+          },
+          "inlinespacerespmd": {
+            "$value": "{space1_5x}",
+            "$type": "dimension",
+            "$description": "12-12-16-24 use for horizontal (left/right) padding of UI elements that scales across breakpoints"
+          },
+          "inlinespaceresplg": {
+            "$value": "{space2x}",
+            "$type": "dimension",
+            "$description": "16-16-24-32 – use for horizontal (left/right) padding of UI elements that scales across breakpoints"
+          },
+          "inlinespaceresp2xl": {
+            "$value": "{space4x}",
+            "$type": "dimension",
+            "$description": "32-32-48-64 – use for horizontal (left/right) padding of UI elements that scales across breakpoints"
+          },
+          "inlinespacerespxl": {
+            "$value": "{space3x}",
+            "$type": "dimension",
+            "$description": "24-24-32-40 – use for horizontal (left/right) padding of UI elements that scales across breakpoints"
+          }
+        },
+        "constant": {
+          "inlinespaceconstsm": {
+            "$value": "{space1x}",
+            "$type": "dimension",
+            "$description": "8-8-8-8 – Use for fixed horizontal (left/right) padding of UI elements"
+          },
+          "inlinespaceconstmd": {
+            "$value": "{space1_5x}",
+            "$type": "dimension",
+            "$description": "12-12-12-12 – Use for fixed horizontal (left/right) padding of UI elements"
+          },
+          "inlinespaceconstlg": {
+            "$value": "{space2x}",
+            "$type": "dimension",
+            "$description": "16-16-16-16 – Use for fixed horizontal (left/right) padding of UI elements"
+          },
+          "inlinespaceconst2xl": {
+            "$value": "{space4x}",
+            "$type": "dimension",
+            "$description": "32-32-32-32 – Use for fixed horizontal (left/right) padding of UI elements"
+          },
+          "inlinespaceconstxl": {
+            "$value": "{space3x}",
+            "$type": "dimension",
+            "$description": "24-24-24-24 – Use for fixed horizontal (left/right) padding of UI elements"
+          },
+          "inlinespaceconstxs": {
+            "$value": "{space0_75x}",
+            "$type": "dimension",
+            "$description": "6-6-6-6 – Use for fixed horizontal (left/right) padding of UI elements"
+          },
+          "inlinespaceconst3xs": {
+            "$value": "{space0_25x}",
+            "$type": "dimension",
+            "$description": "2-2-2-2 – Use for fixed horizontal (left/right) padding of UI elements"
+          },
+          "inlinespaceconst2xs": {
+            "$value": "{space0_5x}",
+            "$type": "dimension",
+            "$description": "4-4-4-4 – Use for fixed horizontal (left/right) padding of UI elements"
+          }
+        }
+      },
+      "stack": {
+        "responsive": {
+          "stackspacerespmd": {
+            "$value": "{space1_5x}",
+            "$type": "dimension",
+            "$description": "12-12-16-24 – use for vertical (top/bottom) padding of UI elements that scales across breakpoints"
+          },
+          "stackspaceresplg": {
+            "$value": "{space2x}",
+            "$type": "dimension",
+            "$description": "16-16-24-32 – use for vertical (top/bottom) padding of UI elements that scales across breakpoints"
+          },
+          "stackspaceresp2xl": {
+            "$value": "{space4x}",
+            "$type": "dimension",
+            "$description": "32-32-48-64 – use for vertical (top/bottom) padding of UI elements that scales across breakpoints"
+          },
+          "stackspacerespsm": {
+            "$value": "{space1x}",
+            "$type": "dimension",
+            "$description": "8-8-12-16 – use for vertical (top/bottom) padding of UI elements that scales across breakpoints"
+          },
+          "stackspacerespxl": {
+            "$value": "{space3x}",
+            "$type": "dimension",
+            "$description": "24-24-32-40 – use for vertical (top/bottom) padding of UI elements that scales across breakpoints"
+          }
+        },
+        "constant": {
+          "stackspaceconstsm": {
+            "$value": "{space1x}",
+            "$type": "dimension",
+            "$description": "8-8-8-8 – Use for fixed vertical (top/bottom) padding of UI elements"
+          },
+          "stackspaceconstmd": {
+            "$value": "{space1_5x}",
+            "$type": "dimension",
+            "$description": "12-12-12-12 – Use for fixed vertical (top/bottom) padding of UI elements"
+          },
+          "stackspaceconstlg": {
+            "$value": "{space2x}",
+            "$type": "dimension",
+            "$description": "16-16-16-16 – Use for fixed vertical (top/bottom) padding of UI elements"
+          },
+          "stackspaceconst2xl": {
+            "$value": "{space4x}",
+            "$type": "dimension",
+            "$description": "32-32-32-32 – Use for fixed vertical (top/bottom) padding of UI elements"
+          },
+          "stackspaceconstxl": {
+            "$value": "{space3x}",
+            "$type": "dimension",
+            "$description": "24-24-24-24 – Use for fixed vertical (top/bottom) padding of UI elements"
+          },
+          "stackspaceconstxs": {
+            "$value": "{space0_75x}",
+            "$type": "dimension",
+            "$description": "6-6-6-6 – Use for fixed vertical (top/bottom) padding of UI elements"
+          },
+          "stackspaceconst3xs": {
+            "$value": "{space0_25x}",
+            "$type": "dimension",
+            "$description": "2-2-2-2 – Use for fixed vertical (top/bottom) padding of UI elements"
+          },
+          "stackspaceconst2xs": {
+            "$value": "{space0_5x}",
+            "$type": "dimension",
+            "$description": "4-4-4-4 – Use for fixed vertical (top/bottom) padding of UI elements"
+          }
+        }
+      },
+      "gap": {
+        "responsive": {
+          "gapspacerespxs": {
+            "$value": "{space0_5x}",
+            "$type": "dimension",
+            "$description": "4-4-6-8 – Use for gaps between items inside of UI elements that scale across breakpoints"
+          },
+          "gapspaceresplg": {
+            "$value": "{space2x}",
+            "$type": "dimension",
+            "$description": "16-16-24-32 – Use for gaps between items inside of UI elements that scale across breakpoints"
+          },
+          "gapspacerespxl": {
+            "$value": "{space3x}",
+            "$type": "dimension",
+            "$description": "24-24-32-48 – Use for gaps between items inside of UI elements that scale across breakpoints"
+          },
+          "gapspaceresp2xl": {
+            "$value": "{space4x}",
+            "$type": "dimension",
+            "$description": "32-32-48-64 – Use for gaps between items inside of UI elements that scale across breakpoints"
+          },
+          "gapspacerespmd": {
+            "$value": "{space1_5x}",
+            "$type": "dimension",
+            "$description": "12-12-16-24 – Use for gaps between items inside of UI elements that scale across breakpoints"
+          },
+          "gapspacerespsm": {
+            "$value": "{space1x}",
+            "$type": "dimension",
+            "$description": "8-8-12-16 – Use for gaps between items inside of UI elements that scale across breakpoints"
+          },
+          "gapspaceresp2xs": {
+            "$value": "{space0_25x}",
+            "$type": "dimension",
+            "$description": "2-2-4-6 – Use for gaps between items inside of UI elements that scale across breakpoints"
+          },
+          "gapspaceresp3xl": {
+            "$value": "{space6x}",
+            "$type": "dimension",
+            "$description": "48-48-72-96 – Use for gaps between items inside of UI elements that scale across breakpoints"
+          }
+        },
+        "constant": {
+          "gapspaceconst2xs": {
+            "$value": "{space0_25x}",
+            "$type": "dimension",
+            "$description": "2-2-2-2 – Use for fixed gaps between items inside of UI elements"
+          },
+          "gapspaceconstxs": {
+            "$value": "{space0_5x}",
+            "$type": "dimension",
+            "$description": "4-4-4-4 – Use for fixed gaps between items inside of UI elements"
+          },
+          "gapspaceconstsm": {
+            "$value": "{space1x}",
+            "$type": "dimension",
+            "$description": "8-8-8-8 – Use for fixed gaps between items inside of UI elements"
+          },
+          "gapspaceconstmd": {
+            "$value": "{space1_5x}",
+            "$type": "dimension",
+            "$description": "12-12-12-12 – Use for fixed gaps between items inside of UI elements"
+          },
+          "gapspaceconstlg": {
+            "$value": "{space2x}",
+            "$type": "dimension",
+            "$description": "16-16-16-16 – Use for fixed gaps between items inside of UI elements"
+          },
+          "gapspaceconstxl": {
+            "$value": "{space3x}",
+            "$type": "dimension",
+            "$description": "24-24-24-24 – Use for fixed gaps between items inside of UI elements"
+          },
+          "gapspaceconst2xl": {
+            "$value": "{space4x}",
+            "$type": "dimension",
+            "$description": "32-32-32-32 – Use for fixed gaps between items inside of UI elements"
+          },
+          "gapspaceconst3xl": {
+            "$value": "{space6x}",
+            "$type": "dimension",
+            "$description": "48-48-48-48 – Use for fixed gaps between items inside of UI elements"
+          }
+        }
+      }
+    },
+    "size": {
+      "constant": {
+        "sizeconst3xs": {
+          "$value": "{size2x}",
+          "$type": "dimension",
+          "$description": "16-16-16-16 – Use for setting fixed height and width of UI elements"
+        },
+        "sizeconst2xs": {
+          "$value": "{size3x}",
+          "$type": "dimension",
+          "$description": "24-24-24-24 – Use for setting fixed height and width of UI elements"
+        },
+        "sizeconstxs": {
+          "$value": "{size4x}",
+          "$type": "dimension",
+          "$description": "32-32-32-32 – Use for setting fixed height and width of UI elements"
+        },
+        "sizeconstsm": {
+          "$value": "{size5x}",
+          "$type": "dimension",
+          "$description": "40-40-40-40 – Use for setting fixed height and width of UI elements"
+        },
+        "sizeconstmd": {
+          "$value": "{size6x}",
+          "$type": "dimension",
+          "$description": "48-48-48-48 Use for setting fixed height and width of UI elements"
+        },
+        "sizeconstlg": {
+          "$value": "{size7x}",
+          "$type": "dimension",
+          "$description": "56-56-56-56 – Use for setting fixed height and width of UI elements"
+        },
+        "sizeconstxl": {
+          "$value": "{size8x}",
+          "$type": "dimension",
+          "$description": "64-64-64-64 – Use for setting fixed height and width of UI elements"
+        },
+        "sizeconst3xl": {
+          "$value": "{size12x}",
+          "$type": "dimension",
+          "$description": "96-96-96-96 – Use for setting fixed height and width of UI elements"
+        },
+        "sizeconst4xl": {
+          "$value": "{size18_5x}",
+          "$type": "dimension",
+          "$description": "148-148-148-148 – Use for setting fixed height and width of UI elements"
+        },
+        "sizeconst2xl": {
+          "$value": "{size9x}",
+          "$type": "dimension",
+          "$description": "72-72-72-72 – Use for setting fixed height and width of UI elements"
+        },
+        "sizeconst4xs": {
+          "$value": "{size1x}",
+          "$type": "dimension",
+          "$description": "8-8-8-8 – Use for setting fixed height and width of UI elements"
+        }
+      },
+      "responsive": {
+        "sizeresp3xs": {
+          "$value": "{size2x}",
+          "$type": "dimension",
+          "$description": "16-16-16-24 – Use for setting height and width of UI elements that scale across breakpoints"
+        },
+        "sizeresp2xs": {
+          "$value": "{size3x}",
+          "$type": "dimension",
+          "$description": "24-24-32-32 – Use for setting height and width of UI elements that scale across breakpoints"
+        },
+        "sizerespxs": {
+          "$value": "{size4x}",
+          "$type": "dimension",
+          "$description": "32-32-40-48 – Use for setting height and width of UI elements that scale across breakpoints"
+        },
+        "sizerespsm": {
+          "$value": "{size5x}",
+          "$type": "dimension",
+          "$description": "40-40-48-56 – Use for setting height and width of UI elements that scale across breakpoints"
+        },
+        "sizerespmd": {
+          "$value": "{size6x}",
+          "$type": "dimension",
+          "$description": "48-48-64-72 – Use for setting height and width of UI elements that scale across breakpoints"
+        },
+        "sizeresplg": {
+          "$value": "{size7x}",
+          "$type": "dimension",
+          "$description": "56-56-72-92 – Use for setting height and width of UI elements that scale across breakpoints"
+        },
+        "sizerespxl": {
+          "$value": "{size8x}",
+          "$type": "dimension",
+          "$description": "64-64-80-96 – Use for setting height and width of UI elements that scale across breakpoints"
+        },
+        "sizeresp2xl": {
+          "$value": "{size9x}",
+          "$type": "dimension",
+          "$description": "72-72-92-100 – Use for setting height and width of UI elements that scale across breakpoints"
+        },
+        "sizeresp3xl": {
+          "$value": "{size12x}",
+          "$type": "dimension",
+          "$description": "96-96-120-148 – Use for setting height and width of UI elements that scale across breakpoints"
+        },
+        "sizeresp4xl": {
+          "$value": "{size18_5x}",
+          "$type": "dimension",
+          "$description": "148-148-160-180 – Use for setting height and width of UI elements that scale across breakpoints"
+        },
+        "sizeresp4xs": {
+          "$value": "{size1_5x}",
+          "$type": "dimension",
+          "$description": "12-12-14-16 – Use for setting height and width of UI elements that scale across breakpoints"
+        }
+      }
+    }
+  },
+  "breakpointname": {
+    "$value": "sm",
+    "$type": "string"
+  }
+}
