@@ -1,0 +1,348 @@
+{
+  "global": {
+    "core": {
+      "corecolorprimary": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color",
+        "$description": "Bild: 046; SpoBi: 016"
+      },
+      "corecolorsecondary": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "Bild&SpoBi Tone 100"
+      },
+      "corecolorsecondarydark": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Bild: 015 ; SpoBi: 010"
+      },
+      "corecolortertiary": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Bild: 015 ; SpoBi: 010"
+      },
+      "corecolortertiarydark": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "Bild&SpoBi: 100"
+      }
+    },
+    "attention": {
+      "accentcolorprimary": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color",
+        "$description": "Bild: Tone 046 ; SpoBi: 016"
+      },
+      "accentcolorprimarydark": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "Bild: 100 ; SpoBi: 098"
+      }
+    },
+    "surface": {
+      "surfacecolorprimary": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "Bild: 100 ; SpoBi: 100"
+      },
+      "surfacecolorprimarydark": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Bild: 015 ; SpoBi: 010"
+      },
+      "surfacecolorsecondary": {
+        "$value": "{BILD.gray.BILD096}",
+        "$type": "color",
+        "$description": "Bild: 096 ; SpoBi: 098"
+      },
+      "surfacecolorsecondarydark": {
+        "$value": "{BILD.gray.BILD020}",
+        "$type": "color",
+        "$description": "Bild: 020 ; SpoBi: 016"
+      },
+      "surfacecolortertiary": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Bild: 093 ; SpoBi: 081"
+      },
+      "surfacecolortertiarydark": {
+        "$value": "{BILD.gray.BILD025}",
+        "$type": "color",
+        "$description": "Bild: 025 ; SpoBi: 029"
+      },
+      "surfacecolorquartenary": {
+        "$value": "{BILD.gray.BILD085}",
+        "$type": "color",
+        "$description": "Bild: 085 ; SpoBi: 085"
+      },
+      "surfacecolorquartenarydark": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "Bild: 035 ; SpoBi: 035"
+      }
+    },
+    "state": {
+      "colorprimaryactive": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color",
+        "$description": "Bild: 046 ; SpoBi: 029"
+      },
+      "colorprimaryactivedark": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color",
+        "$description": "Bild: 046 ; SpoBi: 098"
+      }
+    },
+    "text": {
+      "textcolorprimary": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Bild & SpoBi: Tone 015"
+      },
+      "textcolorprimarydark": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "Bild & SpoBi: Tone 093"
+      },
+      "headlinecolorprimary": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "Bild: 015 ; SpoBi: 016"
+      },
+      "headlinecolorprimarydark": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "Bild&SpoBi: Tone 100"
+      },
+      "kickertextcoloronbg": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "This variable is used on kicker texts that are on top of a color that is different from the outer color of the overall user interface. Bild & SpoBi: Tone 100"
+      },
+      "kickertextcoloronsurface": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color",
+        "$description": "This variable is used for the color of kicker texts that are not no top of a different color of the overall user interface. Bild: 046 ; SpoBi: 060"
+      },
+      "kickertextcoloronsurfacedark": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Use this variable for kicker texts that are directly on top of the color of the overall user interface. Bild & SpoBi tone 060."
+      },
+      "textcolorsecondary": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Bild & SpoBi: Tone 060"
+      },
+      "textcolorsecondarydark": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Bild & SpoBi: Tone 060"
+      },
+      "kickerbgcoloronsurface": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color",
+        "$description": "Use this variable for the color immediately behind the bounding box of the kicker text element. Bild: 046 ; SpoBi: 029"
+      },
+      "kickerbgcoloronsurfacedark": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color",
+        "$description": "Use this variable for the dark mode color of the background immediately around the kicker text element. Bild: 060 ; SpoBi: 060"
+      }
+    }
+  },
+  "component": {
+    "button": {
+      "primaryneutral": {
+        "buttonprimarybgcoloridle": {
+          "$value": "{BILD.gray.BILD015}",
+          "$type": "color",
+          "$description": "Bild & SpoBi: Tone 015"
+        },
+        "buttonprimarybgcolorhover": {
+          "$value": "{BILD.gray.BILD035}",
+          "$type": "color",
+          "$description": "Bild & SpoBi: Tone 035"
+        },
+        "buttonprimarybgcoloridledark": {
+          "$value": "{BILD.neutral.BILD100}",
+          "$type": "color",
+          "$description": "Bild & SpoBi: Tone 100"
+        },
+        "buttonprimarybgcolorhoverdark": {
+          "$value": "{BILD.gray.BILD093}",
+          "$type": "color",
+          "$description": "Bild: 093 ; SpoBi: 081"
+        }
+      },
+      "primarybrand": {
+        "buttonprimarybgcoloridle": {
+          "$value": "{BILD.red.BILDRed}",
+          "$type": "color",
+          "$description": "Bild: 046 ; SpoBi: 029"
+        },
+        "buttonprimarybgcoloridledark": {
+          "$value": "{BILD.red.BILDRed}",
+          "$type": "color",
+          "$description": "This variable controls the primary button idle color for two brands in dark mode. Bild: 046 ; SpoBi: 038"
+        },
+        "buttonprimarybgcolorhover": {
+          "$value": "{BILD.red.BILDRed035}",
+          "$type": "color",
+          "$description": "Bild: 035 ; SpoBi: 016"
+        },
+        "buttonprimarybgcolorhoverdark": {
+          "$value": "{BILD.red.BILDRed035}",
+          "$type": "color",
+          "$description": "This variable stores colors for the hover state of primary buttons for two brands in dark mode. Bild: 035 ; SpoBi: 029"
+        }
+      }
+    },
+    "breakingnews": {
+      "breakingnewstextcontentcolor": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "This variable is used on the text for headlines in the horizontally animated breaking news strip. Bild: 100 ; SpoBi: 015"
+      },
+      "breakingnewssurfacecolor": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "This variable is used on the breaking news strip that has horizontally animated headlines. Bild: 015 ; SpoBi: 081"
+      },
+      "breakingnewstitlesurfacecolor": {
+        "$value": "{BILD.orange.BILDOrange}",
+        "$type": "color",
+        "$description": "This variable is used for the background color of the \"Breaking News\" title. Bild: 067 ; SpoBi: 016"
+      },
+      "breakingnewstoptitletextcolor": {
+        "$value": "{BILD.gray.BILD010}",
+        "$type": "color",
+        "$description": "This variable is used for the color of the \"breaking\" word in the \"breaking news\" horizontally animated headlines strip. Bild: 010 ; SpoBi: 081"
+      },
+      "breakingnewssurfacecolordark": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color",
+        "$description": "This variable is for the background color of the horizontally animated strip with headlines for breaking news on dark mode.  Bild: 093 ; SpoBi: 081"
+      },
+      "breakingnewstextcontentcolordark": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "This variable is used on the text for headlines in the horizontally animated breaking news strip on dark mode. Bild&SpoBi: 015"
+      },
+      "breakingnewsbottomtitletextcolor": {
+        "$value": "{BILD.gray.BILD010}",
+        "$type": "color",
+        "$description": "This variable is used for the color of the \"News\" word in the breaking news horizontal animated headlines strip. Bild: 010 ; SpoBi: 100"
+      }
+    },
+    "teaser": {
+      "teasertitlebackgroundgradientstart": {
+        "$value": "{BILD.alpha.alphaBlack70}",
+        "$type": "color"
+      },
+      "teasertitlebackgroundgradientstop": {
+        "$value": "{BILD.alpha.alphaBlack0}",
+        "$type": "color"
+      }
+    },
+    "menu": {
+      "menulinklanesurfacecolor": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "This variable is used for making possible the default color difference between the Bild and SportBild link lanes inside the menu component."
+      },
+      "menulinklanelabelcolor": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color",
+        "$description": "This variable is used for making possible the default color difference between the Bild and SportBild link lane labels inside the menu component."
+      },
+      "menulinklanelabelcolordark": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color"
+      },
+      "menulinklanesurfacecolordark": {
+        "$value": "{Global.Surface.surfaceColorPrimaryDark}",
+        "$type": "color",
+        "$description": "This variable is used for making possible the default color difference between the Bild and SportBild link lanes inside the menu component on Dark mode."
+      },
+      "menulinkcolorborderactive": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color"
+      },
+      "menulinkcolorborderactivedark": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color"
+      },
+      "menulinklanelabelcoloractive": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "This variable is used for making possible the active color difference between the Bild and SportBild link lane labels inside the menu component."
+      },
+      "apptopbarsurfacecolor": {
+        "$value": "{Global.Surface.surfaceColorPrimary}",
+        "$type": "color"
+      },
+      "apptopbarbgcolordark": {
+        "$value": "{Global.Surface.surfaceColorTertiaryDark}",
+        "$type": "color"
+      },
+      "appbottomtabbarbgcolor": {
+        "$value": "{Global.Surface.surfaceColorPrimary}",
+        "$type": "color"
+      },
+      "appbottomtabbarbgdark": {
+        "$value": "{Global.Surface.surfaceColorTertiaryDark}",
+        "$type": "color"
+      },
+      "apptopbariconcolor": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color"
+      },
+      "apptopbariconcolordark": {
+        "$value": "{BILD.gray.BILD060}",
+        "$type": "color"
+      },
+      "apptopbartextcolor": {
+        "$value": "{Global.Text.textColorPrimary}",
+        "$type": "color"
+      },
+      "apptopbartextcolordark": {
+        "$value": "{Global.Text.textColorPrimaryDark}",
+        "$type": "color"
+      },
+      "apptobbartabnavbottomborder": {
+        "$value": "{BILD.gray.BILD093}",
+        "$type": "color"
+      },
+      "apptobbartabnavbottomborderdark": {
+        "$value": "{BILD.gray.BILD035}",
+        "$type": "color"
+      },
+      "apptobbartabnavbottomborderactive": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color"
+      },
+      "apptobbartabnavbottomborderactivedark": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color"
+      }
+    },
+    "avatar": {
+      "avatarlabelcolor": {
+        "$value": "{BILD.gray.BILD015}",
+        "$type": "color",
+        "$description": "09-2025 css --article-author-name-color // Bild: 015; SpoBi: 045"
+      },
+      "avatarlabelcolordark": {
+        "$value": "{BILD.neutral.BILD100}",
+        "$type": "color",
+        "$description": "09-2025 css --article-author-name-color // Bild: 100; SpoBi: 093"
+      },
+      "avatarlabelcolorhover": {
+        "$value": "{BILD.red.BILDRed}",
+        "$type": "color",
+        "$description": "This variable is used for decorating the avatar text's underline color. Bild: 046; SpoBi: 029"
+      }
+    }
+  }
+}
