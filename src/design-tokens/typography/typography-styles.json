@@ -1,0 +1,1611 @@
+{
+  "global": {
+    "display": {
+      "display1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Display.Display1FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Display.display1LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.display.display1LetterSpacing}"
+        },
+        "$description": "Display styles are used for large, attention-grabbing text, typically in hero sections, landing pages, or promotional contexts. They emphasize hierarchy and visual impact. Font size: 40 - 40 - 72 - 120"
+      },
+      "display2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Display.Display2FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Display.display2LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.display.display2LetterSpacing}"
+        },
+        "$description": "Display styles are used for large, attention-grabbing text, typically in hero sections, landing pages, or promotional contexts. They emphasize hierarchy and visual impact. Font size: 36 - 36 - 42 - 64"
+      },
+      "display3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Display.Display3FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Display.display3LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.display.display3LetterSpacing}"
+        },
+        "$description": "Display styles are used for large, attention-grabbing text, typically in hero sections, landing pages, or promotional contexts. They emphasize hierarchy and visual impact. Font size: 28 - 28 - 32 - 40"
+      }
+    },
+    "headline": {
+      "headline1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Headline.Headline1FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Headline.Headline1LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Headlines structure content into clear sections. They are prominent but more versatile than Display styles, used across articles, teasers and modules. Font size: 48 - 48 - 72 - 100"
+      },
+      "headline2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Headline.Headline2FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Headline.Headline2LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Headlines structure content into clear sections. They are prominent but more versatile than Display styles, used across articles, teasers and modules. This text style's token for the font size parameter changes across device sizes as follows: 40 - 40 - 48 - 64"
+      },
+      "headline3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Headline.Headline3FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Headline.Headline3LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Headlines structure content into clear sections. They are prominent but more versatile than Display styles, used across articles, teasers and modules. This text style's font size parameter is controlled by the headline3FontSize token: 28 - 28 - 36 - 40"
+      },
+      "headline4": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Headline.Headline4FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.FontSize.Headline.Headline4FontSize}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Headlines structure content into clear sections. They are prominent but more versatile than Display styles, used across articles, teasers and modules. Font size: 22 - 22 - 26 - 32"
+      }
+    },
+    "subheadline": {
+      "subheadline1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Subheadline.subheadline1FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Subheadline.subheadline1LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "This Subheadlines text style is used in articles. They are placed under the headline at the top of an article. Subheadlines can appear in some teasers also. Font size: 24 - 24 - 32 - 36"
+      }
+    },
+    "kicker": {
+      "kicker1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Kicker.Kicker1FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.Kicker1LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Kickers are short introductory lines placed above a headline to provide context, category, or emphasis. They support content orientation. Font size: 18 - 18 - 22 - 30 --//*//-- currently css uses kicker0 for the naming of this text style and sequence of font size changes"
+      },
+      "kicker2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Kicker.Kicker2FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.Kicker2LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Kickers are short introductory lines placed above a headline to provide context, category, or emphasis. They support content orientation. Font size: 18 - 18 - 22 - 24 --//*//-- currently css uses kicker1 for the naming of this text style and sequence of font size changes"
+      },
+      "kicker3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Kicker.Kicker3FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.Kicker3LineHeight}"
+        },
+        "$description": "Kickers are short introductory lines placed above a headline to provide context, category, or emphasis. They support content orientation. Font size: 16 - 16 - 18 - 20 --//*//-- currently css uses kicker2 for the naming of this text style and sequence of font size changes"
+      },
+      "kicker4": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Kicker.Kicker4FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.Kicker4LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Kickers are short introductory lines placed above a headline to provide context, category, or emphasis. They support content orientation. Font size: 14 - 14 - 16 - 16 --//*//-- currently css uses kicker3 for the naming of this text style and sequence of font size changes"
+      }
+    },
+    "title": {
+      "title1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Title.title1FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Title.title1LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Title styles are mid-level headings, often used for module names, card headers, or section labels. They balance prominence with readability. Font size: 22 - 22 - 22 - 28"
+      },
+      "title1uppercase": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Title.title1FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Title.title1LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Title styles are mid-level headings, often used for module names, card headers, or section labels. They balance prominence with readability. Font size: 22 - 22 - 22 - 28"
+      },
+      "title2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Title.title2FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Title.title2LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Title styles are mid-level headings, often used for module names, card headers, or section labels. They balance prominence with readability. \n\nIn the previous system, this style was named Caption. For greater clarity and consistency, it has been renamed to title2. Font size: 16 - 16 - 18 - 20"
+      },
+      "title2uppercase": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Title.title2FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Title.title2LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Title styles are mid-level headings, often used for module names, card headers, or section labels. They balance prominence with readability. \n\nIn the previous system, this style was named Caption. For greater clarity and consistency, it has been renamed to title2. Font size: 16 - 16 - 18 - 20"
+      }
+    },
+    "callout": {
+      "callout": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Callout.callout1FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Callout.calloutLineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Callouts highlight key information, quotes, or important notes inside content. They stand apart from body text to draw attention. There is overlap between this text style and the title text styles. Font size: 18 - 18 - 22 - 22"
+      }
+    },
+    "body": {
+      "body": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Body.bodyFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Body.bodyLineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}",
+          "paragraphSpacing": "{Semantic.Layout.Section.paragraphEndSpace}"
+        },
+        "$description": "Body styles are the default for running text. They prioritize readability and are optimized for long-form content across devices. Font size remains constant at 21 across device sizes."
+      },
+      "bodyitalic": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Body.bodyFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Body.bodyLineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Body styles are the default for running text. They prioritize readability and are optimized for long-form content across devices. Font size remains constant at 21 across device sizes."
+      },
+      "bodybold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Body.bodyFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Body.bodyLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Body styles are the default for running text. They prioritize readability and are optimized for long-form content across devices. Font size remains constant at 21 across device sizes."
+      },
+      "bodybolditalic": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Body.bodyFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Body.bodyLineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Body styles are the default for running text. They prioritize readability and are optimized for long-form content across devices. Font size remains constant at 21 across device sizes."
+      },
+      "textlink": {
+        "textlink": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Body.bodyFontSize}",
+            "fontWeight": 400,
+            "lineHeight": "{Semantic.Typography.LineHeight.Body.bodyLineHeight}",
+            "letterSpacing": "{LetterSpacing.letterSpace-0}",
+            "textDecoration": "underline"
+          },
+          "$description": "Use this text style for styling elements that are clickable text links inside body texts. This style is often found in article texts. Font size remains constant at 21 across device sizes."
+        },
+        "textlinkitalic": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Body.bodyFontSize}",
+            "fontWeight": 400,
+            "lineHeight": "{Semantic.Typography.LineHeight.Body.bodyLineHeight}",
+            "letterSpacing": "{LetterSpacing.letterSpace-0}",
+            "textDecoration": "underline"
+          },
+          "$description": "Use this text style for styling elements that are clickable text links inside body texts that are using the italic style. This style is often found in article texts that need to show contrast for publications titles, specific words or names. Font size remains constant at 21 across device sizes."
+        },
+        "textlinkbold": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Body.bodyFontSize}",
+            "fontWeight": 700,
+            "lineHeight": "{Semantic.Typography.LineHeight.Body.bodyLineHeight}",
+            "letterSpacing": "{LetterSpacing.letterSpace-0}",
+            "textDecoration": "underline"
+          },
+          "$description": "Use this text style for styling elements that are clickable text links inside emphasized body texts that are using the bold or html strong style. This style is often found in article texts that need to show contrast for specific words or names. Font size remains constant at 21 across device sizes."
+        },
+        "textlinkhover": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Body.bodyFontSize}",
+            "fontWeight": 400,
+            "lineHeight": "{Semantic.Typography.LineHeight.Body.bodyLineHeight}",
+            "letterSpacing": "{LetterSpacing.letterSpace-0}",
+            "textDecoration": "underline"
+          },
+          "$description": "Use this style for body text links or other text links that are in active state. Font size remains constant at 21 across device sizes."
+        },
+        "textlinkboldhover": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Body.bodyFontSize}",
+            "fontWeight": 700,
+            "lineHeight": "{Semantic.Typography.LineHeight.Body.bodyLineHeight}",
+            "letterSpacing": "{LetterSpacing.letterSpace-0}",
+            "textDecoration": "underline"
+          },
+          "$description": "Use this style for body text links or other text links that are in active state. Font size remains constant at 21 across device sizes."
+        }
+      }
+    },
+    "footnote": {
+      "footnote1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Footnote.footnote1FontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Footnote.footnote1LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Footnotes are used for disclaimers, annotations, or secondary details. They are small in size and carry low visual weight. This specific style is commonly used on small two lines of text that are seen on standard teasers. Font size: 16 - 16 - 16 - 18"
+      },
+      "footnote1bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Footnote.footnote1FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Footnote.footnote1LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Footnotes are used for disclaimers, annotations, or secondary details. They are small in size and carry low visual weight."
+      },
+      "footnote2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Footnote.footnote2FontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Footnote.footnote2LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Footnotes are used for disclaimers, annotations, or secondary details. They are small in size and carry low visual weight. Font size: 12 - 12 - 12 - 16"
+      },
+      "footnote2bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Footnote.footnote2FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Footnote.footnote2LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Footnotes are used for disclaimers, annotations, or secondary details. They are small in size and carry low visual weight. Font size: 12 - 12 - 12 - 16"
+      }
+    },
+    "label": {
+      "label1": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label1FontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label1LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace0_25}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 17 across device sizes."
+      },
+      "label1bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label1FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label1LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace0_25}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 17 across device sizes."
+      },
+      "label1boldresp": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label1FontSizeResponsive}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label1ResponsiveLineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace0_25}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size changes across device sizes: 10 - 10 - 15 - 17"
+      },
+      "label1uppercasebold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label1FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label1LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingPositiveSM}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 17 across device sizes."
+      },
+      "label2": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label2FontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label2LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingPositiveXS}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 15 across device sizes."
+      },
+      "label2uppercase": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label2FontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label2LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingPositiveXS}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 15 across device sizes."
+      },
+      "label2bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label2FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label2LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingPositiveXS}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 15 across device sizes."
+      },
+      "label2uppercasebold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label2FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label2LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingPositiveXS}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This style used on special navi component simiiar to link lane menu items. The font size value remains constant at 15 across device sizes."
+      },
+      "label3": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label3FontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label3LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingPositiveXS}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 12 across device sizes."
+      },
+      "label3uppercase": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label3FontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label3LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingPositiveSM}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 12 across device sizes."
+      },
+      "label3bold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label3FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label3LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingPositiveXS}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 12 across device sizes."
+      },
+      "label3uppercasebold": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label3FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label3LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingPositiveSM}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 12 across device sizes."
+      },
+      "label4": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label4FontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label4LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts. This text style's font size value remains constant at 8."
+      }
+    },
+    "quote": {
+      "quote": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Quote.quoteFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Quote.quoteLineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Use this text style for sections of text that are inside a fieldset with a quotation given by a person in an interview or a section of text from a larger body of text that need to be emphasized."
+      }
+    }
+  },
+  "component": {
+    "accordion": {
+      "accordionlabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label1FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "auto",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "This text style is for use on accordion labels"
+      }
+    },
+    "article": {
+      "articlekicker": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Article.articleKickerFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.Kicker1LineHeight}"
+        },
+        "$description": "This text style contains the variables necessary for setting how the font parameters for the article kicker behaves across breakpoints. For font size, this component level token currently references the semantic level token kicker1FontSize."
+      },
+      "articleimagecaption": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Article.articleImageCaptionFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Article.articleImageCaptionLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "This text style is used on image captions that show up in article pages only."
+      },
+      "articleheadline": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Component.Article.articleHeadlineFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.Article.articleHeadlineFontSize}"
+        },
+        "$description": "This component level text style is reserved for article page headline texts that show up at the top of article pages. This text style references the generic text styles headline1 and headline2 font size variables. 40 - 40 - 72 - 100"
+      },
+      "articlemetasource": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Article.articleImageSourceFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Article.articleImageSourceLineHeight}"
+        },
+        "$description": "This text style is used on short pieces of text that give information about where an image originated. It can also be used on short texts that give information about where a video originated."
+      },
+      "articletimestamp": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Article.articleMetaFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "auto"
+        },
+        "$description": "Use this text style for time and day text string that commonly shows up along with the article authors avatars. Font size: 12 - 12 - 14 - 16"
+      }
+    },
+    "audioplayer": {
+      "audioplayerlabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.AudioPlayer.audioPlayerFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.AudioPlayer.audioPlayerFontSize}"
+        },
+        "$description": "This text style is used on audio player labels for elapsed time, reproduction speed and short functionality description text. Font size: 16 - 16 - 16 - 18"
+      }
+    },
+    "avatar": {
+      "appavatar": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Article.articleMetaFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "auto",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}",
+          "textTransform": "uppercase"
+        },
+        "$description": "This text style is used for avatar on iOS & Android apps. 12 - 12 - 14 - 16"
+      },
+      "avatardefault": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Avatar.avatarLabelFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Avatar.avatarLabelLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "This text style is used on article page avatar name labels in their default state. Font size: 16 - 16 - 16 - 18\n\n09-2025, on large devices this component uses the css var --footnote-font-size-lg at 1024px bp changes to --footnote-font-size-sm"
+      },
+      "avatarhover": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Avatar.avatarLabelFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Avatar.avatarLabelLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}",
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is used on avatars that appear in article pages. Font size: 16 - 16 - 16 - 18"
+      },
+      "avatarsecondaryinfo": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Avatar.avatarLabelFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Avatar.avatarLabelLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "This text style is used on avatars that show up on article pages. Some avatars have the individual's first and last name on a single line. The second line of the avatar label is then used for secondary information such as the location of the individual in the world. 16 - 16 - 16 - 18"
+      },
+      "avatarsecondaryinfohover": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Avatar.avatarLabelFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Avatar.avatarLabelLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}",
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is used for the active state of the second line of avatar labels. This label text is used for secondary information such as the location of the individual in the world. 16 - 16 - 16 - 18"
+      }
+    },
+    "badges": {
+      "videoadbadge": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Video.videoAdBadgeFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "auto",
+          "textTransform": "uppercase"
+        },
+        "$description": "14 - 14 - 16 - 16 -- This text style is specific to the video horizontal player's ad badge that shows up next to the yellow progress bar that plays during horizontal video advertisements."
+      },
+      "videotimebadge": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Video.videoTimeBadgeFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Video.videoBadgeTimeLineHeight}"
+        },
+        "$description": "This text style is used on horizontal video badges that contain either the video's total duration or a live status identifier. Font size: 16 - 16 - 18 - 18"
+      }
+    },
+    "breadcrumb": {
+      "breadcrumb": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Breadcrumb.breadcrumbFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Breadcrumb.breadcrumbLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "This text style is used for the last items in a breadcrumbs chain. It is commonly used in article pages and is a h1 in html. This text style's font size parameter is controlled by the breadcrumbFontSize variable. 15 - 15 - 15 - 12. Breadcrumb labels are smaller on largest devices."
+      },
+      "breadcrumblink": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Breadcrumb.breadcrumbFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Breadcrumb.breadcrumbFontSize}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}",
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is used for breadcrumb links that are commonly used in article pages. This text style's font size parameter is controlled by the breadcrumbFontSize variable. 15 - 15 - 15 - 12. Breadcrumb labels are smaller on largest devices."
+      },
+      "breadcrumblinkhover": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Breadcrumb.breadcrumbFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Breadcrumb.breadcrumbFontSize}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}",
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is used for the hover state of breadcrumbs that are commonly used in article pages. This text style's font size parameter is controlled by the breadcrumbFontSize variable. 15 - 15 - 15 - 12. Breadcrumb labels are smaller on largest devices."
+      }
+    },
+    "breakingnews": {
+      "breakingnewstext": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.BreakingNews.breakingNewsScrollingTextFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.BreakingNews.breakingNewsScrollingTextLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Use this text style on breaking news headlines that horizontally scroll in the breaking news animated strip. Font size constant 21."
+      },
+      "breakingnewsuppertitle": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.BreakingNews.breakingNewsBadgeUpperTitleFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.BreakingNews.breakingNewsBadgeUpperTitleLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Use this text style on the upper title of the breaking news headline strip. Font size constant 13."
+      },
+      "breakingnewslowertitle": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.BreakingNews.breakingNewsBadgeLowerTitleFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.BreakingNews.breakingNewsBadgeLowerTitleLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Use this font style on the breaking news badge's lower title. Font size constant 23."
+      }
+    },
+    "button": {
+      "buttonlabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Button.buttonLabelFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Button.buttonLabelLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingPositiveSM}",
+          "textTransform": "uppercase"
+        },
+        "$description": "This text style is used on button labels. Its font size variable is currently in the Space Scaling collection. Font size changes across devices: 15 - 17 - 19"
+      },
+      "partnerlinkbuttonlabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Button.partnerLinkButtonLabelFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Button.partnerLinkButtonLabelFontSize}"
+        },
+        "$description": "This text style is used on buttons that are commonly used inside of a container for advertizers and partners. This text is used in buttons that open links to external content.  Font size: 16 - 16 - 16 - 18"
+      }
+    },
+    "chips": {
+      "chipslabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Chips.chipsFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "auto"
+        },
+        "$description": "This text style is used on the chips component. They are commonly used for filtering parameters. font size: 16 - 16 - 16 - 18"
+      }
+    },
+    "footer": {
+      "footercardlink": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label2FontSize}",
+          "fontWeight": 400,
+          "lineHeight": "auto",
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is used for link texts contained inside cards that commonly show up at the bottom of pages in footers. This link text style's font size parameter uses the label2 font size variable."
+      },
+      "footerlinkseparator": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": {
+            "value": 20,
+            "unit": "px"
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "value": 26,
+            "unit": "px"
+          }
+        },
+        "$description": "This text style is found on footers that separate links with a vertical bar. Font size remains constant at 20 px across devices."
+      },
+      "footerlinks": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Footer.footerFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Footer.footerLineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "This text style is used in footer links that show up at the bottom of content pages. Font size constant at 11px."
+      },
+      "footerlinkuser&offerpages": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": {
+            "value": 18,
+            "unit": "px"
+          },
+          "fontWeight": 400,
+          "lineHeight": {
+            "value": 26,
+            "unit": "px"
+          }
+        },
+        "$description": "User data and offer pages use this text style on footer links. Font size remains constant at 18px."
+      }
+    },
+    "inputfield": {
+      "textinputfieldlabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Inputfield.inputFieldFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Inputfield.inputFieldFontSize}"
+        },
+        "$description": "This text style is used in dropdowns and other text input fields such as date inputs, search input fields and other inputs for text found in forms for example. Font size references a variable from the density collection. 15 - 17 - 19"
+      }
+    },
+    "liveticker": {
+      "livetickerheadline": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Component.Liveticker.liveTickerHeadlinesFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Liveticker.liveTickerHeadlinesFontSize}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "This text style is used on live ticker headlines. The font size changes between device sizes. 22 - 22 - 32 -32"
+      },
+      "livetickertimestamp": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Liveticker.liveTickerTimeStampFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Liveticker.liveTickerTimeStampFontSize}"
+        },
+        "$description": "Use this text style on the live ticker time stamps. 14 - 14 - 16 - 16"
+      }
+    },
+    "mediaplayers": {
+      "podcastplayerlabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.AudioPlayer.audioPlayerFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.AudioPlayer.audioPlayerFontSize}"
+        },
+        "$description": "This text style is used on controller labels of the podcast media player. Font size: 16 - 16 - 16 - 18"
+      },
+      "videoadtime": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Video.videoAdBadgeFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "auto",
+          "textTransform": "uppercase"
+        },
+        "$description": "14 - 14 - 16 - 16 -- This text style is specific to the video horizontal player's ad badge that shows up next to the yellow progress bar that plays during the video advertisement."
+      },
+      "videoplayertime": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Mediaplayer.vidPlayerTimecodeFontSize}",
+          "fontWeight": 900,
+          "lineHeight": 1,
+          "textTransform": "uppercase"
+        },
+        "$description": "Use this text style on video player time badges that display elapsed, total or live information text labels. This text style references the label2 font size variable. 15px constant"
+      }
+    },
+    "menu": {
+      "apptopbarstagetitle": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Menu.appTopbarTitleFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.Menu.appTopbarStageTitleHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "This text style is used on a small title that is placed above tab elements that are seen on iOS and Android top menu bar."
+      },
+      "apptopbartabstitle": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Menu.appTopbarTitleFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.Menu.appTopbarStageTitleHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}",
+          "textTransform": "uppercase"
+        },
+        "$description": "iOS and Android apps currently have a top bar with tabs that when selected display different content within the main view of the device. This text style is used for a title text that provides information for the user to situate where they are within the app's content possibilities."
+      },
+      "menuitemlabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Menu.menuItemFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Menu.menuItemFontSize}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Used on menu link lane items and on mobile side menu drawer."
+      },
+      "menuitemutillabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Menu.menuItemUtilFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Menu.menuItemUtilFontSize}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}",
+          "textTransform": "uppercase"
+        },
+        "$description": "Use this tokenized font style for vertically laid out menu items with icons that are more important than the menu link lane items."
+      }
+    },
+    "newsticker": {
+      "newstickertimestamp": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Newsticker.newsTickerTimeFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Newsticker.newsTickerTimeLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "The vertical newsticker component has timestamps that use this text style. 16 - 16 - 16 - 18"
+      },
+      "newstickerkicker": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Kicker.Kicker3FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Kicker.Kicker3LineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "This text style is a component level option for the newsticker kicker. Currently the newsticker kicker uses the semantic text style kicker3. This text style references the semantic one."
+      },
+      "newstickerheadline": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Headline.Headline3FontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Semantic.Typography.LineHeight.Headline.Headline3LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "This text style is used on NewsTicker Headlines. It references the semantic level text style headline3. 28 - 28 - 36 - 40"
+      }
+    },
+    "pagination": {
+      "numberedpaginationactive": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Label.label1FontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Semantic.Typography.LineHeight.Label.label1LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace0_25}",
+          "textDecoration": "underline"
+        },
+        "$description": "This component level text style stores the variables for the pagination component's active state (label1 with red accent color underline). Its size remains constant at 17px across device sizes."
+      }
+    },
+    "paywall": {
+      "paywallcardpricetag": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Paywall.paywallCardPriceTagFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.Paywall.paywallCardPriceTagLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.display.display2LetterSpacing}"
+        },
+        "$description": "This text style is used for the paywall price tag text."
+      },
+      "paywallcardnote": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.Paywall.paywallCardPriceNoteFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.Paywall.paywallCardPriceNoteLineHeight}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.display.display3LetterSpacing}"
+        },
+        "$description": "This text style is used on the paywall card under the price value."
+      }
+    },
+    "specialnavi": {
+      "specianaviitemlabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Menu.menuItemFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Menu.menuItemFontSize}",
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        },
+        "$description": "Used on menu link lane items and on mobile side menu drawer."
+      }
+    },
+    "tabs": {
+      "tablabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Tabs.tabLabelFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "auto",
+          "textTransform": "uppercase"
+        },
+        "$description": "This text style stores variables for the tab component. Tabs are similar to submenus and special navigation elements but tabs do not link to other URLs."
+      },
+      "appbottombarlabeldefault": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Tabs.appsTabsLabelFontSize}",
+          "fontWeight": 400,
+          "lineHeight": "{Component.Tabs.appsTabsLabelLineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts."
+      },
+      "appbottombarlabelactive": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": "{Component.Tabs.appsTabsLabelFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Tabs.appsTabsLabelLineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "Labels identify interface elements such as form fields, buttons, or navigation items. They ensure clarity and usability in functional contexts."
+      }
+    },
+    "teaser": {
+      "ateaser": {
+        "ateaserkicker": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Component.Teaser.aTeaser.aTeaserKickerFontSize}",
+            "fontWeight": 700,
+            "lineHeight": "{Component.Teaser.aTeaser.aTeaserKickerLineHeight}",
+            "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+          },
+          "$description": "16 - 16 - 22 - 24 | This text style currently uses two different semantic styles within it, the kicker3 for XS & S, and kicker2 for MD & LG"
+        },
+        "ateaserheadline": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham Condensed"
+            ],
+            "fontSize": "{Component.Teaser.aTeaser.aTeaserHeadlineFontSize}",
+            "fontWeight": 900,
+            "lineHeight": "{Component.Teaser.aTeaser.aTeaserHeadlineLineHeight}",
+            "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+          },
+          "$description": "This text style references the semantic text styles headline3 (XS&SM) and headline2 (MD&LG). 28 - 28 - 48 - 64"
+        }
+      },
+      "mqteaser": {
+        "mqteaserkicker": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham XNarrow"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Kicker.Kicker4FontSize}",
+            "fontWeight": 700,
+            "lineHeight": "{Semantic.Typography.LineHeight.Kicker.Kicker4LineHeight}",
+            "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+          },
+          "$description": "This component level text style references size variables for the semantic level. Specifically kicker4. 14 - 14 - 16 - 16"
+        },
+        "mqteaserheadline": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham Condensed"
+            ],
+            "fontSize": "{Component.Teaser.mQTeaser.mQTeaserHeadlineFontSize}",
+            "fontWeight": 700,
+            "lineHeight": "{Component.Teaser.mQTeaser.mQTeaserHeadlineLineHeight}",
+            "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+          },
+          "$description": "This component level text style references the semantic level text sizes of headline3 and headline4.\nXS-headline4FontSize:22 // SM-headline4FontSize:22 // MD-headline3FontSize:36 // LG-headline3FontSize:40"
+        }
+      },
+      "qteaser": {
+        "qteaserheadline": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham Condensed"
+            ],
+            "fontSize": "{Component.Teaser.qTeaser.quadHeadlineFontSize}",
+            "fontWeight": 900,
+            "lineHeight": "{Component.Teaser.qTeaser.quadHeadlineLineHeight}",
+            "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+          },
+          "$description": "This component level text style is used on the quad teaser headline. Its font size parameter references the semantic level variable headline1. 48 - 48 - 72 - 100"
+        }
+      },
+      "stdteaser": {
+        "stdteaserheadline": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham Condensed"
+            ],
+            "fontSize": "{Semantic.Typography.FontSize.Headline.Headline4FontSize}",
+            "fontWeight": 700,
+            "lineHeight": "{Semantic.Typography.LineHeight.Headline.headline4LineHeight}",
+            "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+          },
+          "$description": "Standard teasers typography changes more than other teasers. On desktop they have a kicker, a headline and a short text. On mobile devices the short text is eliminated and the headline gains weight at device widths 600px. Then at small mobile sizes the weight drops once again."
+        }
+      }
+    },
+    "toggleswitches": {
+      "apptoogleitemlabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham"
+          ],
+          "fontSize": "{Component.ToggleSwitch.appToggleItemLabelFontSize}",
+          "fontWeight": 900,
+          "lineHeight": "{Component.ToggleSwitch.appToggleItemLabelLineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}",
+          "textTransform": "uppercase"
+        },
+        "$description": "This text style is used on labels in list items with toggle switches found in app preferences. 14 - 14 - 16 - 18"
+      }
+    },
+    ".dsdocsstyles": {
+      ".pageheaderdescription": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": {
+            "value": 32,
+            "unit": "px"
+          },
+          "fontWeight": 700,
+          "lineHeight": 1.399999976158142,
+          "letterSpacing": "{Semantic.Typography.LetterSpacing.letterSpacingNone}"
+        }
+      },
+      ".codesnippets": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Source Code Pro"
+          ],
+          "fontSize": "{Semantic.Typography.FontSize.Footnote.footnote2FontSize}",
+          "fontWeight": 500,
+          "lineHeight": "{Semantic.Typography.LineHeight.Footnote.footnote2LineHeight}",
+          "letterSpacing": "{LetterSpacing.letterSpace-0}"
+        },
+        "$description": "This text style is only used on the design system's documentation for code syntax snippets."
+      },
+      ".bilddesignsidemenu": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": {
+            "value": 32,
+            "unit": "px"
+          },
+          "fontWeight": 400,
+          "lineHeight": 1
+        },
+        "$description": "This text style is only used for mockup pages of the design system website."
+      },
+      ".bilddesignsidemenuactive": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": {
+            "value": 32,
+            "unit": "px"
+          },
+          "fontWeight": 400,
+          "lineHeight": 1,
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is only used for mockup pages of the design system website."
+      },
+      ".bilddesignsidemenuhover": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham XNarrow"
+          ],
+          "fontSize": {
+            "value": 32,
+            "unit": "px"
+          },
+          "fontWeight": 500,
+          "lineHeight": 1
+        },
+        "$description": "This text style is only used for mockup pages of the design system website."
+      },
+      ".verticalvideosmockheadlines": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Gotham Condensed"
+          ],
+          "fontSize": "{Component.Video.verticalVideoMockHeadlineFontSize}",
+          "fontWeight": 700,
+          "lineHeight": "{Component.Video.verticalVideoMockHeadlineFontSize}",
+          "textDecoration": "underline"
+        },
+        "$description": "This text style is only used for mockups the vertical video component teaser headlines."
+      },
+      ".tokenspecl": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": [
+            "Source Code Pro"
+          ],
+          "fontSize": {
+            "value": 24,
+            "unit": "px"
+          },
+          "fontWeight": 500,
+          "lineHeight": {
+            "value": 32,
+            "unit": "px"
+          }
+        },
+        "$description": "This text style is used on documentation pages that contain some token information."
+      },
+      ".specs": {
+        ".specsxs": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 12,
+              "unit": "px"
+            },
+            "fontWeight": 400,
+            "lineHeight": {
+              "value": 16,
+              "unit": "px"
+            }
+          },
+          "$description": "This text style is only used for audit pages of the design system."
+        },
+        ".specss": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 20,
+              "unit": "px"
+            },
+            "fontWeight": 400,
+            "lineHeight": "auto"
+          },
+          "$description": "This text style is only used for audit pages of the design system."
+        },
+        ".specsms": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 32,
+              "unit": "px"
+            },
+            "fontWeight": 400,
+            "lineHeight": "auto"
+          },
+          "$description": "This text style is only used for audit pages of the design system."
+        },
+        ".specsm": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 48,
+              "unit": "px"
+            },
+            "fontWeight": 400,
+            "lineHeight": {
+              "value": 64,
+              "unit": "px"
+            }
+          },
+          "$description": "This text style is only used for audit pages of the design system."
+        },
+        ".specsml": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": "{size8x}",
+            "fontWeight": 400,
+            "lineHeight": "{size10x}",
+            "textDecoration": "underline"
+          },
+          "$description": "This text style is only used for audit pages of the design system."
+        },
+        ".specsl": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 128,
+              "unit": "px"
+            },
+            "fontWeight": 400,
+            "lineHeight": 1.149999976158142,
+            "textDecoration": "underline"
+          },
+          "$description": "This text style is only used for audit pages of the design system."
+        },
+        ".specsxl": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 256,
+              "unit": "px"
+            },
+            "fontWeight": 500,
+            "lineHeight": 1,
+            "textDecoration": "underline"
+          },
+          "$description": "This text style is only used for audit pages of the design system."
+        },
+        ".specsxxl": {
+          "$type": "typography",
+          "$value": {
+            "fontFamily": [
+              "Gotham"
+            ],
+            "fontSize": {
+              "value": 512,
+              "unit": "px"
+            },
+            "fontWeight": 500,
+            "lineHeight": 1,
+            "textDecoration": "underline"
+          },
+          "$description": "This text style is only used for audit pages of the design system."
+        }
+      }
+    }
+  }
+}
